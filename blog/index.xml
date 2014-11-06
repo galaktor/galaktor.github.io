@@ -140,7 +140,7 @@
 
 &lt;p&gt;Now, don&amp;rsquo;t you tell me alcohol doen&amp;rsquo;t taste horrible. It&amp;rsquo;s barely drinkable even when masked by other ingredients (malt, barley in beer; sugar in wine and cocktails). Higher concentrations taste so bad, people frown and gag when they drink it. The only people who enjoy it are either pretending in order to appear tough or maybe alcoholics.&lt;/p&gt;
 
-&lt;p&gt;Sure, if you drink the stuff long enough, you&amp;rsquo;ll learn to distinguish tastes. Some drinks will taste better than others, relatively seen. But objectively, it tastes bad and for a good reason: it&amp;rsquo;s toxic. Our body doesn&amp;rsquo;t want it, so we haven&amp;rsquo;t evolved to get any reward for drinking it.&lt;/p&gt;
+&lt;p&gt;Sure, if you drink the stuff long enough, you&amp;rsquo;ll learn to distinguish tastes. Some drinks will taste better than others. Just because it doesn&amp;rsquo;t taste terrible doen&amp;rsquo;st mean it tastes good. Objectively, alcohol tastes bad and for a good reason: because it&amp;rsquo;s &lt;em&gt;toxic&lt;/em&gt;. Our body doesn&amp;rsquo;t want it, so we haven&amp;rsquo;t evolved to get any reward for drinking it.&lt;/p&gt;
 
 &lt;p&gt;Alright, moving on!&lt;/p&gt;
 
@@ -159,7 +159,7 @@
 
 &lt;p&gt;Most or all of the above could also be said about smoking. If you don&amp;rsquo;t smoke, you probably shouldn&amp;rsquo;t be drinking for the same reason. Smoking is bad for you? Tastes horrible? Expensive? An excuse to socialize with other smokers? A bad example for kids? Check, check, check, check, check.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m &lt;em&gt;that guy&lt;/em&gt; who orders a pot of tea at the bar. I&amp;rsquo;m not drinking water because I&amp;rsquo;m driving - I&amp;rsquo;m the dedicated driver because I don&amp;rsquo;t drink.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m &lt;em&gt;that guy&lt;/em&gt; who orders a pot of tea at the bar. I&amp;rsquo;m don&amp;rsquo;t do so because I &lt;em&gt;have&lt;/em&gt; to drive. I&amp;rsquo;m the dedicated driver because I don&amp;rsquo;t drink.&lt;/p&gt;
 
 &lt;p&gt;Get over it.&lt;/p&gt;
 </description>
@@ -614,60 +614,11 @@
 
 &lt;p&gt;That said, with some modification a Pi can still be very useful in embedded projects such as the one I have in mind. The following is the summary of my research on the subject of powering the Raspberry Pi, particularly with an eye towards lower-than-recommended voltage like from batteries.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;The 5V requirement&lt;/h1&gt;
+&lt;h1 id=&#34;toc_0&#34;&gt;Minimizing current draw&lt;/h1&gt;
 
-&lt;p&gt;It seems that the Pi only requires 5V in order to comply with the USB and HDMI standards. Otherwise, the board itself has no need for 5V at all.&lt;/p&gt;
+&lt;p&gt;The less current the Pi draws, the smaller my batteries can be and the longer they can last. The amount of current a Raspberry Pi will draw depends on a few factors. Here&amp;rsquo;s some tricks I collected to reduce current draw to a minimum.&lt;/p&gt;
 
-&lt;p&gt;According to &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;Dave Akerman&lt;/a&gt;, the 5V from USB only powers a handful of components:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;USB peripherals&lt;/li&gt;
-&lt;li&gt;HDMI output&lt;/li&gt;
-&lt;li&gt;VSense pin on the BCM2835 MCU&lt;/li&gt;
-&lt;li&gt;the 3.3V voltage regulator&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;toc_1&#34;&gt;1. USB power&lt;/h1&gt;
-
-&lt;p&gt;The Pi was designed to be a cheap, small,  stationary computer that can easily interface with most keyboards and screens. Naturally it was built around the USB power standards. Specifically USB 2.0 at the time. The micro USB port of the Pi gets +5V DC via pin 1 and the 0V/GND line on Pin 5. None of the USB data lines are used.&lt;/p&gt;
-
-&lt;p&gt;It makes sense that the Pi requires 5V input in order to provide the same to it&amp;rsquo;s standard keyboard and mouse peripherals.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t want to use USB peripherals at all, so I should be able to ignore this requirement.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;2. HDMI&lt;/h2&gt;
-
-&lt;p&gt;Another main feature of the Pi that made the designers opt for a 5V power requirement is HDMI video output. The HDMI standard &lt;a href=&#34;http://www.hdmi.org/learningcenter/kb.aspx?c=13&#34;&gt;requires&lt;/a&gt; 5V on one of it&amp;rsquo;s lines.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The HDMI specification requires all source devices to provide at least 55mA (milliamps) &lt;strong&gt;on the 5V line&lt;/strong&gt; for the purpose of reading the EDID of a display.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;HDMI is basically the USB for displays and it&amp;rsquo;s everywhere. It was good call since HDMI support is  one of the most popular features of the Pi. Just look at how many people use it as a hi-def media center.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t require HDMI output for my project, so again, I should be able to safely ignore this requirement.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;3. VSense pin&lt;/h2&gt;
-
-&lt;p&gt;This is a special pin on the Broadcom SoC. From what I could gather it has to be kept high so that the MCU knows that there&amp;rsquo;s sufficient voltage for operation. If voltage drops too low, the chip will deactivate and the Pi will not work.&lt;/p&gt;
-
-&lt;p&gt;However, it &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;seems&lt;/a&gt; that 3.3V is sufficient to keep the pin high. 5V is not really required here.&lt;/p&gt;
-
-&lt;p&gt;Three down, one to go.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;4. RG2&lt;/h2&gt;
-
-&lt;p&gt;Most of the components on the Pi PCB work off 3.3V or less, so a voltage regulator marked &lt;code&gt;RG2&lt;/code&gt; on the PCB has the job of stepping down the 5V from USB to more tolerable 3.3V. The regulated output from RG2 also flows into two other regulators, &lt;code&gt;RG1&lt;/code&gt; and &lt;code&gt;RG3&lt;/code&gt; - those step the voltage down even further for more sensitive components.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;RG2&lt;/code&gt; in most new boards is a linear voltage regulator of type &lt;a href=&#34;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&#34;&gt;NCP1117&lt;/a&gt;. It&amp;rsquo;s takes in a more or less wide range of voltage and steps it down to 3.3 volts. The excess is lost as heat.&lt;/p&gt;
-
-&lt;p&gt;This is where things get very interesting, and I&amp;rsquo;ll come back to &lt;code&gt;RG2&lt;/code&gt; in a moment.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_5&#34;&gt;Current draw&lt;/h1&gt;
-
-&lt;p&gt;The less current the Pi needs, the smaller my batteries can be and the longer they can last. The amount of current a Raspberry Pi will draw depends on a few factors. Here&amp;rsquo;s some tricks I collected to reduce current draw to a minimum.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_6&#34;&gt;Model A FTW&lt;/h2&gt;
+&lt;h2 id=&#34;toc_1&#34;&gt;Model A FTW&lt;/h2&gt;
 
 &lt;p&gt;I have a Raspberry Pi Model A which according to spec can draw up to 500mA. Fortunately for me, this is an upper limit for standard use cases involving HDMI screens and some USB devices connected.&lt;/p&gt;
 
@@ -675,7 +626,7 @@
 
 &lt;p&gt;I don&amp;rsquo;t need any of the fancy additions in models B or B+. I managed to get my hands on another model A which I&amp;rsquo;ll be using for the project. Model As are hard to come by these days. Grab one when you get the chance. I got one off eBay. &lt;em&gt;Slightly&lt;/em&gt; overpriced - just a bit. Hope it&amp;rsquo;s worth it&amp;hellip;&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_7&#34;&gt;Don&amp;rsquo;t trust USB.&lt;/h2&gt;
+&lt;h2 id=&#34;toc_2&#34;&gt;Don&amp;rsquo;t trust USB.&lt;/h2&gt;
 
 &lt;p&gt;In addition to the on-board components, any connected USB peripherals can increase the Pi&amp;rsquo;s draw significantly. Unless you use a powered USB hub or some other form of external power for your devices, they will pull power straight through the Pi. This can have all kinds of strange side effects.&lt;/p&gt;
 
@@ -687,7 +638,7 @@
 
 &lt;p&gt;As I mentioned earlier, I have no intention of using USB devices in my project. Bullet dodged.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_8&#34;&gt;Disable video output to save power&lt;/h2&gt;
+&lt;h2 id=&#34;toc_3&#34;&gt;Disable video output&lt;/h2&gt;
 
 &lt;p&gt;You can disable certain components on the Pi to save some power consumption, most notably the video outputs. Here&amp;rsquo;s what I found on the web for the default Raspbian distro:&lt;/p&gt;
 
@@ -700,13 +651,13 @@
 
 &lt;p&gt;It is not clear to me how much this will save. The HDMI spec indicated up to 55mA draw. How much this actually is without a TV connected, I cannot say. I suspect that this will have very little effect on power consumption.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_9&#34;&gt;Underclock the MCU to save power&lt;/h2&gt;
+&lt;h2 id=&#34;toc_4&#34;&gt;Underclocking&lt;/h2&gt;
 
 &lt;p&gt;You can change some boot parameters for the Pi firmware, including clock rates for MCU/GPU and memory sizes. It would seem intuitive to assume that clocking the chips down a notch could save some power.&lt;/p&gt;
 
 &lt;p&gt;However, from what I heard, underclocking doesn&amp;rsquo;t seem to make a relevant difference compared to other big spenders like USB, the &lt;code&gt;RG2&lt;/code&gt; regulator and in some cases the &lt;code&gt;F3&lt;/code&gt; fuse (see below).&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_10&#34;&gt;Bypass the fuse&lt;/h2&gt;
+&lt;h2 id=&#34;toc_5&#34;&gt;Bypass the fuse&lt;/h2&gt;
 
 &lt;p&gt;There are a few fuses on board. Some smaller ones protect connected USB devices, so the power leaving the Pi. But a big one is on the input side and is hooked up to the micro USB power input.&lt;/p&gt;
 
@@ -724,7 +675,54 @@
 
 &lt;p&gt;Well, &lt;strong&gt;YOLO&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_11&#34;&gt;RG2 is a problem&lt;/h2&gt;
+&lt;h1 id=&#34;toc_6&#34;&gt;Going below 5V&lt;/h1&gt;
+
+&lt;p&gt;It seems that the Pi only requires 5V in order to comply with the USB and HDMI standards. Otherwise, the board itself has no need for 5V at all.&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;Dave Akerman&lt;/a&gt;, the 5V from USB only powers a handful of components:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;USB peripherals&lt;/li&gt;
+&lt;li&gt;HDMI output&lt;/li&gt;
+&lt;li&gt;VSense pin on the BCM2835 MCU&lt;/li&gt;
+&lt;li&gt;the 3.3V voltage regulator&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;1. USB power&lt;/h1&gt;
+
+&lt;p&gt;The Pi was designed to be a cheap, small,  stationary computer that can easily interface with most keyboards and screens. Naturally it was built around the USB power standards. Specifically USB 2.0 at the time. The micro USB port of the Pi gets +5V DC via pin 1 and the 0V/GND line on Pin 5. None of the USB data lines are used.&lt;/p&gt;
+
+&lt;p&gt;It makes sense that the Pi requires 5V input in order to provide the same to it&amp;rsquo;s standard keyboard and mouse peripherals.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t want to use USB peripherals at all, so I should be able to ignore this requirement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;2. HDMI&lt;/h2&gt;
+
+&lt;p&gt;Another main feature of the Pi that made the designers opt for a 5V power requirement is HDMI video output. The HDMI standard &lt;a href=&#34;http://www.hdmi.org/learningcenter/kb.aspx?c=13&#34;&gt;requires&lt;/a&gt; 5V on one of it&amp;rsquo;s lines.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The HDMI specification requires all source devices to provide at least 55mA (milliamps) &lt;strong&gt;on the 5V line&lt;/strong&gt; for the purpose of reading the EDID of a display.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HDMI is basically the USB for displays and it&amp;rsquo;s everywhere. It was good call since HDMI support is  one of the most popular features of the Pi. Just look at how many people use it as a hi-def media center.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t require HDMI output for my project, so again, I should be able to safely ignore this requirement.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;3. VSense pin&lt;/h2&gt;
+
+&lt;p&gt;This is a special pin on the Broadcom SoC. From what I could gather it has to be kept high so that the MCU knows that there&amp;rsquo;s sufficient voltage for operation. If voltage drops too low, the chip will deactivate and the Pi will not work.&lt;/p&gt;
+
+&lt;p&gt;However, it &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;seems&lt;/a&gt; that 3.3V is sufficient to keep the pin high. 5V is not really required here.&lt;/p&gt;
+
+&lt;p&gt;Three down, one to go.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;4. RG2&lt;/h2&gt;
+
+&lt;p&gt;Most of the components on the Pi PCB work off 3.3V or less, so a voltage regulator marked &lt;code&gt;RG2&lt;/code&gt; on the PCB has the job of stepping down the 5V from USB to more tolerable 3.3V. The regulated output from RG2 also flows into two other regulators, &lt;code&gt;RG1&lt;/code&gt; and &lt;code&gt;RG3&lt;/code&gt; - those step the voltage down even further for more sensitive components.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;RG2&lt;/code&gt; in most new boards is a linear voltage regulator of type &lt;a href=&#34;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&#34;&gt;NCP1117&lt;/a&gt;. It&amp;rsquo;s takes in a more or less wide range of voltage and steps it down to 3.3 volts. The excess is lost as heat.&lt;/p&gt;
+
+&lt;p&gt;This is where things get very interesting.&lt;/p&gt;
 
 &lt;p&gt;Revistion 2 boards (i.e. newer model Bs and all model As) have a &lt;code&gt;NCP1117-3V3&lt;/code&gt; primary voltage regulator at &lt;code&gt;RG2&lt;/code&gt;. It, in turn, powers two other regulators &lt;code&gt;RG1&lt;/code&gt; and &lt;code&gt;RG3&lt;/code&gt;. The stuff I care about all takes power from this guy.&lt;/p&gt;
 
@@ -732,117 +730,53 @@
 
 &lt;p&gt;We know the output of RG2 is 3.3V. So the minimum input voltage after the fuse has to be &lt;em&gt;at least&lt;/em&gt; 4.5V. This is a problem if you&amp;rsquo;re trying to run on batteries. Most affordable batteries have lower voltages than 5V.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_12&#34;&gt;Ways to make batteries work&lt;/h1&gt;
+&lt;h1 id=&#34;toc_11&#34;&gt;How other people do it&lt;/h1&gt;
 
-&lt;p&gt;There&amp;rsquo;s a few ways to work around the issue of &lt;code&gt;RG2&lt;/code&gt;&amp;rsquo;s minimum voltage, which I&amp;rsquo;ll describe in the next section.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve seen people work around the issue of &lt;code&gt;RG2&lt;/code&gt;&amp;rsquo;s voltage limitations in two ways.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_13&#34;&gt;Use higher voltage batteries&lt;/h2&gt;
+&lt;h2 id=&#34;toc_12&#34;&gt;Use higher voltage&lt;/h2&gt;
 
-&lt;p&gt;And let RG2 step it down again.
-Loose the difference as heat.
-Wasteful.&lt;/p&gt;
+&lt;p&gt;Take higher voltage batteries - like the ones used for RC cars - and step down the voltage five volts. For example, 4 AA batteries in series provide ~6V. More than one LiPo cell will also need to be stepped down, say 2S (2 cells in series) = 2x3.7V = 7.4V. Linear is much simpler but can be less efficient than switching ones. The efficiency of linear regulators generally increases the closer your input voltage gets to your output voltage. The efficiency correlation is &amp;hellip; &lt;em&gt;linear&lt;/em&gt;! So the closer your input is to your output, the more attractive the simple linear regulators start to look.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_14&#34;&gt;Step up lower voltage batteries&lt;/h2&gt;
+&lt;p&gt;The trade-off here is that while it works, you&amp;rsquo;re wasting energy as you step it down to 5V - just so RG2 can step it down more. In both cases, the difference is lost as heat.&lt;/p&gt;
 
-&lt;p&gt;Take lower volt batteries, and run them through a step up converter.
-Draws more power from your batteries.
-Is not very efficient, and you&amp;rsquo;re only doing it to step it down again in &lt;code&gt;RG2&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;toc_13&#34;&gt;Step up lower voltage batteries&lt;/h2&gt;
 
-&lt;h2 id=&#34;toc_15&#34;&gt;Replace RG2 with lower DO&lt;/h2&gt;
+&lt;p&gt;You can go the other way, too. By taking lower voltage - like from a few AA batteries - and stepping it &lt;em&gt;up&lt;/em&gt; to 5V. Again, it&amp;rsquo;s not super efficient especially if you consider that you&amp;rsquo;re only stepping it up so it can be regulated down again in &lt;code&gt;RG2&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;THIS&lt;/p&gt;
+&lt;p&gt;Stepping down usually done via voltage regulators, which come in two flavours: &lt;em&gt;linear&lt;/em&gt; or &lt;em&gt;switching&lt;/em&gt;. Switching is more configurable and efficient, but cost more and use up loads of space. You can find many examples on the web where people show off their nice Pi running of two AA batteries (3V) but generally their battery life will be terrible. Cool hack, but not great if you want to run the thing for a few hours.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Booster efficiencies seem to be somewhere around 70%, so you loose 30% power just pushing power into the Pi. Then that 5V power gets used for stuff you might not even need (usb, hdmi). The rest gets regulated down further to 3.3V by your &lt;code&gt;RG2&lt;/code&gt;, again at (best) approximately 70% efficiency - losing another 30%.&lt;/p&gt;
 
-&lt;p&gt;use higher voltage batteries, and step them down to 5v: for example, 4 AA batteries in series provide ~6V. &amp;gt;1 lipo cell will also need to be stepped down, say 2S (2 cells in series) = 2x3.7V = 7.4V.&lt;/p&gt;
+&lt;h2 id=&#34;toc_14&#34;&gt;Replace RG2 with lower DO&lt;/h2&gt;
 
-&lt;p&gt;stepping down usually done via voltage regulators, linear or switching. switching more configurable and efficient, but more expensive and take a bunch of space. some elaborate engineering going on in the forums about this :-) linear is much simpler but often much less efficient than switching ones, although the efficiency of linear regulators generally increases the closer your input voltage gets to your output voltage. the efficiency correlation is &amp;hellip; linear!&lt;/p&gt;
+&lt;p&gt;A rather advanced solution is to address the problem directly by removing &lt;code&gt;RG2&lt;/code&gt; and putting a more efficient regulator in it&amp;rsquo;s place. Even though he &lt;code&gt;NCP1117&lt;/code&gt; is labelled &lt;em&gt;low-dropout&lt;/em&gt;, there&amp;rsquo;s others that have a much lower DO than 1.2V. The idea being that the lower voltage your regulator will continue to deliver it&amp;rsquo;s output of 3.3V, the longer it will be able to run off batteries as they gradually drop voltage.&lt;/p&gt;
 
-&lt;p&gt;if like me you don&amp;rsquo;t really care about USB and HDMI (headless mode, no wifi or similar) you might wonder why do you need 5V at all? or even the higher voltages above? the energy you provide will be wasted largely anyway (rg2 is linear, so efficiency gets worse the higher the input voltage is). very inefficient for me.&lt;/p&gt;
+&lt;p&gt;Dave Akerman &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;shows&lt;/a&gt; how to replace &lt;code&gt;RG2&lt;/code&gt; with an &lt;code&gt;MCP1825S&lt;/code&gt; regulator. It has a DO of afound 300mV, depending on temperature and current draw.&lt;/p&gt;
 
-&lt;p&gt;ideally i would be able to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (VERY rough guess: ~500mA - 1A). a single cell LiPo provides between ~3V(ish) (drained) and ~4.2V (charged). this is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.&lt;/p&gt;
+&lt;p&gt;This approach is very appealing to me, even if it means modding the Pi and potentially damaging it. It means I can take a farily cheap component, solder it on relatively easy and the result doesn&amp;rsquo;t have any large parts or wires sticking out in the end (as might be the case with a switching regulator).&lt;/p&gt;
 
-&lt;p&gt;so how to use lowe voltage?
-step up lower voltage to 5V. this is accomplished using step up/boosters which again are not known to be very efficient in the first place. you can find many examples on the web where people show off their nice Pi running of two AA batteries (3V) but generally their battery life will be terrible. cool hack, but not great if you want to run the thing for a few hours. booster efficiency is (from what i gather reading about them&amp;hellip;) roughly 70%. So you loose 30% power just pushing power into the Pi. Then that 5V power gets used for stuff you might not even need (usb, hdmi). The rest gets regulated down again into 3.3V by your rg2, again at (best) approx 70% efficiency, losing another 30%. keep in mind, rg2 efficiency can be as bad as 50%. So there goes lots of precious battery life!&lt;/p&gt;
+&lt;h1 id=&#34;toc_15&#34;&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;so why not just plug in a single cell lipo?
-I could take a male micro-usb connector, and attach a JST plug or similar for battery to go into the USB D+ and D- pins. This would feed battery directly into the pi.
-PROBLEM: built in regulator has a drop out voltage of at least 0.9V, with 1A current draw it will be around 1.1V, up to even 1.2V. That means the difference between output (3.3V) and it&amp;rsquo;s input has to be at least 1.1V realistically. that&amp;rsquo;s 3.3V + 1.1V = 4.4V. the specs say min is 4.75V, i suppose to not be to close to the edge given variance in parts and power stability.&lt;/p&gt;
+&lt;p&gt;I just want to use a Pi board and cam module. No USB devices, no video output. Ideally i would be able to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (VERY rough guess: ~500mA - 1A). A single cell LiPo provides between ~3V(ish) (drained) and ~4.2V (charged). This is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.&lt;/p&gt;
 
-&lt;p&gt;So the regulator will not do anything if voltage is below 4.4V - and a single cell lipo will AT BEST (for a brief period of time) provide about 4.2V. most of the time 3.7V. NOT GOING TO WORK!&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;think&lt;/em&gt; I&amp;rsquo;ll try replacing &lt;code&gt;RG2&lt;/code&gt; with an LDO that has a drop out in the mV, which should allow me to get the most out of the LiPo. Maybe I can stick the LiPo directly to the USB power of the Pi.&lt;/p&gt;
 
-&lt;p&gt;Even though the Model A is often used for embedded projects due to it&amp;rsquo;s lower current draw, the Pi was not designed with embedded projects in mind. It&amp;rsquo;s meant to be a learning computer that powers from USB and connects to various other USB devices, hence the 5V situation. But if you really just want to leverage the onboard MCE and maybe the camera and some GPIO you don&amp;rsquo;t need 5V at all, but the rg2 regulator forces you to.&lt;/p&gt;
+&lt;p&gt;So that&amp;rsquo;s the theory. I&amp;rsquo;ll need to measure actual current requirements running the camera. And decide which regulator to get (hope I can get away with the 1825&amp;hellip;). Then order a nice lipo that can fit into my space requirements. I saw some phone and tablet LiPo&amp;rsquo;s which could give a few hours of running time if all goes well.&lt;/p&gt;
 
-&lt;p&gt;IT&amp;rsquo;S WARRANTY VOIDING TIME! We can remove this limitation by replacing the rg2 regulator. Warning, this is an insanely cool hack and you absolutely should try it - if you&amp;rsquo;re willing to sacrific your Pi when things go wrong. FOR SCIENCE!
-For this to work we need to have a clear picture of our power requirements. Given a single cell LiPo, our input voltage is going to be between 3.5V(ish) and 4.2V(ish). The draw of model A and cam is estimated to be around 600ma. The original rg2 can do between 1A and 2.2A. Let&amp;rsquo;s compromise around 1A here.
-To maximise efficiency we could look at using switching regulators, but their efficiency can vary to a point of being not much better than linear ones, plus their more expensive and more involved to install (i.e. mount the big thing somewhere).&lt;/p&gt;
+&lt;h1 id=&#34;toc_16&#34;&gt;Resources&lt;/h1&gt;
 
-&lt;p&gt;What we really need is a lower drop out voltage than the original Pi has, since that&amp;rsquo;s what&amp;rsquo;s preventing us from using our lipo battery cell in the first place. Thankfully, there are many that have much lower drop out, aka &amp;ldquo;low drop out&amp;rdquo; LDO. for instance the 182x series from Microchip:
-* MCP1825,  500mA output current, ~0.21V DO, ~5 EUR on ebay
-* MCP1826, 1000mA output current, ~0.30V DO, ~5-6EUR on ebay
-* MCP1827, 1500mA output current, ~0.33V DO, ~7EUR on ebay&lt;/p&gt;
-
-&lt;p&gt;say we used the MCP1827 with a typical DO of 0.33V. Set to 3.3V output, that&amp;rsquo;s a min of 3.6V input. Remember out typical lipo cell has 3.7 nominal output voltage. it seems hard to get input voltage any closer to the 3.3V we really want to use! you could probably get a bit more life out of your battery when using the 1826 or even 1825, but you&amp;rsquo;ll sacrifice output current as you do. so you really need to understand how much you will be drawing before you can make the best decision here. if in doubt, without HDMI or USB I suspect you can easily go with 1A current, but I&amp;rsquo;m not fully sure about the 1825 - reports do indicate the Pi can run as low as 115mA so it might work, depending on how you utilize the pi.
-The Pi fuse appears to be at 750mA
-The USB 2.0 standard says max 500mA
-So it&amp;rsquo;s reasonable to assume that a Pi w/o video or USB peripherals will draw not even close to 500mA.&lt;/p&gt;
-
-&lt;p&gt;How long can we expect the battery to last? This of course depends on the lipo capacity. I have a spare 1200mAh 3.7V single cell lipo at home, let&amp;rsquo;s do a Gedankenexperiment here. I&amp;rsquo;m going to assume I run some tests and determine that my requirements are under 500mA and I can run with the 1825. that has very low drop out and can run longer on lower voltage from my batteries as they drain.&lt;/p&gt;
-
-&lt;p&gt;3.7V nominal battery voltage, let&amp;rsquo;s be pessimistic and say it&amp;rsquo;s at the lowest allowed
-3.7V - 0.21 DO = 3.49V (around here the undervoltage protection could kick out, but let&amp;rsquo;s ignore for now)&lt;/p&gt;
-
-&lt;p&gt;available power in watt = V * Ah
-3.49V * 1.2Ah = 4.188 Wh
-(guestimated worst case; capacity could vary as well, but let&amp;rsquo;s leave some optimism in there!)&lt;/p&gt;
-
-&lt;p&gt;required power in watt
-3.3V * 0.5Ah (mcp1825 max out) = 1.65 Wh
-(guesstimated worst case, exact power requirements will go up and down, and have yet to be measured with picam and IO)&lt;/p&gt;
-
-&lt;p&gt;so theoretically, given the above assumptions of course, I could run
-4.188 Wh / 1.65 Wh = 2.53 h
-off just that tiny single cell lipo!&lt;/p&gt;
-
-&lt;p&gt;keep in mind, if I do need more than 500mA and opt for 1826 or even 1827 I&amp;rsquo;ll have to expect a drop out earlier than that, but that&amp;rsquo;s cutting it pretty close to the nominal 3.7V of the battery. and limits will also vary based on temperature etc so it&amp;rsquo;s hard to say. it will most certainly be less than the above.&lt;/p&gt;
-
-&lt;p&gt;NOW let&amp;rsquo;s go further and say I bough a bigger lipo. let&amp;rsquo;s say one of those tablet replacement lipos you can get on ebay for about 10 EUR, and can have over 3Ah of power.&lt;/p&gt;
-
-&lt;p&gt;3.49V * 3Ah = 10.47 Wh available
-10.47 Wh / 1.65 Wh = ~6.3 hours!&lt;/p&gt;
-
-&lt;p&gt;And that still with a fairly low profile, slim battery.&lt;/p&gt;
-
-&lt;p&gt;So that&amp;rsquo;s the theory, I&amp;rsquo;ll need to measure actual current requirements in experiment next. Then decide which regulator to get (hope I can get away with the 1825&amp;hellip;). Then order a nice lipo that can fit into my space requirements.&lt;/p&gt;
-
-&lt;p&gt;links&lt;/p&gt;
-
-&lt;p&gt;Pi power
-&lt;a href=&#34;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&#34;&gt;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;rg2
- &lt;a href=&#34;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&#34;&gt;http://www.onsemi.com/PowerSolutions/product.do?id=NCP1117&lt;/a&gt;
- &lt;a href=&#34;http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF&#34;&gt;http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;mcp182X
- &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1825&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1825&lt;/a&gt;
- &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&lt;/a&gt;
- &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1827&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1827&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;lipos sparkfun:
- &lt;a href=&#34;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&#34;&gt;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;lipos rc dude:
- &lt;a href=&#34;http://www.rogershobbycenter.com/lipoguide/&#34;&gt;http://www.rogershobbycenter.com/lipoguide/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;on rg2
- &lt;a href=&#34;http://www.petervis.com/Raspberry_PI/dead-raspberry-pi/dead-raspberry-pi.html&#34;&gt;http://www.petervis.com/Raspberry_PI/dead-raspberry-pi/dead-raspberry-pi.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;on battery life and voltage regulators
- &lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;http://www.daveakerman.com/?page_id=1294&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;regulator?
- &lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&#34;&gt;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.daveakerman.com/?page_id=1294&#34;&gt;Dave Akerman on battery life and voltage regulators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&#34;&gt;Peter Vis: Pi power&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.petervis.com/Raspberry_PI/dead-raspberry-pi/dead-raspberry-pi.html&#34;&gt;Peter Vis: RG2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF&#34;&gt;RG2 datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1825&#34;&gt;MCP1825&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1826&#34;&gt;MCP1826&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.microchip.com/wwwproducts/Devices.aspx?product=MCP1827&#34;&gt;MCP1827&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&#34;&gt;LiPo guide (Sparkfun)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rogershobbycenter.com/lipoguide/&#34;&gt;LiPo guide (RC cars)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
