@@ -194,8 +194,6 @@ lol&lt;/p&gt;
         &lt;p&gt;
         Blogger&amp;#39;s dynamic views crop images with awkward results
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -216,8 +214,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Social networks in order of importance - according to Google
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -245,8 +241,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu item
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -288,8 +282,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         How many people perceive &amp;#39;seniority&amp;#39; in The Software Industry
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -340,8 +332,6 @@ lol&lt;/p&gt;
         &lt;p&gt;
         There&amp;#39;s more to &amp;#39;senior&amp;#39; than technical skills
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -372,8 +362,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Better definition of &amp;#39;senior&amp;#39;. Note that there is lots of middle ground
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -466,8 +454,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;p&gt;
         WTF?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -500,8 +486,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;p&gt;
         When did my build agent last reboot?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -520,8 +504,6 @@ Experience != Time on the project&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         PowerShell gives you direct access to .NET methods
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -729,9 +711,7 @@ catch [System.Exception]
     &lt;figcaption&gt;
         &lt;p&gt;
         Everything is chrome in the future!
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt; 
-            Nickelodeon
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt;Nickelodeon&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -768,9 +748,7 @@ catch [System.Exception]
     &lt;figcaption&gt;
         &lt;p&gt;
         Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.wikipedia.org&#34;&gt; 
-            Wikipedia
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.wikipedia.org&#34;&gt;Wikipedia&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -807,9 +785,7 @@ catch [System.Exception]
     &lt;figcaption&gt;
         &lt;p&gt;
         Me when I see your vlog
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt; 
-            thestupiditburns.com
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt;thestupiditburns.com&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -862,8 +838,6 @@ catch [System.Exception]
     &lt;figcaption&gt;
         &lt;p&gt;
         I couldn&amp;#39;t find DuctTape or WD40 on GitHub
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -1362,8 +1336,6 @@ public class CachedConfigurationSectionLoader
         &lt;p&gt;
         Condition evaluates to *False*
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1401,8 +1373,6 @@ public class CachedConfigurationSectionLoader
         &lt;p&gt;
         L: Solution configuration; R: Solution platform
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1435,8 +1405,6 @@ public class CachedConfigurationSectionLoader
     &lt;figcaption&gt;
         &lt;p&gt;
         *Platform* !=*Platform target* o_O
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -1549,8 +1517,6 @@ public class CachedConfigurationSectionLoader
     &lt;figcaption&gt;
         &lt;p&gt;
         The *Configuration Manager* window
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;

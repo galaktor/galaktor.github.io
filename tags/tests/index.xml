@@ -54,8 +54,6 @@
         &lt;p&gt;
         WTF?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -88,8 +86,6 @@
         &lt;p&gt;
         When did my build agent last reboot?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -108,8 +104,6 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         PowerShell gives you direct access to .NET methods
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;

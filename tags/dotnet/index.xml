@@ -126,9 +126,7 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Everything is chrome in the future!
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt; 
-            Nickelodeon
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt;Nickelodeon&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -165,9 +163,7 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.wikipedia.org&#34;&gt; 
-            Wikipedia
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.wikipedia.org&#34;&gt;Wikipedia&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -204,9 +200,7 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Me when I see your vlog
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt; 
-            thestupiditburns.com
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt;thestupiditburns.com&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -585,8 +579,6 @@ public class CachedConfigurationSectionLoader
         &lt;p&gt;
         Condition evaluates to *False*
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -624,8 +616,6 @@ public class CachedConfigurationSectionLoader
         &lt;p&gt;
         L: Solution configuration; R: Solution platform
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -658,8 +648,6 @@ public class CachedConfigurationSectionLoader
     &lt;figcaption&gt;
         &lt;p&gt;
         *Platform* !=*Platform target* o_O
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -772,8 +760,6 @@ public class CachedConfigurationSectionLoader
     &lt;figcaption&gt;
         &lt;p&gt;
         The *Configuration Manager* window
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;

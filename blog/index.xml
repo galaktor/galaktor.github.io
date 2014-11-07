@@ -269,6 +269,108 @@
     </item>
     
     <item>
+      <title>Custom lipo-to-usb connector</title>
+      <link>http://raph.es/blog/2014/10/lipo-battery-to-micro-usb-power-adapter/</link>
+      <pubDate>Tue, 14 Oct 2014 19:35:00 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/lipo-battery-to-micro-usb-power-adapter/</guid>
+      <description>
+
+&lt;p&gt;I want to power a Raspberry Pi off a LiPo battery. In an attempt to be as littleinvasive as possible I figured I might just route the power through the micro USB port.&lt;/p&gt;
+
+&lt;p&gt;There is a pin on the GPIO that is connected to the +5V rail, but it bypasses the fuse and I&amp;rsquo;d like to stick to recommended usage scnearios unless I have good reason not to. The Pi is meant to get power through USB, so let&amp;rsquo;s do that.&lt;/p&gt;
+
+&lt;p&gt;This is first and foremost an experiment to get a feel for the voltage drop on the way into the &lt;code&gt;RG2&lt;/code&gt; regulator.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Power pins&lt;/h1&gt;
+
+&lt;p&gt;The Pi doesn&amp;rsquo;t use all of the USB pins. It only takes the +5V on pin 1 and connects to ground on pin 5.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Pins 1 and 5 are for power
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&#34;&gt;Peter Vis&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/headlamp/cut&#34;&gt;
+  &lt;img src=&#34;/img/project/mudcam/micro-usb-power-pins_peter-vis.gif&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;So I bought some male USB connectors.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/mudcam/micro-usb-male.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/mudcam/micro-usb-male_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;The pins are quite close together and since I only need the two on the outside, I took off the other three. I found the easiest way to do this was by bending the pins left and right with tweezers until it broke off. That way there&amp;rsquo;s enough room to solder - it&amp;rsquo;s still a bit tricky.&lt;/p&gt;
+
+&lt;p&gt;To not have to remember which wire is which it makes sense to stick with convention and put the red wire onto pin 1, and the black wire to pin 5. This is a power connector after all. Stick heat shrinks over the solder joints after soldering.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/mudcam/micro-usb-solder.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/mudcam/micro-usb-solder_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/mudcam/micro-usb-shrinks.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/mudcam/micro-usb-shrinks_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, I stuck on a glob of hot glue as a form of strain relief. Pretty? Maybe not. But works for me.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;/img/project/mudcam/micro-usb-pins-close.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/mudcam/micro-usb-pins-close_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/img/project/mudcam/micro-usb-glue.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/mudcam/micro-usb-glue_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+
+&lt;p&gt;That&amp;rsquo;s pretty much it! Now let&amp;rsquo;s find out what happens when we use a vanilla Pi odel A on a standard LiPo.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;When I connect up the power to the Pi, it seems to turn on just fine. An SD card running Arch for ARM is in. Hooking up my multimeter probes to the test points &lt;code&gt;TP1&lt;/code&gt; (+) and &lt;code&gt;TP2&lt;/code&gt; (-), this is what I get:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;at battery: 3.71v&lt;/li&gt;
+&lt;li&gt;at test points: 3.62v&lt;/li&gt;
+&lt;li&gt;at &lt;code&gt;RG2&lt;/code&gt; &lt;em&gt;in&lt;/em&gt;: 3.62v&lt;/li&gt;
+&lt;li&gt;at &lt;code&gt;RG2&lt;/code&gt; &lt;em&gt;out&lt;/em&gt;: 2.68v&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Knowing that the vanilla regulator at &lt;code&gt;RG2&lt;/code&gt; has a DO of about 1V or more, I&amp;rsquo;m not surprised that it&amp;rsquo;s not able to provide good 3.3V anymore given the low voltage from the LiPo.&lt;/p&gt;
+
+&lt;p&gt;The Pi seems to be running well enough, but I haven&amp;rsquo;t tried doing anything interesting with it yet. The fact that all components which expect to get 3.3V are now on less than 3V means things won&amp;rsquo;t run reliably. And as battery voltage drops, behaviour is unpredictable. Not great conditions for a project that I want to run stable for hours.&lt;/p&gt;
+
+&lt;p&gt;So having seen this, I&amp;rsquo;m going to have to remove &lt;code&gt;RG2&lt;/code&gt; and replace it with a voltage regulator that has a lower DO.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>goggle-mounted headlamp from salvaged IKEA USB light</title>
       <link>http://raph.es/blog/2014/10/goggles-headlamp-from-ikea-usb-light/</link>
       <pubDate>Sun, 12 Oct 2014 19:55:29 &#43;0100</pubDate>
@@ -304,8 +406,6 @@
         &lt;p&gt;
         Jansö USB lamp from IKEA
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -333,8 +433,6 @@
         &lt;p&gt;
         Cut right above the USB connector
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -355,8 +453,6 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         Exposing the wires by unwinding was tricky
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -387,8 +483,6 @@
         &lt;p&gt;
         Call 9-1-1
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -413,8 +507,6 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         With a little force you can unscrew the head.
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -450,8 +542,6 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         Testing 3V coin cell (left) and 3.7V LiPo (right)
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -758,11 +848,11 @@
 
 &lt;h1 id=&#34;toc_15&#34;&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;I just want to use a Pi board and cam module. No USB devices, no video output. Ideally i would be able to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (VERY rough guess: ~500mA - 1A). A single cell LiPo provides between ~3V(ish) (drained) and ~4.2V (charged). This is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.&lt;/p&gt;
+&lt;p&gt;I just want to use a Pi board and cam module. No USB devices, no video output. I&amp;rsquo;ll try to supply as close to 3.3V as possible, allowing for sufficient current draw under recording/IO load (rough guess: around 500mA). A single cell LiPo provides between 3V and 4.2V. This is assuming lipo has undervoltage protection that cuts off at some point, typically a bit over/under 3V.&lt;/p&gt;
 
-&lt;p&gt;I &lt;em&gt;think&lt;/em&gt; I&amp;rsquo;ll try replacing &lt;code&gt;RG2&lt;/code&gt; with an LDO that has a drop out in the mV, which should allow me to get the most out of the LiPo. Maybe I can stick the LiPo directly to the USB power of the Pi.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll try replacing &lt;code&gt;RG2&lt;/code&gt; with an LDO that has a drop out in the mV range, which should allow me to get the most out of the LiPo. Maybe I can stick the LiPo directly to the USB power of the Pi.&lt;/p&gt;
 
-&lt;p&gt;So that&amp;rsquo;s the theory. I&amp;rsquo;ll need to measure actual current requirements running the camera. And decide which regulator to get (hope I can get away with the 1825&amp;hellip;). Then order a nice lipo that can fit into my space requirements. I saw some phone and tablet LiPo&amp;rsquo;s which could give a few hours of running time if all goes well.&lt;/p&gt;
+&lt;p&gt;So that&amp;rsquo;s the theory. I&amp;rsquo;ll need to measure actual current requirements running the camera. And decide which regulator to use as a replacement for &lt;code&gt;RG2&lt;/code&gt;. Then order a nice LiPo that can fit into my space requirements. I saw some phone and tablet LiPo&amp;rsquo;s which could give a few hours of running time if all goes well.&lt;/p&gt;
 
 &lt;h1 id=&#34;toc_16&#34;&gt;Resources&lt;/h1&gt;
 
@@ -900,8 +990,6 @@ lol&lt;/p&gt;
         &lt;p&gt;
         Blogger&amp;#39;s dynamic views crop images with awkward results
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -922,8 +1010,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Social networks in order of importance - according to Google
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -951,8 +1037,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu item
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -994,8 +1078,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         How many people perceive &amp;#39;seniority&amp;#39; in The Software Industry
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -1046,8 +1128,6 @@ lol&lt;/p&gt;
         &lt;p&gt;
         There&amp;#39;s more to &amp;#39;senior&amp;#39; than technical skills
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1078,8 +1158,6 @@ lol&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         Better definition of &amp;#39;senior&amp;#39;. Note that there is lots of middle ground
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -1172,8 +1250,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;p&gt;
         WTF?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1206,8 +1282,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;p&gt;
         When did my build agent last reboot?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1226,8 +1300,6 @@ Experience != Time on the project&lt;/p&gt;
     &lt;figcaption&gt;
         &lt;p&gt;
         PowerShell gives you direct access to .NET methods
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -1461,9 +1533,7 @@ catch [System.Exception]
     &lt;figcaption&gt;
         &lt;p&gt;
         Everything is chrome in the future!
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt; 
-            Nickelodeon
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.unitedspongebob.com/&#34;&gt;Nickelodeon&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1500,9 +1570,7 @@ catch [System.Exception]
     &lt;figcaption&gt;
         &lt;p&gt;
         Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.wikipedia.org&#34;&gt; 
-            Wikipedia
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.wikipedia.org&#34;&gt;Wikipedia&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1539,9 +1607,7 @@ catch [System.Exception]
     &lt;figcaption&gt;
         &lt;p&gt;
         Me when I see your vlog
-        &lt;br/&gt;src:&lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt; 
-            thestupiditburns.com
-        &lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.thestupiditburns.com&#34;&gt;thestupiditburns.com&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -1558,97 +1624,6 @@ catch [System.Exception]
 &lt;p&gt;Now, you cannot always switch tools. Switching language on a gazillion LOC project is not going to happen overnight. Then, at least try to use the tools you have the way the were designed to be used. Make the most of what you have, and don&amp;rsquo;t try to bastardize it just because you are too lazy to use it the right way.&lt;/p&gt;
 
 &lt;p&gt;What I really hate is that engineers that abuse a tool beyond recognition are often admired. Yes, it&amp;rsquo;s great to be able to improvise when required - but it&amp;rsquo;s far more important to be able to &lt;a href=&#34;http://www.engineyard.com/blog/2011/the-number-one-trait-of-a-great-developer/&#34;&gt;decide&lt;/a&gt; what the right tool for the job/situation/user is. A construction worker that uses a screwdriver to punch holes into walls instead of using a drill will not be considered creative, but a moron. Why do the opposite in software?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Scotty Effect</title>
-      <link>http://raph.es/blog/2011/10/The-Scotty-Effect/</link>
-      <pubDate>Thu, 27 Oct 2011 10:33:00 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/blog/2011/10/The-Scotty-Effect/</guid>
-      <description>
-
-&lt;p&gt;There&amp;rsquo;s a common problem among software engineers. Whenever someone asks us for an estimation on how long task X is going to take, it happens. &amp;ldquo;Ah, not a big deal, half a day, max.&amp;rdquo; Is what we initially want to say. It happens to most people I know, and it happens to me.&lt;/p&gt;
-
-&lt;p&gt;It seems like there&amp;rsquo;s a little geek inside us that wants to impress our customers by making it look like we&amp;rsquo;re wizards. Somebody is asking you to do something, and obviously it&amp;rsquo;s a problem complex enough that an engineer has to do it, now.&lt;/p&gt;
-
-&lt;p&gt;And it&amp;rsquo;s all because of &lt;a href=&#34;http://www.startrek.com/database_article/scott&#34;&gt;Montgomery Scott&lt;/a&gt;, aka &amp;ldquo;Scotty&amp;rdquo; from the Original Star Trek ensemble. Whenever Kirk asks Scotty to fix something, it goes somewhere along these lines:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Kirk&lt;/strong&gt;: &amp;ldquo;Scotty, can you get the warp drive online in 2 hours?&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scotty&lt;/strong&gt;: &amp;ldquo;Lol captain, that&amp;rsquo;s impossible. Do you have any idea how complex and fragile a matter/anti-matter propulsion engine is?? We&amp;rsquo;ll have to&amp;hellip;&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kirk&lt;/strong&gt;: &amp;ldquo;Scotty, it&amp;rsquo;s crucial that we prevent the universe from imploding so I can get into this alien chick&amp;rsquo;s pants.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scotty&lt;/strong&gt;: &amp;ldquo;Meh, I&amp;rsquo;ll see what I can do&amp;hellip;&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;No surprises so far - just a normal day in the life of an engineer having to deal with unrealistic expectations, right? Wrong! In the end, Scotty pulls it off! He not only fixes it, but apparently the warp engine hasn&amp;rsquo;t went supernova in the next episode, either. So he probably did a good job, too!&lt;/p&gt;
-
-&lt;p&gt;We grew up with this idea, that if you really want your boss to get into that alien chick&amp;rsquo;s pants, you need to be a wizard. You get the point. That&amp;rsquo;s why I believe it&amp;rsquo;s Scotty&amp;rsquo;s fault. Don&amp;rsquo;t get me wrong, Scotty rocks (rest in peace, Mr. Doohan). But that inner geek inside us, it&amp;rsquo;s probably a little Scotty.&lt;/p&gt;
-
-&lt;figure &gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        I couldn&amp;#39;t find DuctTape or WD40 on GitHub
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/repairs.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; width=&#34;400em&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Back to reality&lt;/h1&gt;
-
-&lt;p&gt;Spoiler alert! Star Trek is just a TV show. In the real world, it&amp;rsquo;s not going to happen. And this is why.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;It&amp;rsquo;s not the same thing&lt;/h2&gt;
-
-&lt;p&gt;If you do a 10 day job in just 1 day, then you&amp;rsquo;re not doing the 10 day job. Claiming otherwise is lying to yourself and your customer. You&amp;rsquo;re really doing the ugly 1 day version, involving lots of duct tape and WD-40. We like to call ourselves &amp;ldquo;hackers&amp;rdquo; - just like the good, old-school hacker. But people forget that a &amp;ldquo;hack&amp;rdquo; back in the good old days was nothing bad or malicious. It was something neat, elegant. It was &amp;ldquo;the right thing to do&amp;rdquo;. Read Steven Levy&amp;rsquo;s &lt;a href=&#34;http://books.google.com/books?id=mShXzzKtpmEC&amp;amp;lpg=PA67&amp;amp;vq=right%20thing%20to%20do&amp;amp;pg=PA58#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;Hackers&lt;/a&gt;. If you&amp;rsquo;re hotshot enough to pull off the 10 day job in 1 day, fair enough. It&amp;rsquo;s most likely though, even though you might be awesome, that you are &lt;a href=&#34;http://www.livingwithsourcecode.com/2011/03/ill-just.html&#34;&gt;just&lt;/a&gt; taking shortcuts.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Sooner or later, it will come back to bite you&lt;/h2&gt;
-
-&lt;p&gt;This can work in emergency scenarios, and over short periods of time. But by doing so, you&amp;rsquo;ll build up more and more &lt;a href=&#34;http://en.wikipedia.org/wiki/Technical_debt&#34;&gt;technical debt&lt;/a&gt;. We all know what happens if you run a never-ending tab without bothering to repay your debt. One day, your warp engine will not work in the next episode. You might eventually have to eject it.&lt;/p&gt;
-
-&lt;p&gt;Also, be aware that making it look like you can make the impossible happen will raise your customers&amp;rsquo; expectations - putting you under pressure to uphold the illusion.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Life&amp;rsquo;s not a TV show&lt;/h2&gt;
-
-&lt;p&gt;Scotty is usually pessimistic at first, but then finds some magical way to do it within the impossible time frame. In reality, things are the other way around. They seem simple, but when you take a closer look, they turn out to be more complicated. Knowing this makes the difference between guessing and estimating.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_4&#34;&gt;What to do about it&lt;/h1&gt;
-
-&lt;p&gt;You&amp;rsquo;re better off to resist that initial urge to fix the warp drive/deflector shield/&lt;insert bug here&gt; in &amp;ldquo;2 days&amp;rdquo; (or whatever ambitious answer your gut gives you). Take one of the many great pieces of advice from &lt;a href=&#34;http://books.google.com/books?id=5wBQEp6ruIAC&amp;amp;lpg=PP1&amp;amp;dq=the%20pragmatic%20programmer&amp;amp;pg=PT87#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;The Pragmatic Programmer&lt;/a&gt;, and just say &amp;ldquo;I&amp;rsquo;ll get back to you&amp;rdquo;. Do some realistic estimating (not guessing!), and then tell them how long it will take.&lt;/p&gt;
-
-&lt;p&gt;And guess what, you&amp;rsquo;ll get better with your estimations. You&amp;rsquo;ll end up doing things the right way, and within realistic time.&lt;/p&gt;
-
-&lt;p&gt;And every once in a while, they&amp;rsquo;ll still think what you do is magic.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_5&#34;&gt;UPDATE:&lt;/h1&gt;
-
-&lt;p&gt;My fellow trekkers have not dissapointed and spotted what can appear to be a contradiction to my descriptions of Scotty (which are based on the &amp;ldquo;old&amp;rdquo; series): in the great espisode 130 of &amp;ldquo;Star Trek: The Next Generation&amp;rdquo;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Relics_%28Star_Trek:_The_Next_Generation%29&#34;&gt;&amp;ldquo;Relics&amp;rdquo;&lt;/a&gt;, Scotty returns to the latest USS Enterprise D. He then hints at his successor, Chief Engineer Geordi LaForge, that Geordi should always exaggerate his estimations to make himself look like a miracle worker (&lt;a href=&#34;http://www.imdb.com/title/tt0708764/quotes?qt=qt0349432&#34;&gt;quote&lt;/a&gt;). Since I&amp;rsquo;m claiming that Scotty always managed to do miracles in an impossible time frame, it looks like Scotty did not only deceive Kirk, but me as well. Or did he? While thinking about a response to this, I find that I am torn. I have two separate responses, each from a different perspective. Yet none of them affect the point of this post.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_6&#34;&gt;I, Hacker&lt;/h2&gt;
-
-&lt;p&gt;Senior engineers often tweak their previous achievements to look good in front of the n00bs by giving advice that they not necessarily have never adhered to themselves. But who&amp;rsquo;s going to prove the opposite? In this episode, being in the 24th century with all the shiny strange technology, Scott feels outdated and useless. This could just be a senior engineer trying to say something smart to impress his younger, more advanced successor.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_7&#34;&gt;I, Trekker&lt;/h2&gt;
-
-&lt;p&gt;This espisode was produced 23 years after The Original Series, approx. 1 year after Gene Rodenberry&amp;rsquo;s passing. Star Trek is full of inconsistencies. It&amp;rsquo;s hard to keep continuity perfect over so many episodes and movies, and it&amp;rsquo;s Sci-Fi after all. I seriously believe this was something the authors wanted Scotty to say in order to be funny, nothing more and nothing less. It is funny because it&amp;rsquo;s a direct contradiction to what we all know from previous events. This was a great espisode, and this scene in particular was a memorable one - but I refuse to acknowledge this as evidence that Scotty wasn&amp;rsquo;t simply an extraordinary engineer - a wizard.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;This post received some attention over at Hacker News - check out the &lt;a href=&#34;http://news.ycombinator.com/item?id=3162415&#34;&gt;discussions&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     

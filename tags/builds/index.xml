@@ -54,8 +54,6 @@
         &lt;p&gt;
         WTF?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -88,8 +86,6 @@
         &lt;p&gt;
         When did my build agent last reboot?
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -108,8 +104,6 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         PowerShell gives you direct access to .NET methods
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -375,8 +369,6 @@ The command completed successfully.
         &lt;p&gt;
         Condition evaluates to *False*
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -414,8 +406,6 @@ The command completed successfully.
         &lt;p&gt;
         L: Solution configuration; R: Solution platform
         
-            
-        
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -448,8 +438,6 @@ The command completed successfully.
     &lt;figcaption&gt;
         &lt;p&gt;
         *Platform* !=*Platform target* o_O
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -562,8 +550,6 @@ The command completed successfully.
     &lt;figcaption&gt;
         &lt;p&gt;
         The *Configuration Manager* window
-        
-            
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
