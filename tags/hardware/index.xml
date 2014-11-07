@@ -74,7 +74,7 @@
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
 
-&lt;p&gt;Finally, I stuck on a glob of hot glue as a form of strain relief. Pretty? Maybe not. But works for me.&lt;/p&gt;
+&lt;p&gt;Finally, I stuck on a glob of hot glue as a crude strain relief.&lt;/p&gt;
 
 &lt;figure &gt;
     
@@ -90,24 +90,7 @@
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
 
-&lt;p&gt;That&amp;rsquo;s pretty much it! Now let&amp;rsquo;s find out what happens when we use a vanilla Pi odel A on a standard LiPo.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_1&#34;&gt;Results&lt;/h1&gt;
-
-&lt;p&gt;When I connect up the power to the Pi, it seems to turn on just fine. An SD card running Arch for ARM is in. Hooking up my multimeter probes to the test points &lt;code&gt;TP1&lt;/code&gt; (+) and &lt;code&gt;TP2&lt;/code&gt; (-), this is what I get:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;at battery: 3.71v&lt;/li&gt;
-&lt;li&gt;at test points: 3.62v&lt;/li&gt;
-&lt;li&gt;at &lt;code&gt;RG2&lt;/code&gt; &lt;em&gt;in&lt;/em&gt;: 3.62v&lt;/li&gt;
-&lt;li&gt;at &lt;code&gt;RG2&lt;/code&gt; &lt;em&gt;out&lt;/em&gt;: 2.68v&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Knowing that the vanilla regulator at &lt;code&gt;RG2&lt;/code&gt; has a DO of about 1V or more, I&amp;rsquo;m not surprised that it&amp;rsquo;s not able to provide good 3.3V anymore given the low voltage from the LiPo.&lt;/p&gt;
-
-&lt;p&gt;The Pi seems to be running well enough, but I haven&amp;rsquo;t tried doing anything interesting with it yet. The fact that all components which expect to get 3.3V are now on less than 3V means things won&amp;rsquo;t run reliably. And as battery voltage drops, behaviour is unpredictable. Not great conditions for a project that I want to run stable for hours.&lt;/p&gt;
-
-&lt;p&gt;So having seen this, I&amp;rsquo;m going to have to remove &lt;code&gt;RG2&lt;/code&gt; and replace it with a voltage regulator that has a lower DO.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it! Now I can run the Pi off any power source I like.&lt;/p&gt;
 </description>
     </item>
     

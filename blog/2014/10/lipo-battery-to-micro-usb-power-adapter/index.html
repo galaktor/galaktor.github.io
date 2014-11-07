@@ -224,7 +224,7 @@
 
 <div class="clearboth"></div>
 
-<p>Finally, I stuck on a glob of hot glue as a form of strain relief. Pretty? Maybe not. But works for me.</p>
+<p>Finally, I stuck on a glob of hot glue as a crude strain relief.</p>
 
 <figure >
     
@@ -240,24 +240,7 @@
 
 <div class="clearboth"></div>
 
-<p>That&rsquo;s pretty much it! Now let&rsquo;s find out what happens when we use a vanilla Pi odel A on a standard LiPo.</p>
-
-<h1 id="toc_1">Results</h1>
-
-<p>When I connect up the power to the Pi, it seems to turn on just fine. An SD card running Arch for ARM is in. Hooking up my multimeter probes to the test points <code>TP1</code> (+) and <code>TP2</code> (-), this is what I get:</p>
-
-<ul>
-<li>at battery: 3.71v</li>
-<li>at test points: 3.62v</li>
-<li>at <code>RG2</code> <em>in</em>: 3.62v</li>
-<li>at <code>RG2</code> <em>out</em>: 2.68v</li>
-</ul>
-
-<p>Knowing that the vanilla regulator at <code>RG2</code> has a DO of about 1V or more, I&rsquo;m not surprised that it&rsquo;s not able to provide good 3.3V anymore given the low voltage from the LiPo.</p>
-
-<p>The Pi seems to be running well enough, but I haven&rsquo;t tried doing anything interesting with it yet. The fact that all components which expect to get 3.3V are now on less than 3V means things won&rsquo;t run reliably. And as battery voltage drops, behaviour is unpredictable. Not great conditions for a project that I want to run stable for hours.</p>
-
-<p>So having seen this, I&rsquo;m going to have to remove <code>RG2</code> and replace it with a voltage regulator that has a lower DO.</p>
+<p>That&rsquo;s it! Now I can run the Pi off any power source I like.</p>
 </p>
   <div class="clearboth"></div>
 <div>
@@ -374,7 +357,7 @@
 
   <div id="copyright">&copy; Raphael Estrada 2011-2014</div>
   <div id="poweredby">powered by <a href="http://hugo.spf13.com/">hugo</a></div>
-  <div>v1.0.26
+  <div>v1.0.27
 </div>
   <div class="cursor"></div> 
 </footer>
