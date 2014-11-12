@@ -7,7 +7,361 @@
     
     
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Sun, 09 Nov 2014 21:00:59 &#43;0100</updated>
+    <updated>Wed, 12 Nov 2014 23:34:00 UTC</updated>
+    
+    <item>
+      <title>This is not the CV you are looking for</title>
+      <link>http://raph.es/cv/</link>
+      <pubDate>Wed, 12 Nov 2014 23:34:00 UTC</pubDate>
+      
+      <guid>http://raph.es/cv/</guid>
+      <description>
+
+&lt;p&gt;&lt;a name=&#34;top&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tldr&#34;&gt;TL;DR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#robots&#34;&gt;Robots not allowed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ethics&#34;&gt;Methodology and ethics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#projects&#34;&gt;Project examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#academia&#34;&gt;Academic background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#facts&#34;&gt;Fun facts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&#34;tldr&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Raphael Estrada&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;m a versatile Software Engineer, team leader and mentor. In over a decade I have successfully developed and deployed a large &lt;a href=&#34;#projects&#34;&gt;variety&lt;/a&gt; of software products. &lt;a href=&#34;#algo&#34;&gt;Most recently&lt;/a&gt; low-latency algorithmic trading systems built on the .NET stack. In my spare time I make &lt;em&gt;Stuff&lt;/em&gt;, often involving Linux, electronics and embedded software.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;robots&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Robots not allowed&lt;/h2&gt;
+
+&lt;p&gt;If you happen to be a recruitment robot looking to match keywords against an obscure job profile then I&amp;rsquo;m afraid you&amp;rsquo;re in for a disappointment. This CV might not compute.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been on both ends of the interview process and frankly, I&amp;rsquo;m not a fan tuning CVs to game recruitment algorithms. Instead, I offer an honest human-readable account of my experience and work ethics.&lt;/p&gt;
+
+&lt;p&gt;So in the case that you are a human who is genuinely looking for a talented, passionate and creative addition to their engineering team, please take a few minutes to read on.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;This is a public web site. To protect the innocent, I&amp;rsquo;ve omitted some details below. More information, references and a &amp;lsquo;traditional&amp;rsquo; style CV are available upon request.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;ethics&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Methodology and ethics&lt;/h1&gt;
+
+&lt;p&gt;Like other engineers, I love to make stuff. Not many things are as exhilarating as creating something from scratch and releasing it into the wild. When it comes to achieving that, however, opinions among engineers can vary quite a lot.&lt;/p&gt;
+
+&lt;p&gt;To give you an impression of how I approach the challenges of engineering, allow me to share some of the opinions I have formed over the years. This could help you gauge how well I might fit into your team and culture.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tools&#34;&gt;Tools of the trade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#design&#34;&gt;Form follows function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lead&#34;&gt;Walking the Walk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pragma&#34;&gt;Pragmatic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#agile&#34;&gt;Beyond agile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#foss&#34;&gt;Free as in freedom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#team&#34;&gt;Compatibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&#34;tools&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Tools of the trade&lt;/h2&gt;
+
+&lt;p&gt;This is where people typically list every programming language they have ever used for more than five minutes. I&amp;rsquo;ll deliberately spare you the pointless name dropping.&lt;/p&gt;
+
+&lt;p&gt;Computers are dumb. It&amp;rsquo;s not hard to tell them what to do. I&amp;rsquo;ve done so using many different languages. Strongly typed and dynamic. Compiled and interpreted. Object-oriented, functional and procedural. Various combinations of those.&lt;/p&gt;
+
+&lt;p&gt;I prefer UNIX-like operating systems - specifically GNU/Linux - but any will do. I&amp;rsquo;m comfortable with any IDE, am pretty fluent in Visual Studio. When given the choice, I would fall into the Emacs camp.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been around long enough to know that having to learn new tools has just as little impact on my productivity as, say, my typing speed (which happens to be pretty decent, by the way). Of course, tools matter. Using the right (or wrong) one  can make all the difference in the world. But &lt;em&gt;learning&lt;/em&gt; them is rarely the problem.&lt;/p&gt;
+
+&lt;p&gt;If I have to, I&amp;rsquo;ll learn how to write &lt;a href=&#34;http://lolcode.org/&#34;&gt;lolcode&lt;/a&gt; in DVORAK in no time.&lt;/p&gt;
+
+&lt;p&gt;Much more than the programming language, it&amp;rsquo;s other, less obvious things at your shop that will take time to get used to. The custom in-house software stack. Out-of-date documentation. The development process and risk procedures.&lt;/p&gt;
+
+&lt;p&gt;Those also happen to be things &lt;em&gt;nobody&lt;/em&gt; brings along when they come in the door.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ethics&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;design&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Form follows function&lt;/h2&gt;
+
+&lt;p&gt;Although my university &lt;a href=&#34;#academia&#34;&gt;degree&lt;/a&gt; was specialized in Computer Science, another significant portion of the course was &lt;a href=&#34;https://en.wikipedia.org/wiki/Communication_design&#34;&gt;Communication Design&lt;/a&gt;. What I learned there strongly influences my perspective on &lt;em&gt;interfaces&lt;/em&gt;. Not just GUIs but interfaces in general, and the kinds humans interact with in particular.&lt;/p&gt;
+
+&lt;p&gt;Interfaces come in many forms. In source code formatting and REST APIs. The names of unit tests and the wording of a user story. UML diagrams and the structure of project&amp;rsquo;s files. The log files used to debug a crash.&lt;/p&gt;
+
+&lt;p&gt;The end consumer is not the only user of a system. Priorities will vary, but a bit of design can help improve every users&amp;rsquo; experience as they interact with a product. And as a result improve the product itself.&lt;/p&gt;
+
+&lt;p&gt;That being said, I do have an artistic side that rears it&amp;rsquo;s head occasionally. I love to draw. And when sufficiently inspired, I&amp;rsquo;ve been known to create icons, logos, artwork or mouse mats for projects I was involved on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ethics&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;lead&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Walking the Walk&lt;/h2&gt;
+
+&lt;p&gt;In the software industry my peers tend to be smart people. They won&amp;rsquo;t follow someone who cannot back their Talk with the equivalent amount of Walk. I&amp;rsquo;m no exception.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t like to call myself a &amp;ldquo;leader&amp;rdquo;. But I have a habit of slipping into leadership roles in the teams I am part of. Not because I try to, but because I don&amp;rsquo;t mind making decisions and taking on responsibility when required. Because I set a high bar for myself and others.&lt;/p&gt;
+
+&lt;p&gt;With me, I have been told, code reviews and retrospectives can be hard work. Honest reflection is difficult. Growth hurts. But I encourage others to be honest with me the same way. I &lt;em&gt;expect&lt;/em&gt; them to. I tend to say, conflict is healthy. If it&amp;rsquo;s easy, you&amp;rsquo;re doing it wrong.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t explicitly try to lead by example. But by setting an example, I often end up leading.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ethics&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;pragma&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;Pragmatic&lt;/h2&gt;
+
+&lt;p&gt;My attitude towards &lt;em&gt;industry patterns and practices&lt;/em&gt; has evolved in an interesting way. It used to be that I would cling firmly to the usual literature and enthusiastically spread the word.&lt;/p&gt;
+
+&lt;p&gt;With experience, however, I have become much more relaxed. Because I learned that those recipes were extracted from specific circumstances and don&amp;rsquo;t always apply to the situation at hand. The reasoning often being &amp;ldquo;What if someone in the future wants to&amp;hellip;&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;There is but a thin line between &lt;em&gt;best practice&lt;/em&gt; and &lt;em&gt;premature optimization&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to read a book and learn when you can apply a tool. But only with experience - and by making mistakes first-hand - can you learn when &lt;em&gt;not&lt;/em&gt; to.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ethics&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;agile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;Beyond agile&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m a proudly &lt;strong&gt;un&lt;/strong&gt;certified Scrum Master. &lt;em&gt;Proud&lt;/em&gt; because after agile methodologies became cool a few years ago, Scrum has become a big business. Sold by consultants to enterprise. Implemented as rigid process beneath a blanket of scrum master certificates.&lt;/p&gt;
+
+&lt;p&gt;Scrum is a just another box of tools which &lt;em&gt;can&lt;/em&gt; enable teams to work well. When done right, it looks different every time. It &lt;em&gt;must&lt;/em&gt;, because people are different. Agile by definition cannot be a uniform process. Unfortunately, &amp;ldquo;it depends&amp;rdquo; isn&amp;rsquo;t an easy answer, hence doesn&amp;rsquo;t sell very well.&lt;/p&gt;
+
+&lt;p&gt;In my mind, being agile means to focus on what matters and to facilitate communication. Also known as: common sense. How this looks in practice is highly dependent on who you are and what you do.&lt;/p&gt;
+
+&lt;p&gt;Agility can only be certified by a working team.&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;#pragma&#34;&gt;pragmatic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ethics&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;foss&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;Free as in freedom&lt;/h2&gt;
+
+&lt;p&gt;This is going to sound a bit cheesy, but I&amp;rsquo;m a strong believer in free software and that it makes the world a better place. If you&amp;rsquo;ve had a look around my blog, this won&amp;rsquo;t come as much of a surprise. My personal projects - including this CV - are &lt;a href=&#34;/license&#34;&gt;licensed&lt;/a&gt; accordingly.&lt;/p&gt;
+
+&lt;p&gt;I also understand that many projects and businesses cannot and do not work like that. That&amp;rsquo;s fine (and a little bit sad). I encourage my peers to contribute back to FOSS projects they find valuable. And I prefer employers who do so, too.&lt;/p&gt;
+
+&lt;p&gt;But to be absolutely clear: I &lt;em&gt;won&amp;rsquo;t&lt;/em&gt; just go and upload your proprietary code base to GitHub. However, I would certainly be delighted if you asked me to.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ethics&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;team&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;Compatibility&lt;/h2&gt;
+
+&lt;p&gt;Like many engineers, I&amp;rsquo;m an introvert. This doesn&amp;rsquo;t mean I&amp;rsquo;m not a team player. I&amp;rsquo;ve a good track record of working well in teams of different sizes and a variety of nationalities. I&amp;rsquo;m comfortable interacting with other teams, management and customers. I&amp;rsquo;ve been told I&amp;rsquo;m even quite good at it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ethics&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;projects&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_11&#34;&gt;Project examples&lt;/h1&gt;
+
+&lt;p&gt;Let me briefly describe some of my past and current projects. Further details and references available upon request.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#algo&#34;&gt;Algorithmic trading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#track&#34;&gt;Indoor location tracking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cars&#34;&gt;e-commerce web platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gamepad&#34;&gt;Wireless retro gamepad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#game&#34;&gt;PC game sans graphics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dms&#34;&gt;Document management system&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&#34;algo&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_12&#34;&gt;&lt;em&gt;current&lt;/em&gt;: Global financial trading company&lt;/h2&gt;
+
+&lt;p&gt;Complex proprietary software and infrastructure to enable in-house algorithmic trading on major exchanges all over the world. Distributed, concurrent, low-latency, (soft) real-time, event-driven system with primary code base in &lt;code&gt;C#/.NET&lt;/code&gt;. Also bits of &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;C/C++&lt;/code&gt; and sophisticated scripts for automation. Strong emphasis on performance and data analysis as well as safety checks and automated testing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;primary architect and lead developer on multi-national team of 10&lt;/li&gt;
+&lt;li&gt;frequent interaction with customers, management, support and other teams&lt;/li&gt;
+&lt;li&gt;designed and developed business-critical next-generation trading system
+
+&lt;ul&gt;
+&lt;li&gt;scalable, configurable, high-throughput, low-latency requirements&lt;/li&gt;
+&lt;li&gt;interactive, safe and analysis-friendly&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;championed concepts which would find adoption company-wide, i.e.
+
+&lt;ul&gt;
+&lt;li&gt;agile development workflow&lt;/li&gt;
+&lt;li&gt;test-driven development&lt;/li&gt;
+&lt;li&gt;PowerShell-based build automation&lt;/li&gt;
+&lt;li&gt;continuous integration and deployment&lt;/li&gt;
+&lt;li&gt;concepts of lean software development&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#projects&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;track&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_13&#34;&gt;Indoor location tracking&lt;/h2&gt;
+
+&lt;p&gt;Proof of concept of affordable wireless location tracking system within vast indoor spaces where GPS is not available. Wearable active RFID tags featuring ultra-low power radio transceiver driven by 8-bit MCU. Stationary low-profile radio receivers running custom software to receive tag data and forward over network via existing (wireless) LAN. Data collected from network and interpreted on centralized server for data analysis and visualization.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Personal independent project developed for undisclosed potential business model&lt;/li&gt;
+&lt;li&gt;Taken from idea to functional prototype entirely on my own during my spare time&lt;/li&gt;
+&lt;li&gt;Implemented complete low-level radio control layer according to module specification&lt;/li&gt;
+&lt;li&gt;Efficient, modular software and flexible network protocols allow for better scalability&lt;/li&gt;
+&lt;li&gt;Prototype software developed in &lt;code&gt;Go&lt;/code&gt; running on &lt;code&gt;Arch&lt;/code&gt; Linux distribution for ARM&lt;/li&gt;
+&lt;li&gt;Requirement for lower-profile receivers might make move to embedded Linux devices necessary next step&lt;/li&gt;
+&lt;li&gt;Currently researching SoCs with integrated RF or WiFi support to further reduce size and complexity of wearable tags.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#projects&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;cars&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_14&#34;&gt;High-traffic e-commerce web platform&lt;/h2&gt;
+
+&lt;p&gt;Market leading multi-language platform servicing the automobile market. High volumes of traffic from consumers and businesses in all major European markets. Front-end &lt;code&gt;ASP.NET MVC&lt;/code&gt; plus the usual web stack. Complex back-end consisting of inter-connected web services, applications and distributed data stores.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;lead developer on team of 5&lt;/li&gt;
+&lt;li&gt;report directly to CTO and management as well as multiple developer teams&lt;/li&gt;
+&lt;li&gt;implemented agile workflow (scrum-kanban hybrid)&lt;/li&gt;
+&lt;li&gt;prioritize, plan and implement redesign of business critical framework components
+
+&lt;ul&gt;
+&lt;li&gt;continuous delivery across multiple environments to hundreds of servers&lt;/li&gt;
+&lt;li&gt;configuration management&lt;/li&gt;
+&lt;li&gt;optimized client-side performance&lt;/li&gt;
+&lt;li&gt;platform-wide dependency management&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#projects&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;gamepad&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_15&#34;&gt;Wireless retro gamepad&lt;/h2&gt;
+
+&lt;p&gt;Modified SNES game controller for wireless use with my childrens&amp;rsquo; retro emulator game console. Complete replacement of the gamepad&amp;rsquo;s internal components with exception of the button contacts on the PCB. Enclosure modified to accommodate rechargeable Li-Po battery, toggle switch, status LED. AVR MCU combined with 2.4 GHz RF module transmits button states to console. User-space Linux service translates states into keyboard events via &lt;code&gt;/dev/uinput&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built to replace bulky (and uncool) Xbox360 controllers&lt;/li&gt;
+&lt;li&gt;ICSP header exposed in gamepad for future firmware upgrades&lt;/li&gt;
+&lt;li&gt;Button presses can be translated into arbitrary keyboard events, making many more remote control scenarios possible&lt;/li&gt;
+&lt;li&gt;Based largely on open hard- and software
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Arduino&lt;/code&gt; Pro Mini (3.3V) aka &lt;code&gt;ATmega168&lt;/code&gt; MCU in gamepad&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EmulationStation&lt;/code&gt; running on &lt;code&gt;Raspberry Pi Model A&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;virtual keyboard &lt;code&gt;gostwriter&lt;/code&gt; &lt;a href=&#34;https://github.com/galaktor/gostwriter&#34;&gt;released&lt;/a&gt; as FOSS&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Arduino&lt;/code&gt; gamepad firmware to be open-sourced soon, as well&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#projects&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;game&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_16&#34;&gt;PC game sans graphics&lt;/h2&gt;
+
+&lt;p&gt;Innovative multiplayer game designed for play without graphics. Cutting-edge haptic force-feedback controls and three-dimensional audio. Developed pro bono in cooperation with academia for use at local institute for blind and visually impaired players. Custom &lt;code&gt;C/C++&lt;/code&gt; game engine with basic graphics (for development purposes). Integration of industry standard technology to power 3d audio, collision detection and P2P networking.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Initiated project and organized until completion&lt;/li&gt;
+&lt;li&gt;Point of contact for university, customers, sponsors&lt;/li&gt;
+&lt;li&gt;Conducted UX labs to tune gameplay for target audience&lt;/li&gt;
+&lt;li&gt;Designed and implemented collision detection engine and level editor&lt;/li&gt;
+&lt;li&gt;Represented project at several occasions, conferences&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#projects&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;dms&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_17&#34;&gt;Premium document management system&lt;/h2&gt;
+
+&lt;p&gt;Market-leading data-centric ERP document management system for lawyers and accountants with over 30,000 users. Microsoft stack with &lt;code&gt;TFS&lt;/code&gt; integration and &lt;code&gt;SQL Server&lt;/code&gt; for storage. Client design based on Microsoft &lt;code&gt;Composite UI Application Block (CAB)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Port legacy &lt;code&gt;C++/Win32&lt;/code&gt; app to &lt;code&gt;.NET/CAB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Seamless integration with other products in the suite&lt;/li&gt;
+&lt;li&gt;Optimization of database queries&lt;/li&gt;
+&lt;li&gt;Develop various tools for crash analysis and automated migration of customer data&lt;/li&gt;
+&lt;li&gt;Advisor on subject of UI design and UX&lt;/li&gt;
+&lt;li&gt;Championed automated unit testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#projects&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;academia&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_18&#34;&gt;Academic background&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_19&#34;&gt;University of Applied Sciences (Augsburg, Germany)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Course:&lt;/strong&gt; Computer Science &amp;amp; Multimedia&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Degree&lt;/strong&gt;: Diplom-Informatiker FH&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rank&lt;/strong&gt;: Best 3%&lt;/li&gt;
+&lt;li&gt;Specialized in &lt;em&gt;Computer Science&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Also acquired foundations of &lt;em&gt;Communications Design&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See also: &lt;a href=&#34;#design&#34;&gt;Form follows function&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#projects&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;facts&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_20&#34;&gt;Fun facts&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#lang&#34;&gt;Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sports&#34;&gt;Sports&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&#34;lang&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_21&#34;&gt;Languages&lt;/h2&gt;
+
+&lt;h3 id=&#34;toc_22&#34;&gt;German&lt;/h3&gt;
+
+&lt;p&gt;fluent&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_23&#34;&gt;English&lt;/h3&gt;
+
+&lt;p&gt;fluent&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_24&#34;&gt;Spanish:&lt;/h3&gt;
+
+&lt;p&gt;Contrary to what my name might suggest, I couldn&amp;rsquo;t order paella if my life depended on it :-(&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#facts&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;sports&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_25&#34;&gt;Sports&lt;/h2&gt;
+
+&lt;h3 id=&#34;toc_26&#34;&gt;Taekwondo green belt (ITF)&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ve won several prizes at national and international competitions.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_27&#34;&gt;Tough Mudder Finisher&lt;/h3&gt;
+
+&lt;p&gt;I recently completed the first ever Irish Tough Mudder and plan to take part in more adventure races in the near future.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#facts&#34;&gt;back to top&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>This website</title>
@@ -1092,20 +1446,6 @@ are bags&lt;/p&gt;
       
       <guid>http://raph.es/project/n97/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Wireless Gamepad</title>
-      <link>http://raph.es/project/gamepad/</link>
-      <pubDate>Thu, 02 Oct 2014 20:46:17 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/gamepad/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;hello&lt;/h1&gt;
-
-&lt;p&gt;this is a gamepad&lt;/p&gt;
-</description>
     </item>
     
   </channel>
