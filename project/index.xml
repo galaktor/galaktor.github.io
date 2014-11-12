@@ -7,92 +7,12 @@
     
     
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Fri, 24 Oct 2014 08:26:47 &#43;0100</updated>
-    
-    <item>
-      <title>3d business card</title>
-      <link>http://raph.es/project/3d-card/</link>
-      <pubDate>Fri, 24 Oct 2014 08:26:47 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/3d-card/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LED goggle lamp</title>
-      <link>http://raph.es/project/headlamp/</link>
-      <pubDate>Sun, 12 Oct 2014 17:48:05 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/headlamp/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/done.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/project/headlamp/done_thumb.jpeg&#34;     /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I have a cheap set of goggles I wear when I do soldering and other eye-threatening activities. Since most of the time I work in the evenings after the little people went to bed, I though it would be neat if it had a little LED attached to illuminate my view.&lt;/p&gt;
-
-&lt;p&gt;While I decided to stick it to the goggles, you certainly could mount this light to anything else (tools, masks, gloves). I deliberately mounted the light so that I can take it off again without damaging the light or the goggles. Because you never know when you can use a little light!&lt;/p&gt;
-
-&lt;p&gt;This was a quick and dirty hack where I salvaged bright LED with lense from an IKEA USB lamp. Then simply screwed it to my goggles. The whole thing took about an hour.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>n97 salvage</title>
-      <link>http://raph.es/project/n97/</link>
-      <pubDate>Tue, 07 Oct 2014 13:22:43 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/n97/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MudCam HD</title>
-      <link>http://raph.es/project/mudcam/</link>
-      <pubDate>Mon, 06 Oct 2014 08:21:11 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/mudcam/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Materials&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Raspberry Pi Model A + Camera module&lt;/li&gt;
-&lt;li&gt;MCP 1826S 3.3V voltage regulator&lt;/li&gt;
-&lt;li&gt;IP-66 waterproof junction box&lt;/li&gt;
-&lt;li&gt;Waterproof cable glands&lt;/li&gt;
-&lt;li&gt;Airsoft replica MICH helmet with rails&lt;/li&gt;
-&lt;li&gt;~30cm HDMI cable&lt;/li&gt;
-&lt;li&gt;2 CSI breakout connectors to hook up HDMI cables to Pi&lt;/li&gt;
-&lt;li&gt;Waterproof momentary switch with LED ring&lt;/li&gt;
-&lt;li&gt;2000mAh - 3000m+Ah single-cell 3.7C LiPo battery (e.g. for tablets)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>TKD trainer</title>
-      <link>http://raph.es/project/tkdtrainer/</link>
-      <pubDate>Mon, 06 Oct 2014 08:21:06 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/tkdtrainer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Schoolbag bling</title>
-      <link>http://raph.es/project/bagsbling/</link>
-      <pubDate>Mon, 06 Oct 2014 08:20:17 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/bagsbling/</guid>
-      <description>&lt;p&gt;#These
-are bags&lt;/p&gt;
-</description>
-    </item>
+    <updated>Sun, 09 Nov 2014 21:00:59 &#43;0100</updated>
     
     <item>
       <title>This website</title>
       <link>http://raph.es/project/website/</link>
-      <pubDate>Thu, 02 Oct 2014 21:00:59 &#43;0100</pubDate>
+      <pubDate>Sun, 09 Nov 2014 21:00:59 &#43;0100</pubDate>
       
       <guid>http://raph.es/project/website/</guid>
       <description>
@@ -186,6 +106,86 @@ are bags&lt;/p&gt;
     </item>
     
     <item>
+      <title>MudCam HD</title>
+      <link>http://raph.es/project/mudcam/</link>
+      <pubDate>Thu, 06 Nov 2014 08:21:11 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/mudcam/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Materials&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi Model A + Camera module&lt;/li&gt;
+&lt;li&gt;MCP 1826S 3.3V voltage regulator&lt;/li&gt;
+&lt;li&gt;IP-66 waterproof junction box&lt;/li&gt;
+&lt;li&gt;Waterproof cable glands&lt;/li&gt;
+&lt;li&gt;Airsoft replica MICH helmet with rails&lt;/li&gt;
+&lt;li&gt;~30cm HDMI cable&lt;/li&gt;
+&lt;li&gt;2 CSI breakout connectors to hook up HDMI cables to Pi&lt;/li&gt;
+&lt;li&gt;Waterproof momentary switch with LED ring&lt;/li&gt;
+&lt;li&gt;2000mAh - 3000m+Ah single-cell 3.7C LiPo battery (e.g. for tablets)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Schoolbag bling</title>
+      <link>http://raph.es/project/bagsbling/</link>
+      <pubDate>Mon, 27 Oct 2014 08:20:17 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/bagsbling/</guid>
+      <description>&lt;p&gt;#These
+are bags&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TKD trainer</title>
+      <link>http://raph.es/project/tkdtrainer/</link>
+      <pubDate>Sat, 25 Oct 2014 08:21:06 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/tkdtrainer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3d business card</title>
+      <link>http://raph.es/project/3d-card/</link>
+      <pubDate>Fri, 24 Oct 2014 08:26:47 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/3d-card/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LED goggle lamp</title>
+      <link>http://raph.es/project/headlamp/</link>
+      <pubDate>Sun, 12 Oct 2014 17:48:05 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/headlamp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/img/project/headlamp/done.jpeg&#34;&gt;
+  &lt;img src=&#34;/img/project/headlamp/done_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a cheap set of goggles I wear when I do soldering and other eye-threatening activities. Since most of the time I work in the evenings after the little people went to bed, I though it would be neat if it had a little LED attached to illuminate my view.&lt;/p&gt;
+
+&lt;p&gt;While I decided to stick it to the goggles, you certainly could mount this light to anything else (tools, masks, gloves). I deliberately mounted the light so that I can take it off again without damaging the light or the goggles. Because you never know when you can use a little light!&lt;/p&gt;
+
+&lt;p&gt;This was a quick and dirty hack where I salvaged bright LED with lense from an IKEA USB lamp. Then simply screwed it to my goggles. The whole thing took about an hour.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>n97 salvage</title>
+      <link>http://raph.es/project/n97/</link>
+      <pubDate>Tue, 07 Oct 2014 13:22:43 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/n97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Wireless Gamepad</title>
       <link>http://raph.es/project/gamepad/</link>
       <pubDate>Thu, 02 Oct 2014 20:46:17 &#43;0100</pubDate>
@@ -206,6 +206,16 @@ are bags&lt;/p&gt;
       
       <guid>http://raph.es/project/uview-pins/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>retro pi</title>
+      <link>http://raph.es/project/retro-pi/</link>
+      <pubDate>Sat, 19 Jul 2014 15:37:23 UTC</pubDate>
+      
+      <guid>http://raph.es/project/retro-pi/</guid>
+      <description>&lt;p&gt;In use by kids&lt;/p&gt;
+</description>
     </item>
     
     <item>

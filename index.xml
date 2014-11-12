@@ -7,7 +7,127 @@
     
     
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Wed, 29 Oct 2014 12:51:58 &#43;0100</updated>
+    <updated>Sun, 09 Nov 2014 21:00:59 &#43;0100</updated>
+    
+    <item>
+      <title>This website</title>
+      <link>http://raph.es/project/website/</link>
+      <pubDate>Sun, 09 Nov 2014 21:00:59 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/website/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;requirements&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Simple tech&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;static pages&lt;/li&gt;
+&lt;li&gt;no database&lt;/li&gt;
+&lt;li&gt;simple style&lt;/li&gt;
+&lt;li&gt;no social media spyware&lt;/li&gt;
+&lt;li&gt;no tracking pixels or anything&lt;/li&gt;
+&lt;li&gt;NO JAVASCRIPT AT ALL, all html/css/img&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;personal&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;my own design from the ground up - incl all quiks&lt;/li&gt;
+&lt;li&gt;reflect all my activity on side-projects&lt;/li&gt;
+&lt;li&gt;minimal use of social media, link to my page to channel output through here&lt;/li&gt;
+&lt;li&gt;playgrund to screw around with web tech - it&amp;rsquo;s my own and i can hack it however i like&lt;/li&gt;
+&lt;li&gt;my own domains&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Shorter posts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;half twitter, half blog&lt;/li&gt;
+&lt;li&gt;occasional long post (like this one)&lt;/li&gt;
+&lt;li&gt;incremental value - projects, series aggregate nr of small posts to bigger context&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;No comments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;see also: simple tech&lt;/li&gt;
+&lt;li&gt;no spam, no trolls&lt;/li&gt;
+&lt;li&gt;drop me a mail if you have something to say&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;libre&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;open source (static pages are by definition)&lt;/li&gt;
+&lt;li&gt;hosted on github&lt;/li&gt;
+&lt;li&gt;open source license (DECIDE: gpl  or Creative Commons?)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Programmer&amp;rsquo;s workflow&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;github&lt;/li&gt;
+&lt;li&gt;command line tools (hugo, git, nano)&lt;/li&gt;
+&lt;li&gt;content in simple text / markdown editing&lt;/li&gt;
+&lt;li&gt;automatic delivery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;TODO&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;continuous delivery downside: parallel travis workers -&amp;gt; race condition, not atomic pushes&lt;/li&gt;
+&lt;li&gt;TOC shortcode?&lt;/li&gt;
+&lt;li&gt;GitHub issues for content improvements/changes&lt;/li&gt;
+&lt;li&gt;show revision of source repo as version in subtree html&lt;/li&gt;
+&lt;li&gt;embed history/versions of a given content?&lt;/li&gt;
+&lt;li&gt;highlight currently selected menu section&lt;/li&gt;
+&lt;li&gt;auto-deploy from tavis to github pages&lt;/li&gt;
+&lt;li&gt;stale projects where date &amp;gt; x&lt;/li&gt;
+&lt;li&gt;highlight latest blog posts, projects&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;shrinkify pngs for project, way to large&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;watermark images&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;add other projects, i.e. software ones
+
+&lt;ul&gt;
+&lt;li&gt;dansguardian&lt;/li&gt;
+&lt;li&gt;nodewire&lt;/li&gt;
+&lt;li&gt;gogre3d, llcoi&lt;/li&gt;
+&lt;li&gt;gorf24&lt;/li&gt;
+&lt;li&gt;more&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;next/prev content by date&lt;/li&gt;
+&lt;li&gt;style code snippets better&lt;/li&gt;
+&lt;li&gt;license page  &amp;ldquo;/license&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;new domain with DNS config&lt;/li&gt;
+&lt;li&gt;cv&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MudCam HD</title>
+      <link>http://raph.es/project/mudcam/</link>
+      <pubDate>Thu, 06 Nov 2014 08:21:11 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/mudcam/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Materials&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi Model A + Camera module&lt;/li&gt;
+&lt;li&gt;MCP 1826S 3.3V voltage regulator&lt;/li&gt;
+&lt;li&gt;IP-66 waterproof junction box&lt;/li&gt;
+&lt;li&gt;Waterproof cable glands&lt;/li&gt;
+&lt;li&gt;Airsoft replica MICH helmet with rails&lt;/li&gt;
+&lt;li&gt;~30cm HDMI cable&lt;/li&gt;
+&lt;li&gt;2 CSI breakout connectors to hook up HDMI cables to Pi&lt;/li&gt;
+&lt;li&gt;Waterproof momentary switch with LED ring&lt;/li&gt;
+&lt;li&gt;2000mAh - 3000m+Ah single-cell 3.7C LiPo battery (e.g. for tablets)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The bias is strong with MBTI</title>
@@ -98,6 +218,26 @@
 
 &lt;p&gt;(Or am I?)&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Schoolbag bling</title>
+      <link>http://raph.es/project/bagsbling/</link>
+      <pubDate>Mon, 27 Oct 2014 08:20:17 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/bagsbling/</guid>
+      <description>&lt;p&gt;#These
+are bags&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TKD trainer</title>
+      <link>http://raph.es/project/tkdtrainer/</link>
+      <pubDate>Sat, 25 Oct 2014 08:21:06 &#43;0100</pubDate>
+      
+      <guid>http://raph.es/project/tkdtrainer/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -952,146 +1092,6 @@
       
       <guid>http://raph.es/project/n97/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>MudCam HD</title>
-      <link>http://raph.es/project/mudcam/</link>
-      <pubDate>Mon, 06 Oct 2014 08:21:11 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/mudcam/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Materials&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Raspberry Pi Model A + Camera module&lt;/li&gt;
-&lt;li&gt;MCP 1826S 3.3V voltage regulator&lt;/li&gt;
-&lt;li&gt;IP-66 waterproof junction box&lt;/li&gt;
-&lt;li&gt;Waterproof cable glands&lt;/li&gt;
-&lt;li&gt;Airsoft replica MICH helmet with rails&lt;/li&gt;
-&lt;li&gt;~30cm HDMI cable&lt;/li&gt;
-&lt;li&gt;2 CSI breakout connectors to hook up HDMI cables to Pi&lt;/li&gt;
-&lt;li&gt;Waterproof momentary switch with LED ring&lt;/li&gt;
-&lt;li&gt;2000mAh - 3000m+Ah single-cell 3.7C LiPo battery (e.g. for tablets)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>TKD trainer</title>
-      <link>http://raph.es/project/tkdtrainer/</link>
-      <pubDate>Mon, 06 Oct 2014 08:21:06 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/tkdtrainer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Schoolbag bling</title>
-      <link>http://raph.es/project/bagsbling/</link>
-      <pubDate>Mon, 06 Oct 2014 08:20:17 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/bagsbling/</guid>
-      <description>&lt;p&gt;#These
-are bags&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>This website</title>
-      <link>http://raph.es/project/website/</link>
-      <pubDate>Thu, 02 Oct 2014 21:00:59 &#43;0100</pubDate>
-      
-      <guid>http://raph.es/project/website/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;requirements&lt;/h1&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Simple tech&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;static pages&lt;/li&gt;
-&lt;li&gt;no database&lt;/li&gt;
-&lt;li&gt;simple style&lt;/li&gt;
-&lt;li&gt;no social media spyware&lt;/li&gt;
-&lt;li&gt;no tracking pixels or anything&lt;/li&gt;
-&lt;li&gt;NO JAVASCRIPT AT ALL, all html/css/img&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;personal&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;my own design from the ground up - incl all quiks&lt;/li&gt;
-&lt;li&gt;reflect all my activity on side-projects&lt;/li&gt;
-&lt;li&gt;minimal use of social media, link to my page to channel output through here&lt;/li&gt;
-&lt;li&gt;playgrund to screw around with web tech - it&amp;rsquo;s my own and i can hack it however i like&lt;/li&gt;
-&lt;li&gt;my own domains&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Shorter posts&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;half twitter, half blog&lt;/li&gt;
-&lt;li&gt;occasional long post (like this one)&lt;/li&gt;
-&lt;li&gt;incremental value - projects, series aggregate nr of small posts to bigger context&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;No comments&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;see also: simple tech&lt;/li&gt;
-&lt;li&gt;no spam, no trolls&lt;/li&gt;
-&lt;li&gt;drop me a mail if you have something to say&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;toc_5&#34;&gt;libre&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;open source (static pages are by definition)&lt;/li&gt;
-&lt;li&gt;hosted on github&lt;/li&gt;
-&lt;li&gt;open source license (DECIDE: gpl  or Creative Commons?)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;toc_6&#34;&gt;Programmer&amp;rsquo;s workflow&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;github&lt;/li&gt;
-&lt;li&gt;command line tools (hugo, git, nano)&lt;/li&gt;
-&lt;li&gt;content in simple text / markdown editing&lt;/li&gt;
-&lt;li&gt;automatic delivery&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;toc_7&#34;&gt;TODO&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;continuous delivery downside: parallel travis workers -&amp;gt; race condition, not atomic pushes&lt;/li&gt;
-&lt;li&gt;TOC shortcode?&lt;/li&gt;
-&lt;li&gt;GitHub issues for content improvements/changes&lt;/li&gt;
-&lt;li&gt;show revision of source repo as version in subtree html&lt;/li&gt;
-&lt;li&gt;embed history/versions of a given content?&lt;/li&gt;
-&lt;li&gt;highlight currently selected menu section&lt;/li&gt;
-&lt;li&gt;auto-deploy from tavis to github pages&lt;/li&gt;
-&lt;li&gt;stale projects where date &amp;gt; x&lt;/li&gt;
-&lt;li&gt;highlight latest blog posts, projects&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;shrinkify pngs for project, way to large&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;watermark images&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;add other projects, i.e. software ones
-
-&lt;ul&gt;
-&lt;li&gt;dansguardian&lt;/li&gt;
-&lt;li&gt;nodewire&lt;/li&gt;
-&lt;li&gt;gogre3d, llcoi&lt;/li&gt;
-&lt;li&gt;gorf24&lt;/li&gt;
-&lt;li&gt;more&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;next/prev content by date&lt;/li&gt;
-&lt;li&gt;style code snippets better&lt;/li&gt;
-&lt;li&gt;license page  &amp;ldquo;/license&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;new domain with DNS config&lt;/li&gt;
-&lt;li&gt;cv&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
     <item>

@@ -3,13 +3,33 @@
   
   <url>
     <loc>http://raph.es/</loc>
-    <lastmod>2014-10-29T12:51:58+01:00</lastmod>
+    <lastmod>2014-11-09T21:00:59+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://raph.es/project/website/</loc>
+    <lastmod>2014-11-09T21:00:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://raph.es/project/mudcam/</loc>
+    <lastmod>2014-11-06T08:21:11+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</loc>
     <lastmod>2014-10-29T12:51:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://raph.es/project/bagsbling/</loc>
+    <lastmod>2014-10-27T08:20:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://raph.es/project/tkdtrainer/</loc>
+    <lastmod>2014-10-25T08:21:06+01:00</lastmod>
   </url>
   
   <url>
@@ -58,26 +78,6 @@
   </url>
   
   <url>
-    <loc>http://raph.es/project/mudcam/</loc>
-    <lastmod>2014-10-06T08:21:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://raph.es/project/tkdtrainer/</loc>
-    <lastmod>2014-10-06T08:21:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://raph.es/project/bagsbling/</loc>
-    <lastmod>2014-10-06T08:20:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://raph.es/project/website/</loc>
-    <lastmod>2014-10-02T21:00:59+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://raph.es/project/gamepad/</loc>
     <lastmod>2014-10-02T20:46:17+01:00</lastmod>
   </url>
@@ -90,6 +90,11 @@
   <url>
     <loc>http://raph.es/project/uview-pins/</loc>
     <lastmod>2014-08-20T10:46:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://raph.es/project/retro-pi/</loc>
+    <lastmod>2014-07-19T15:37:23+00:00</lastmod>
   </url>
   
   <url>
