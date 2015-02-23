@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Golang on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/golang/index.xml/</link>
-    
-    
+    <title>Golang on raph haXx</title>
+    <link>http://raph.es/tags/golang/</link>
+    <description>Recent content in Golang on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Sun, 16 Sep 2012 19:43:00 &#43;0100</updated>
+    <lastBuildDate>Sun, 16 Sep 2012 19:43:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Leaving the Comfort Zone</title>
-      <link>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</link>
-      <pubDate>Sun, 16 Sep 2012 19:43:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/09/leaving-the-comfort-zone/</link>
+      <pubDate>Sun, 16 Sep 2012 19:43:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</guid>
+      <guid>http://raph.es/blog/2012/09/leaving-the-comfort-zone/</guid>
       <description>
 
 &lt;p&gt;Yeah, what a &amp;ldquo;blah&amp;rdquo; title. But I&amp;rsquo;m in a hurry now. As all the internets have undoubtedly noticed, I haven&amp;rsquo;t blogged in a while. I&amp;rsquo;ve been busy with shit, and to break out of it I&amp;rsquo;m dumping out a quick post. In fact, future posts will probably be a bit shorter, just to get anything out.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
+&lt;h1 id=&#34;what-s-been-happening:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
 
 &lt;p&gt;One of my more recent &lt;a href=&#34;http://www.galaktor.net/2012/02/yet-another-attempt-at-levelling-up-my.html&#34;&gt;posts&lt;/a&gt; (read: months old) mentioned that I was once again attempting to move my computing life into Linux. Well, the good news is, I succeeded. I&amp;rsquo;ve spent about 98% (pretty random gut-feeling number) of my time on Crunchbang in the past months, and there&amp;rsquo;s no looking back so far.&lt;/p&gt;
 
@@ -27,13 +27,13 @@
 
 &lt;p&gt;I had to make pretty serious changes to my usual workflow to get coding on Linux. I wanted to leave the MS world I am used to behind and go as native as possible, Which was pretty much the definition of what all those &amp;ldquo;leave your comfort zone&amp;rdquo; mantras are about.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Going hardcore&lt;/h1&gt;
+&lt;h1 id=&#34;going-hardcore:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;Going hardcore&lt;/h1&gt;
 
 &lt;p&gt;Determined to embrace the command-line world which is Linux, I decided to go the whole length and use Emacs as my (sort of) IDE. And the learning curve was a lot easier than I expected - you hear a lot of bullshit about how hard it is and whatever. It wasn&amp;rsquo;t. Yes, you need to learn some shortcuts, big deal. It&amp;rsquo;s just a powerful text editor with a bunch of plugins. From day one I&amp;rsquo;ve been running it in console mode (-nw), and it not only looks like straight out of a cliche hacker movie, it&amp;rsquo;s also really lightweight and fast. Loving it.&lt;/p&gt;
 
 &lt;p&gt;Language was trickier - I&amp;rsquo;m mainly a .NET guy, and I have played with Mono before, but I again wanted to go as &amp;ldquo;non-Windows&amp;rdquo; as possible. And I wanted to use the opportunity to learn new languages. So I played around with clojure for a while - and I might write a bit on it separately, but long story short: I&amp;rsquo;m not impressed. It&amp;rsquo;s essentially yet another abstraction above of where I&amp;rsquo;ve spent the last years (C#, which is Java-ish). But contrary to common opinion, I don&amp;rsquo;t think imperative programming is necessarily evil, and I&amp;rsquo;ve found myself leaning toward the more low-level side of things again.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Coding in Go&lt;/h1&gt;
+&lt;h1 id=&#34;coding-in-go:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;Coding in Go&lt;/h1&gt;
 
 &lt;p&gt;To cut to the chase, I discovered Go, which is like C on steroids, and it immediately felt like what I need. I&amp;rsquo;ve gone from zero to productive in a few days, and I&amp;rsquo;m pretty happy so far. Again, I&amp;rsquo;ll be posting on this later. I have a little side-project going which I will write about on this here blog soon.&lt;/p&gt;
 

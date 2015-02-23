@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Dotnet on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/dotnet/index.xml/</link>
-    
-    
+    <title>Dotnet on raph haXx</title>
+    <link>http://raph.es/tags/dotnet/</link>
+    <description>Recent content in Dotnet on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Tue, 02 Oct 2012 16:47:00 &#43;0100</updated>
+    <lastBuildDate>Tue, 02 Oct 2012 16:47:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>autofHACK - forcing activation of a service and dynamic resolution of it&#39;s dependencies</title>
-      <link>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</link>
-      <pubDate>Tue, 02 Oct 2012 16:47:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/10/autofhack---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</link>
+      <pubDate>Tue, 02 Oct 2012 16:47:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</guid>
+      <guid>http://raph.es/blog/2012/10/autofhack---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</guid>
       <description>&lt;p&gt;Sorry, I just couldn&amp;rsquo;t resist the &amp;ldquo;autofHack&amp;rdquo; pun.&lt;/p&gt;
 
 &lt;p&gt;In case you don&amp;rsquo;t know &lt;a href=&#34;http://code.google.com/p/autofac/&#34;&gt;Autofac&lt;/a&gt;, this post won&amp;rsquo;t make much sense to you. Go read about it NOW. In the meantime us cool kids will play without you.&lt;/p&gt;
@@ -68,15 +68,15 @@ builder.RegisterInstance(m);
     
     <item>
       <title>Leaving the Comfort Zone</title>
-      <link>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</link>
-      <pubDate>Sun, 16 Sep 2012 19:43:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/09/leaving-the-comfort-zone/</link>
+      <pubDate>Sun, 16 Sep 2012 19:43:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</guid>
+      <guid>http://raph.es/blog/2012/09/leaving-the-comfort-zone/</guid>
       <description>
 
 &lt;p&gt;Yeah, what a &amp;ldquo;blah&amp;rdquo; title. But I&amp;rsquo;m in a hurry now. As all the internets have undoubtedly noticed, I haven&amp;rsquo;t blogged in a while. I&amp;rsquo;ve been busy with shit, and to break out of it I&amp;rsquo;m dumping out a quick post. In fact, future posts will probably be a bit shorter, just to get anything out.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
+&lt;h1 id=&#34;what-s-been-happening:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
 
 &lt;p&gt;One of my more recent &lt;a href=&#34;http://www.galaktor.net/2012/02/yet-another-attempt-at-levelling-up-my.html&#34;&gt;posts&lt;/a&gt; (read: months old) mentioned that I was once again attempting to move my computing life into Linux. Well, the good news is, I succeeded. I&amp;rsquo;ve spent about 98% (pretty random gut-feeling number) of my time on Crunchbang in the past months, and there&amp;rsquo;s no looking back so far.&lt;/p&gt;
 
@@ -84,13 +84,13 @@ builder.RegisterInstance(m);
 
 &lt;p&gt;I had to make pretty serious changes to my usual workflow to get coding on Linux. I wanted to leave the MS world I am used to behind and go as native as possible, Which was pretty much the definition of what all those &amp;ldquo;leave your comfort zone&amp;rdquo; mantras are about.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Going hardcore&lt;/h1&gt;
+&lt;h1 id=&#34;going-hardcore:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;Going hardcore&lt;/h1&gt;
 
 &lt;p&gt;Determined to embrace the command-line world which is Linux, I decided to go the whole length and use Emacs as my (sort of) IDE. And the learning curve was a lot easier than I expected - you hear a lot of bullshit about how hard it is and whatever. It wasn&amp;rsquo;t. Yes, you need to learn some shortcuts, big deal. It&amp;rsquo;s just a powerful text editor with a bunch of plugins. From day one I&amp;rsquo;ve been running it in console mode (-nw), and it not only looks like straight out of a cliche hacker movie, it&amp;rsquo;s also really lightweight and fast. Loving it.&lt;/p&gt;
 
 &lt;p&gt;Language was trickier - I&amp;rsquo;m mainly a .NET guy, and I have played with Mono before, but I again wanted to go as &amp;ldquo;non-Windows&amp;rdquo; as possible. And I wanted to use the opportunity to learn new languages. So I played around with clojure for a while - and I might write a bit on it separately, but long story short: I&amp;rsquo;m not impressed. It&amp;rsquo;s essentially yet another abstraction above of where I&amp;rsquo;ve spent the last years (C#, which is Java-ish). But contrary to common opinion, I don&amp;rsquo;t think imperative programming is necessarily evil, and I&amp;rsquo;ve found myself leaning toward the more low-level side of things again.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Coding in Go&lt;/h1&gt;
+&lt;h1 id=&#34;coding-in-go:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;Coding in Go&lt;/h1&gt;
 
 &lt;p&gt;To cut to the chase, I discovered Go, which is like C on steroids, and it immediately felt like what I need. I&amp;rsquo;ve gone from zero to productive in a few days, and I&amp;rsquo;m pretty happy so far. Again, I&amp;rsquo;ll be posting on this later. I have a little side-project going which I will write about on this here blog soon.&lt;/p&gt;
 
@@ -103,10 +103,10 @@ lol&lt;/p&gt;
     
     <item>
       <title>Stop using the wrong tools</title>
-      <link>http://raph.es/blog/2011/11/Stop-using-the-wrong-tools/</link>
-      <pubDate>Thu, 10 Nov 2011 06:29:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/11/stop-using-the-wrong-tools/</link>
+      <pubDate>Thu, 10 Nov 2011 06:29:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/11/Stop-using-the-wrong-tools/</guid>
+      <guid>http://raph.es/blog/2011/11/stop-using-the-wrong-tools/</guid>
       <description>
 
 &lt;p&gt;When Apple gave us pure touchscreen interfaces, it was as if yet &lt;a href=&#34;http://screenrant.com/tech-terminator-iron-man-is-here-brusimm-7985/all/1/&#34;&gt;another&lt;/a&gt; science fiction dream came true. Apparently whenever we get a little bit closer to our sci-fi fantasies, we imagine the future will just take the same idea a bit further. &amp;ldquo;Look ma, no &lt;a href=&#34;http://www.ted.com/talks/john_underkoffler_drive_3d_data_with_a_gesture.html&#34;&gt;hands&lt;/a&gt;!&amp;rdquo; Awesome, no doubt. But the danger of small increments is that it feels like progress, even though you could be heading in the wrong direction.&lt;/p&gt;
@@ -121,7 +121,7 @@ lol&lt;/p&gt;
 
 &lt;p&gt;The touchscreens in modern devices might be closer to what we expect from futuristic high-tech devices. But just because they let us use a mobile web browser more efficiently, does that mean the future will be all chrome and touchscreens?&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -130,15 +130,16 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Usability is hard&lt;/h1&gt;
+&lt;h1 id=&#34;usability-is-hard:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Usability is hard&lt;/h1&gt;
 
 &lt;p&gt;I don&amp;rsquo;t know what the future will bring. What I do know is that people are generally not very good at picking the right tools. And I see no reason why that could not also apply in the future. Revisiting the above definition, there are two things that can go wrong: 1) a tool fails to do &amp;ldquo;what we want to do&amp;rdquo;, or 2) that &amp;ldquo;what we can[not] do&amp;rdquo; prevents us from using the tool properly (or use it at all).&lt;/p&gt;
 
@@ -146,11 +147,11 @@ lol&lt;/p&gt;
 
 &lt;p&gt;The other type of tool abuse is more subtle: failing to bridge the tool&amp;rsquo;s abilities with those of it&amp;rsquo;s user. Buzz word: &lt;em&gt;usability&lt;/em&gt;. Creating a tool that can do something is the easy part - making it so that people can, will, and repeatedly use it is much harder. Simply put: the most effective tool is not really a tool if nobody uses it.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Examples I&amp;rsquo;d like to rant about&lt;/h1&gt;
+&lt;h1 id=&#34;examples-i-d-like-to-rant-about:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Examples I&amp;rsquo;d like to rant about&lt;/h1&gt;
 
 &lt;p&gt;As a software engineer, I happen to see wrong-tool-syndrom a lot in - wait for it - software development. There are a few examples in particular that I have noticed recently and I would like to put them here for two reasons. To make my point (duh) and to rant.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_2&#34;&gt;Email chain discussions&lt;/h2&gt;
+&lt;h2 id=&#34;email-chain-discussions:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Email chain discussions&lt;/h2&gt;
 
 &lt;p&gt;The 80&amp;rsquo;s called, they want their mailing lists back! I totally and absolutely &lt;em&gt;despise&lt;/em&gt; mailing lists. Whenever I need to go to one for help with a tool, I do my best to ditch the tool. They used to have their purpose, nowadays they&amp;rsquo;re just obsolete usability nightmares.&lt;/p&gt;
 
@@ -158,7 +159,7 @@ lol&lt;/p&gt;
 
 &lt;p&gt;There are &lt;a href=&#34;http://xmpp.org/extensions/xep-0045.html&#34;&gt;much&lt;/a&gt; &lt;a href=&#34;http://trac-hacks.org/wiki/DiscussionPlugin&#34;&gt;better&lt;/a&gt; &lt;a href=&#34;http://www.coordino.com/&#34;&gt;tools&lt;/a&gt; available for online discussions. They were designed to allow for sane reading, backtracking, quoting and searching. And above all, they&amp;rsquo;re much less redundant than when using email.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -167,15 +168,16 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_3&#34;&gt;Avoiding OOP features in OOP languages&lt;/h2&gt;
+&lt;h2 id=&#34;avoiding-oop-features-in-oop-languages:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Avoiding OOP features in OOP languages&lt;/h2&gt;
 
 &lt;p&gt;Modern programming languages have some comfortable features, like just-in-time compilation, sandboxing or garbage collection. Take the .NET runtime. With C# as it&amp;rsquo;s &amp;ldquo;native&amp;rdquo; language, it supports polymorphism, i.e. virtual methods.&lt;/p&gt;
 
@@ -183,19 +185,19 @@ lol&lt;/p&gt;
 
 &lt;p&gt;Not. My problem with this is not &lt;em&gt;that&lt;/em&gt; the classes are sealed (even though unit testing them can be a bitch). It is &lt;em&gt;why&lt;/em&gt; they are sealed. It&amp;rsquo;s not the result of some object-oriented design decision. It&amp;rsquo;s done with the sole purpose to prevent the CLR from doing something it was &lt;em&gt;designed&lt;/em&gt; to do. C# is object-oriented, so there are virtual methods - deal with it. If you are afraid of the cost, then C# is the wrong tool for your problem - maybe have a look at C/C++ instead.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_4&#34;&gt;Static methods in OOP languages&lt;/h2&gt;
+&lt;h2 id=&#34;static-methods-in-oop-languages:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Static methods in OOP languages&lt;/h2&gt;
 
 &lt;p&gt;Within the last 10 years, many programmers have migrated from C++ to C#. I can recognize their (early) code right away: static methods everywhere. That is not object oriented. It&amp;rsquo;s method oriented - &lt;em&gt;procedural&lt;/em&gt;. There are only very few cases that justify the use of static methods in OOP. You are either using C# for the wrong reasons or you don&amp;rsquo;t understand OOP. Either way, you will not be able to use the tool the way it was designed to be used.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_5&#34;&gt;Videos in (tech) blogs&lt;/h2&gt;
+&lt;h2 id=&#34;videos-in-tech-blogs:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Videos in (tech) blogs&lt;/h2&gt;
 
 &lt;p&gt;When I go to your blog, I want to read it - not watch a stupid video. Chances are my mobile browser does not know your codec, and if it does, it still looks like crap. And do you really expect me to turn down my music in order to listen to you say stuff you were too lazy to write down? There&amp;rsquo;s so many things that make videos bad for this: I can&amp;rsquo;t skim over the content like I usually do - instead I end up jumping around in the timeline, buffering, cursing. Fuck your &lt;a href=&#34;http://de.wikipedia.org/wiki/Vlog&#34;&gt;vlog&lt;/a&gt; or whatever you call it, do a podcast if that&amp;rsquo;s your thing. If you have a blog, I want to &lt;em&gt;read&lt;/em&gt; it. Period.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_6&#34;&gt;Perforce for version control&lt;/h2&gt;
+&lt;h2 id=&#34;perforce-for-version-control:392b1cfe5865fa09a3eb545085be9682&#34;&gt;Perforce for version control&lt;/h2&gt;
 
 &lt;p&gt;&amp;ldquo;Perforce&amp;rdquo; and &amp;ldquo;control&amp;rdquo; is an contradiction. There you go. I just had to put this one in.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -204,15 +206,16 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_7&#34;&gt;The thin line between a pragmatist and a moron&lt;/h1&gt;
+&lt;h1 id=&#34;the-thin-line-between-a-pragmatist-and-a-moron:392b1cfe5865fa09a3eb545085be9682&#34;&gt;The thin line between a pragmatist and a moron&lt;/h1&gt;
 
 &lt;p&gt;Now, you cannot always switch tools. Switching language on a gazillion LOC project is not going to happen overnight. Then, at least try to use the tools you have the way the were designed to be used. Make the most of what you have, and don&amp;rsquo;t try to bastardize it just because you are too lazy to use it the right way.&lt;/p&gt;
 
@@ -222,15 +225,15 @@ lol&lt;/p&gt;
     
     <item>
       <title>Understanding and testing enum flags</title>
-      <link>http://raph.es/blog/2011/09/Understanding-and-testing-enum-flags/</link>
-      <pubDate>Wed, 14 Sep 2011 05:53:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/09/understanding-and-testing-enum-flags/</link>
+      <pubDate>Wed, 14 Sep 2011 05:53:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/09/Understanding-and-testing-enum-flags/</guid>
+      <guid>http://raph.es/blog/2011/09/understanding-and-testing-enum-flags/</guid>
       <description>
 
 &lt;p&gt;For those who know all about flags and &lt;a href=&#34;http://en.wikipedia.org/wiki/Binary_numeral_system&#34;&gt;binary arithmetics&lt;/a&gt; and want to insult me by responding to my careful writing with ignorance, then feel free to skip over the following section.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Some basics on flags&lt;/h1&gt;
+&lt;h1 id=&#34;some-basics-on-flags:1b52af6c1f93aebfd6323513a4f7c923&#34;&gt;Some basics on flags&lt;/h1&gt;
 
 &lt;p&gt;Flag enums are a convenient way to store multiple &lt;code&gt;boolean&lt;/code&gt; flags in one value. Typically an &lt;code&gt;Integer&lt;/code&gt; is ideal for this sort of thing, but other udnerlying types are allowed. In .NET, no matter if in 32-bit or 64-bit mode, an Integer has 4 bytes, equal 32bits. So we have something like this (btw, all the examples here are little endian):&lt;/p&gt;
 
@@ -310,7 +313,7 @@ AND 00000000 00000000 00000000 00000100  // &amp;quot;MyFlags.StateThree&amp;quo
 
 &lt;p&gt;OK, let&amp;rsquo;s stop our little excursion into binary arithmetics right here. Back to topic.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Enforcing the contract&lt;/h1&gt;
+&lt;h1 id=&#34;enforcing-the-contract:1b52af6c1f93aebfd6323513a4f7c923&#34;&gt;Enforcing the contract&lt;/h1&gt;
 
 &lt;p&gt;There is a problem hidden herein. We saw that in most cases it makes sense to use only underlying enum values that are powers of two. So you code up something beautiful and do exactly that. Now, what if someone (especially you) changes that code later on, adds a new value to the enum and does not know (or forgets) that the separate state flags have to be powers of two? The compiler will not prevent you from using values in that enum that are not a power of two. For example, to the compiler (and unaware readers of your code, although the comment might give it away) this looks like a valid thing to do:&lt;/p&gt;
 
@@ -380,10 +383,10 @@ AND  100  // 5 - 1 = 4
     
     <item>
       <title>Manually caching configuration sections to avoid the .NET 4 bug</title>
-      <link>http://raph.es/blog/2011/05/Manually-caching-configuration-sections-to-avoid-the-.NET-4-bug/</link>
-      <pubDate>Fri, 27 May 2011 08:42:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/05/manually-caching-configuration-sections-to-avoid-the-.net-4-bug/</link>
+      <pubDate>Fri, 27 May 2011 08:42:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/05/Manually-caching-configuration-sections-to-avoid-the-.NET-4-bug/</guid>
+      <guid>http://raph.es/blog/2011/05/manually-caching-configuration-sections-to-avoid-the-.net-4-bug/</guid>
       <description>
 
 &lt;p&gt;There is a &lt;a href=&#34;http://social.msdn.microsoft.com/Forums/en/clr/thread/1e14f665-10a3-426b-a75d-4e66354c5522&#34;&gt;bug in the .NET 4 ConfigurationManager&lt;/a&gt; that has been causing me some headache. If you are trying to run .NET 4 code from a network drive and are getting SecurityExceptions, you might be facing it. When you want to read a section from your App.config - I&amp;rsquo;ll creatively call it &lt;em&gt;MySection&lt;/em&gt; - you typically do this:&lt;/p&gt;
@@ -431,13 +434,13 @@ public class MySection
 1. It only works for sections that are derived from &lt;code&gt;ConfigurationSection&lt;/code&gt;
 1. &lt;code&gt;OpenExeConfiguration&lt;/code&gt; does not cache deserialized sections&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;&lt;code&gt;ConfigurationSection&lt;/code&gt; vs. &lt;code&gt;IConfigurationSectionHandler&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;configurationsection-vs-iconfigurationsectionhandler:b1e4a2538fe6103c45c47becbb9d9ef9&#34;&gt;&lt;code&gt;ConfigurationSection&lt;/code&gt; vs. &lt;code&gt;IConfigurationSectionHandler&lt;/code&gt;&lt;/h1&gt;
 
 &lt;p&gt;The &lt;em&gt;first&lt;/em&gt; turns out to be a problem for those who create section handlers by implementing the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.configuration.iconfigurationsectionhandler.aspx&#34;&gt;&lt;code&gt;IConfigurationSectionHandler&lt;/code&gt;&lt;/a&gt; interface (as I did in the above example). This pattern roots in the early days of the .NET framework and is obsolete since .NET 2.0. Nevertheless, it is very convenient. All you need to do is have a class implement the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.configuration.iconfigurationsectionhandler.create.aspx&#34;&gt;&lt;code&gt;Create()&lt;/code&gt;&lt;/a&gt; method and return an object. How it creates the object is secondary, but typically you will use an &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.xml.serialization.xmlserializer.aspx&#34;&gt;&lt;code&gt;XmlSerializer&lt;/code&gt;&lt;/a&gt; with the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.xml.xmlnode.aspx&#34;&gt;&lt;code&gt;XmlNode&lt;/code&gt;&lt;/a&gt; parameter for deserialization. Also, since this is just an interface, you have complete freedom regarding your class design.&lt;/p&gt;
 
 &lt;p&gt;In order to make use of the recommended workaround you have to derive your section implementation from &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.configuration.configurationsection.aspx&#34;&gt;&lt;code&gt;ConfigurationSection&lt;/code&gt;&lt;/a&gt;. Using the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms228060.aspx&#34;&gt;.NET configuration API&lt;/a&gt; you can define your section with a bit more power and flexibility than using the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.xml.serialization.aspx&#34;&gt;XML serialization API&lt;/a&gt;. You can have the run-time validate that the values in your configuration are of a certain numerical range or default to specific strings - handy stuff. The downside is, though, that it&amp;rsquo;s usage is quite verbose. You need to implement new classes with lots of abstract methods, which gets quite bloated once you are working with complex XML, especially when you compare it with the much leaner &lt;code&gt;IConfigurationSectionHandler&lt;/code&gt; pattern.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Manual vs. automatic caching&lt;/h1&gt;
+&lt;h1 id=&#34;manual-vs-automatic-caching:b1e4a2538fe6103c45c47becbb9d9ef9&#34;&gt;Manual vs. automatic caching&lt;/h1&gt;
 
 &lt;p&gt;While using the Configuration API might be a bit clunky, it&amp;rsquo;s something you can get used to. The &lt;em&gt;second&lt;/em&gt; issue you will encounter when using the above workaround is a bigger problem. &lt;code&gt;OpenExeConfiguration()&lt;/code&gt; is designed to allow modifications to the underlying configuration. Therefor, by design, it cannot cache the sections it deserializes. If you take code that expects the caching of &lt;code&gt;ConfigurationManager.GetSection()&lt;/code&gt; and just replace it with calls to &lt;code&gt;OpenExeConfiguration().GetSection()&lt;/code&gt;, you can end up repeating the file I/O and deserialization process over and over again - which can lead to a serious performance impact.&lt;/p&gt;
 
@@ -454,7 +457,7 @@ second = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None).
 
 &lt;p&gt;The obvious way to get around that is to hold on to a reference to your Configuration object. But that&amp;rsquo;s not applicable all the time and feels a bit dirty - you end up with references to the same object all over the place. Also, since this is just a bug in the .NET framework that is supposed to be fixed with SP1, you would be making lots of modifications to your code that will be useless as soon as SP1 is released. Instead, you could write an &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/bb383977.aspx&#34;&gt;extension method&lt;/a&gt; that will use the recommended workaround call, but include simple &amp;ldquo;manual&amp;rdquo; caching.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;A workaround for the workaround&lt;/h1&gt;
+&lt;h1 id=&#34;a-workaround-for-the-workaround:b1e4a2538fe6103c45c47becbb9d9ef9&#34;&gt;A workaround for the workaround&lt;/h1&gt;
 
 &lt;p&gt;First, we create a simple extension method that will be available on &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.configuration.configuration.aspx&#34;&gt;Configuration&lt;/a&gt; instances.&lt;/p&gt;
 
@@ -526,7 +529,7 @@ public class CachedConfigurationSectionLoader
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;Additional resources:&lt;/h1&gt;
+&lt;h1 id=&#34;additional-resources:b1e4a2538fe6103c45c47becbb9d9ef9&#34;&gt;Additional resources:&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://social.msdn.microsoft.com/Forums/en/clr/thread/1e14f665-10a3-426b-a75d-4e66354c5522&#34;&gt;That nasty bug in the .NET 4 ConfigurationManager.GetSection()&lt;/a&gt;&lt;/li&gt;
@@ -539,13 +542,13 @@ public class CachedConfigurationSectionLoader
     
     <item>
       <title>Conditional References in Visual Studio projects</title>
-      <link>http://raph.es/blog/2011/05/Conditional-References-in-Visual-Studio-projects/</link>
-      <pubDate>Thu, 05 May 2011 08:42:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/05/conditional-references-in-visual-studio-projects/</link>
+      <pubDate>Thu, 05 May 2011 08:42:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/05/Conditional-References-in-Visual-Studio-projects/</guid>
+      <guid>http://raph.es/blog/2011/05/conditional-references-in-visual-studio-projects/</guid>
       <description>
 
-&lt;p&gt;Visual Studio does a good job in hiding the MSBuild configurations from it&amp;rsquo;s users. MSBuild is quite flexible and powerful - but the VS user interface only gives you control over a tiny piece of it. One handy feature I believe deserves more attention in the IDE is &lt;em&gt;conditional references&lt;/em&gt;. When you add a reference to one of your projects, by default it will be static. No matter how you &lt;a href=&#34;/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;modify your solution configuration or platform settings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Visual Studio does a good job in hiding the MSBuild configurations from it&amp;rsquo;s users. MSBuild is quite flexible and powerful - but the VS user interface only gives you control over a tiny piece of it. One handy feature I believe deserves more attention in the IDE is &lt;em&gt;conditional references&lt;/em&gt;. When you add a reference to one of your projects, by default it will be static. No matter how you &lt;a href=&#34;http://raph.es/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;modify your solution configuration or platform settings&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;But some libraries are platform dependent. If you build your solution as 64bit, you will not want to use a version of a library that is restricted to 32bit platforms. Visual Studio does not give you a way to put conditions on your references. Fortunately, MSBuild does. When referencing an assembly in VS, a &lt;code&gt;Reference&lt;/code&gt; (or &lt;code&gt;ProjectReference&lt;/code&gt;) element is added to your project file&amp;rsquo;s XML containing details of the assembly and a &lt;code&gt;HintPath&lt;/code&gt; to it&amp;rsquo;s (supposed) location.&lt;/p&gt;
 
@@ -555,7 +558,7 @@ public class CachedConfigurationSectionLoader
 &amp;lt;/Reference&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Setting the conditions&lt;/h1&gt;
+&lt;h1 id=&#34;setting-the-conditions:6cccf82a50ffb7bb357d73b82e56424b&#34;&gt;Setting the conditions&lt;/h1&gt;
 
 &lt;p&gt;Using your favorite text editor, you can add a &lt;code&gt;Condition&lt;/code&gt; attribute to any reference in your project file, telling MSBuild when to use it (or not). This allows you to reference assemblies of different architecture and make sure they are used according to which platform you are targeting. In this case, a reference could look like the following in your project file:&lt;/p&gt;
 
@@ -573,7 +576,7 @@ public class CachedConfigurationSectionLoader
 
 &lt;p&gt;This works because in MSBuild the reference elements are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164283%28v=VS.100%29.aspx&#34;&gt;&lt;code&gt;Item&lt;/code&gt; elements&lt;/a&gt;. Many element types can have condition attributes. If you look at other parts of your project file you will probably see that the project configuration and platform sections also use conditions similar to the above example. There are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164307.aspx&#34;&gt;other ways to define conditional logic in MSBuild&lt;/a&gt;, but this is probably the quickest and most understandable. If you plan to do more funky stuff, have a look at &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164282.aspx&#34;&gt;&lt;code&gt;&amp;lt;Choose&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;Otherwise&amp;gt;&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -582,15 +585,16 @@ public class CachedConfigurationSectionLoader
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/reference-warning.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/reference-warning.jpeg&#34;   width=&#34;200em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   width=&#34;200em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;The &lt;code&gt;Platform&lt;/code&gt; variable&lt;/h1&gt;
+&lt;h1 id=&#34;the-platform-variable:6cccf82a50ffb7bb357d73b82e56424b&#34;&gt;The &lt;code&gt;Platform&lt;/code&gt; variable&lt;/h1&gt;
 
 &lt;p&gt;Note that in my example I am querying the &lt;code&gt;Platform&lt;/code&gt; variable - &lt;em&gt;not&lt;/em&gt; &lt;code&gt;Configuration&lt;/code&gt;. I have noticed a practice &lt;a href=&#34;http://dev.monogram.sk/websvn/filedetails.php?repname=graphstudio&amp;amp;path=%2Ftrunk%2Fgraphstudio.sln&#34;&gt;on teh webz&lt;/a&gt; that suggests you create new configurations named &lt;em&gt;Debug64&lt;/em&gt; and &lt;em&gt;Release64&lt;/em&gt;, then switch references based on the &lt;code&gt;Configuration&lt;/code&gt; variable. While this technically works the same way, it is logically incorrect. &lt;code&gt;Configuration&lt;/code&gt; and &lt;code&gt;Platform&lt;/code&gt; settings are two different concerns in Visual Studio and it is unwise to mix them. It&amp;rsquo;s messy, redundant and generates loads of unnecessary lines in your solution and project files.&lt;/p&gt;
 
@@ -600,17 +604,17 @@ public class CachedConfigurationSectionLoader
     
     <item>
       <title>Targeting Platforms in Visual Studio</title>
-      <link>http://raph.es/blog/2011/04/Targeting-Platforms-in-Visual-Studio/</link>
-      <pubDate>Tue, 12 Apr 2011 19:16:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/04/targeting-platforms-in-visual-studio/</link>
+      <pubDate>Tue, 12 Apr 2011 19:16:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/04/Targeting-Platforms-in-Visual-Studio/</guid>
+      <guid>http://raph.es/blog/2011/04/targeting-platforms-in-visual-studio/</guid>
       <description>
 
 &lt;p&gt;None of Visual Studio&amp;rsquo;s features is more essential than compiling text to binary assemblies - in VS terminology: &amp;ldquo;building&amp;rdquo;. Since this is the single most important task you use an IDE for, it is crucial that you understand how it works if you want to have more control over what you build, and especially for what target platform - e.g. when automating your builds for continuous integration.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Configuration != Configuration&lt;/h1&gt;
+&lt;h1 id=&#34;configuration-configuration:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Configuration != Configuration&lt;/h1&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -619,13 +623,14 @@ public class CachedConfigurationSectionLoader
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;solution configuration&lt;/em&gt; and &lt;em&gt;solution platform&lt;/em&gt; selectors are two of the most used and at the same time most misunderstood UI elements in Visual Studio. You would think that they allowed you to define with which configuration and for which target platform your code will be compiled. What users &lt;em&gt;expect&lt;/em&gt; is this:&lt;/p&gt;
 
@@ -639,26 +644,27 @@ public class CachedConfigurationSectionLoader
 
 &lt;p&gt;I will attempt to shed some light on the different parts of this chain and present a way - well, &lt;em&gt;my&lt;/em&gt; way - of dealing with it&amp;rsquo;s complexity in order to regain control of this process. I am going to roll up this chain from the end.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Project configurations&lt;/h1&gt;
+&lt;h1 id=&#34;project-configurations:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Project configurations&lt;/h1&gt;
 
 &lt;p&gt;A project in Visual Studio represents a binary that will be generated after compilation. As you would expect, the &lt;em&gt;project settings&lt;/em&gt; window allows you to define &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/0hkyezwy%28v=VS.100%29.aspx&#34;&gt;various options&lt;/a&gt; around that binary - most notably where the file will be copied to, if the compiler will optimize the generated IL (i.e. in Release mode) and what platform architecture you are targeting. Those settings are stored in a &lt;em&gt;project file&lt;/em&gt;.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
-        *Platform* !=*Platform target* o_O
+        *Platform* != *Platform target* o_O
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/project_settings.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/project_settings.jpeg&#34;   width=&#34;500em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   width=&#34;500em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Project files are essentially just &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/5dy88c2e.aspx&#34;&gt;XML(ish) input files&lt;/a&gt; for a tool called &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/wea2sca5%28v=vs.90%29.aspx&#34;&gt;MSBuild&lt;/a&gt;. It is Microsoft&amp;rsquo;s build tool, logically very similar to &lt;a href=&#34;http://nant.sourceforge.net/&#34;&gt;NAnt&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Build_automation&#34;&gt;the likes&lt;/a&gt;. As a matter of fact, &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms171468%28v=VS.100%29.aspx&#34;&gt;Visual Studio uses MSBuild behind the scenes&lt;/a&gt; whenever you hit &amp;ldquo;build&amp;rdquo; in the IDE.&lt;/p&gt;
 
@@ -697,7 +703,7 @@ public class CachedConfigurationSectionLoader
 &lt;pre&gt;&lt;code&gt;$&amp;gt; MSBuild &amp;quot;MyProject.csproj&amp;quot; /p:Configuration=&amp;quot;Release&amp;quot; /p:Platform=&amp;quot;Any CPU&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Solution configurations&lt;/h1&gt;
+&lt;h1 id=&#34;solution-configurations:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Solution configurations&lt;/h1&gt;
 
 &lt;p&gt;Solution configurations are a different story. While projects are directly related to binaries of your generated application, a solution is not. It is a mere container for projects. And yet, it too has a &amp;ldquo;configuration&amp;rdquo; and a &amp;ldquo;platform&amp;rdquo; setting. You can use MSBuild with the same parameters to build a solution, like you would do with a project. How does this make sense?&lt;/p&gt;
 
@@ -716,7 +722,7 @@ public class CachedConfigurationSectionLoader
 &lt;pre&gt;&lt;code&gt;SLN config + SLN platform =&amp;gt; PROJ config + PROJ platform =&amp;gt; PROJ platform platform =&amp;gt; Binary
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;The Scary Part&lt;/h1&gt;
+&lt;h1 id=&#34;the-scary-part:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;The Scary Part&lt;/h1&gt;
 
 &lt;p&gt;It is important to understand that the relationship between solution settings and project settings is not as direct as it may seem. Setting the solution to &lt;code&gt;Release|x64&lt;/code&gt; does not necessarily mean you are switching each project to exactly that setting. Visual Studio will constantly keep track of how you configure the project settings and associate them with the currently selected solution settings. VS will update the active configuration accordingly whenever a project&amp;rsquo;s configuration or target platform is modified. Whenever you switch your active configuration, and then make a change to a project&amp;rsquo;s settings, VS stores those as that project&amp;rsquo;s active configuration in the solution file. It is easy to forget that and to unintentionally submit the change into source control.&lt;/p&gt;
 
@@ -729,16 +735,16 @@ public class CachedConfigurationSectionLoader
 &lt;pre&gt;&lt;code&gt;BadImageFormatException: An attempt was made to load a program with an incorrect format.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_4&#34;&gt;The Principle of Least Surprise&lt;/h1&gt;
+&lt;h1 id=&#34;the-principle-of-least-surprise:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;The Principle of Least Surprise&lt;/h1&gt;
 
 &lt;p&gt;Have a look at your project&amp;rsquo;s solution file. You might discover that some active configurations are not consistent. In some rare special cases you might have good reasons to do things differently, but usually it is best to keep things simple: The solution settings should represent it&amp;rsquo;s projects&amp;rsquo; configurations as directly as possible. Compiling a solution with certain settings should be directly reflected in the generated binaries. I recently heard someone mention &amp;ldquo;the principle of least surprise&amp;rdquo;. That&amp;rsquo;s what this is about. Surprises are for birthday parties and Oprah. What we developers want is control.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_5&#34;&gt;Inconsistency in a solution:&lt;/h2&gt;
+&lt;h2 id=&#34;inconsistency-in-a-solution:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Inconsistency in a solution:&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;{74482536-2654-4B15-B457-9425A05341E6}.Debug|x86.ActiveCfg = Debug|x64 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_6&#34;&gt;Inconsistency in a project:&lt;/h2&gt;
+&lt;h2 id=&#34;inconsistency-in-a-project:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Inconsistency in a project:&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;PropertyGroup Condition=&amp;quot;&#39;$(Configuration)|$(Platform)&#39; == &#39;Debug|x86&#39;&amp;quot;&amp;gt;
   &amp;lt;PlatformTarget&amp;gt;x64&amp;lt;/PlatformTarget&amp;gt;
@@ -749,13 +755,13 @@ public class CachedConfigurationSectionLoader
 
 &lt;p&gt;The following is my recommended strategy for straightening out your solution and project configurations. I want to emphasize that &lt;strong&gt;this is my personal preference&lt;/strong&gt; and that there may be good reasons to do it differently (e.g. when developing for funky platforms such as Windows Phone or Xbox). I believe this strategy is good for most (if not all) projects, being that it restores predictability and forces you to make decisions on how you want your project to be deployed. Here goes.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_7&#34;&gt;Regaining Control&lt;/h1&gt;
+&lt;h1 id=&#34;regaining-control:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Regaining Control&lt;/h1&gt;
 
 &lt;p&gt;Open the Configuration Manager. By switching &lt;code&gt;Configuration&lt;/code&gt; and &lt;code&gt;Platform&lt;/code&gt; you will be able to view and modify what project configurations/platforms will be targeted when building the solution in that mode. The general rule of thumb I recommend is to always keep solutions and project settings in sync. If the solution is set to &lt;code&gt;Debug|Any CPU&lt;/code&gt;, then all projects should be as well.&lt;/p&gt;
 
 &lt;p&gt;When setting to a more specific platform such as &lt;code&gt;x86&lt;/code&gt;, you should switch as many projects&amp;rsquo; configurations as possible to that, too - otherwise to &lt;code&gt;Any CPU&lt;/code&gt;. In an ideal world you would set all projects to &lt;code&gt;x86&lt;/code&gt;, and if you can, do so. If you need to leave some &lt;code&gt;Any CPU&lt;/code&gt; projects in that mode (because you are probably just too lazy to do otherwise), at least make sure they are not your apps &amp;ldquo;entry points&amp;rdquo;, i.e. executable projects. The reason is if you build as &lt;code&gt;x86&lt;/code&gt; but your executable is &lt;code&gt;Any CPU&lt;/code&gt;, running the app on a 64bit machine will make your whole app domain run as x64, which is not always desirable and - much worse - not expected. So try to use the exact same config as in the solution whenever possible. Even if it means (some seconds of) extra work adding configurations to projects.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -764,17 +770,18 @@ public class CachedConfigurationSectionLoader
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/configmanager.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/configmanager.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   width=&#34;400em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;This topic is harder to explain than it should be, and much harder to describe than it actually is to do. Even if I am beating a dead horse here, I would like to describe the process using an example walk-through. My example app needs special treatment on 64bit platforms, meaning you have to run it explicitly as 32bit in order to support some third-party libraries that will die horribly if in x64 mode. The goal is to have an &lt;code&gt;Any CPU&lt;/code&gt; mode for any machine and an &lt;code&gt;x86&lt;/code&gt; mode in case you need to build an explicit 32bit app for a 64bit environment. Later on you could ditch the &lt;code&gt;x86&lt;/code&gt; mode if the incompatibility is out of the way. Note that if you don&amp;rsquo;t have issues running on 64bit machines, you can do the following while only keeping &lt;code&gt;Any CPU&lt;/code&gt; and can delete every other platform - making things much easier.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_8&#34;&gt;Solution&lt;/h2&gt;
+&lt;h2 id=&#34;solution:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Solution&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;In the Configuration Manager, remove any solution configuration other than &lt;code&gt;Debug&lt;/code&gt; and &lt;code&gt;Release&lt;/code&gt;. Also remove any solution platform other than &lt;code&gt;Any CPU&lt;/code&gt; and &lt;code&gt;x86&lt;/code&gt; (the latter only if you need a build that is never, ever supposed to run in a 64bit context).&lt;/li&gt;
@@ -808,7 +815,7 @@ public class CachedConfigurationSectionLoader
 &lt;/ol&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;toc_9&#34;&gt;&lt;em&gt;Every&lt;/em&gt; project&lt;/h2&gt;
+&lt;h2 id=&#34;every-project:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;&lt;em&gt;Every&lt;/em&gt; project&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Open the project designer window (&amp;ldquo;project settings&amp;rdquo;) and go to the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/kb4wyys2.aspx&#34;&gt;build page&lt;/a&gt;&lt;/li&gt;
@@ -840,7 +847,7 @@ public class CachedConfigurationSectionLoader
 &lt;pre&gt;&lt;code&gt;SLN config + SLN platform =&amp;gt; PROJ config + PROJ platform =&amp;gt; PROJ platform platform =&amp;gt; Binary
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_10&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;h1 id=&#34;conclusion:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;Before I wrap this up you should know why I wrote this (probably too long) post in the first place. Recently I was running into those &lt;code&gt;BadImageFormatExceptions&lt;/code&gt; on a CI build server. It turned out that some of the projects compiled to x64, despite passing in explicit &lt;code&gt;Release|x86&lt;/code&gt; into the solution build. The CI servers are 32bit machines, and they crashed when a unit test attempted to load a 64bit assembly. Did I mention that I &lt;em&gt;really&lt;/em&gt; like unit tests?&lt;/p&gt;
 
@@ -850,7 +857,7 @@ public class CachedConfigurationSectionLoader
 
 &lt;p&gt;I apologize if this post seemed repetitive at times. The terminology around these &amp;ldquo;configurations&amp;rdquo; and &amp;ldquo;platforms&amp;rdquo; is redundant and confusing, but once you got a grasp of these settings and the importance for your app (and your sanity!) you should have a much better understanding of how VS produces your application - and have much more control over the process.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_11&#34;&gt;Resources&lt;/h1&gt;
+&lt;h1 id=&#34;resources:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Resources&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/kkz9kefa%28v=VS.100%29.aspx&#34;&gt;MSDN on solution and project configuration&lt;/a&gt;&lt;/li&gt;
@@ -864,10 +871,10 @@ public class CachedConfigurationSectionLoader
     
     <item>
       <title>Testing serializability</title>
-      <link>http://raph.es/blog/2011/02/Testing-serializability/</link>
-      <pubDate>Mon, 21 Feb 2011 21:29:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/02/testing-serializability/</link>
+      <pubDate>Mon, 21 Feb 2011 21:29:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/02/Testing-serializability/</guid>
+      <guid>http://raph.es/blog/2011/02/testing-serializability/</guid>
       <description>&lt;p&gt;Serialization in .NET is pretty straightforward. It is most commonly used to (de)serialize XML or to send byte streams over &lt;a href=&#34;http://www.urbandictionary.com/define.php?term=interwebs&#34;&gt;teh interwebs&lt;/a&gt;. The latter is an important part of how the &lt;a href=&#34;http://msdn.microsoft.com/en-us/netframework/aa663324&#34;&gt;Windows Communication Foundation (WCF)&lt;/a&gt; works - as well as it&amp;rsquo;s predecessor, .NET Remoting.&lt;/p&gt;
 
 &lt;p&gt;In order to (de)serialize a type in .NET you have to decorate it with the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.serializableattribute.aspx&#34;&gt;SerializableAttribute&lt;/a&gt;. This will tell the runtime to take an object of a specific type and all of it&amp;rsquo;s data, flatten it into a series of bytes (hence the term &amp;ldquo;serialized&amp;rdquo;), which then can be written as text into an XML file or chopped into packets and sent over the wire.&lt;/p&gt;

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Introvert on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/introvert/index.xml/</link>
-    
-    
+    <title>Introvert on raph haXx</title>
+    <link>http://raph.es/tags/introvert/</link>
+    <description>Recent content in Introvert on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Wed, 29 Oct 2014 12:51:58 &#43;0100</updated>
+    <lastBuildDate>Wed, 29 Oct 2014 12:51:58 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/introvert/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The bias is strong with MBTI</title>
       <link>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</link>
-      <pubDate>Wed, 29 Oct 2014 12:51:58 &#43;0100</pubDate>
+      <pubDate>Wed, 29 Oct 2014 12:51:58 +0100</pubDate>
       
       <guid>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</guid>
       <description>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;&amp;ldquo;Enterprise&amp;rdquo; loves MBTI because of how it puts people into neatly labelled boxes. Consultants love MBTI because enterprise loves MBTI. Which is why I was sitting in said course.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;I got &lt;code&gt;INTP&lt;/code&gt;.&lt;/h1&gt;
+&lt;h1 id=&#34;i-got-intp:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;I got &lt;code&gt;INTP&lt;/code&gt;.&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;I&lt;/code&gt;: &lt;strong&gt;i&lt;/strong&gt;ntroverted&lt;/li&gt;
@@ -36,7 +36,7 @@
 
 &lt;p&gt;I&amp;rsquo;ll be honest and admit that when I began writing this, I couldn&amp;rsquo;t even remember what the last three stood for. I had to refresh my memory on Wikipedia.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;25% science.&lt;/h1&gt;
+&lt;h1 id=&#34;25-science:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;25% science.&lt;/h1&gt;
 
 &lt;p&gt;The outcome on the first scale can either be &lt;strong&gt;i&lt;/strong&gt;ntrovert or &lt;strong&gt;e&lt;/strong&gt;xtrovert. In our group, this scale seemed to yield the clearest results. Given that most attendees were software developers, it should come as no surprise that most of us ended up getting &lt;em&gt;I&lt;/em&gt;.&lt;/p&gt;
 
@@ -44,7 +44,7 @@
 
 &lt;p&gt;I won&amp;rsquo;t reiterate what is already well-described in aforementioned books. But just to give one example, it&amp;rsquo;s why many of us prefer the asynchronous nature of electronic means of communication (i.e. email, chat) over synchronous face-to-face &amp;ldquo;talk&amp;rdquo;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;75% percent bullshit.&lt;/h1&gt;
+&lt;h1 id=&#34;75-percent-bullshit:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;75% percent bullshit.&lt;/h1&gt;
 
 &lt;p&gt;My beef with the other three is not that they don&amp;rsquo;t apply to me. Quite the opposite actually. It&amp;rsquo;s because they are defined in such a way that they apply to &lt;em&gt;everybody&lt;/em&gt; and are inherently context dependant. Testing for them only captures one&amp;rsquo;s preference &lt;em&gt;at the time of the test&lt;/em&gt;, under the conditions of the test. But under different circumstances I might as well come out as the polar opposite.&lt;/p&gt;
 
@@ -58,7 +58,7 @@
 
 &lt;p&gt;But alternatives weren&amp;rsquo;t part of the programme. The trainer made the point she had come to make. And I learned that there is no room for alternatives in the littlle boxes which are MBTI (stereo)types.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;Life is not linear.&lt;/h1&gt;
+&lt;h1 id=&#34;life-is-not-linear:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;Life is not linear.&lt;/h1&gt;
 
 &lt;p&gt;A linear scale is simply not sufficient to accomodate this spectrum of decision making. Flattening it all like MBTI does disposes too much information to have relevance in the real world.&lt;/p&gt;
 
@@ -74,7 +74,7 @@
 
 &lt;p&gt;See also: &lt;a href=&#34;http://therearenoothers.wordpress.com/2011/12/28/othering-101-what-is-othering/&#34;&gt;othering&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_4&#34;&gt;Pseudo-science is pseudo.&lt;/h1&gt;
+&lt;h1 id=&#34;pseudo-science-is-pseudo:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;Pseudo-science is pseudo.&lt;/h1&gt;
 
 &lt;p&gt;The sixteen MBTI type profiles are strangely reminiscent of zodiac signs. They are written in such a way that they could apply to anybody. After we got the hard-earned score, we had a chance to read all profiles. At this point we had already been told what we &amp;ldquo;are&amp;rdquo;, and our minds were already set to read other profiles as if they didn&amp;rsquo;t match.&lt;/p&gt;
 
@@ -86,7 +86,7 @@
 
 &lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pseudoscience&#34;&gt;pseudo-science&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_5&#34;&gt;Why is MBTI so popular then?&lt;/h1&gt;
+&lt;h1 id=&#34;why-is-mbti-so-popular-then:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;Why is MBTI so popular then?&lt;/h1&gt;
 
 &lt;p&gt;Most people enjoy taking personality tests and sharing the outcome. We are quick to identify with the results, especially when they confirm our expectations. Just look at how successful pseudo-scientific tests are in magazine&amp;rsquo;s or social media (i.e. Facebook). MBTI tests or derivatives thereof are very popular on the web.&lt;/p&gt;
 

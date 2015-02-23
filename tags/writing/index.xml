@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Writing on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/writing/index.xml/</link>
-    
-    
+    <title>Writing on raph haXx</title>
+    <link>http://raph.es/tags/writing/</link>
+    <description>Recent content in Writing on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Thu, 16 Oct 2014 17:32:23 &#43;0100</updated>
+    <lastBuildDate>Thu, 16 Oct 2014 17:32:23 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>on blogging</title>
       <link>http://raph.es/blog/2014/10/on-blogging/</link>
-      <pubDate>Thu, 16 Oct 2014 17:32:23 &#43;0100</pubDate>
+      <pubDate>Thu, 16 Oct 2014 17:32:23 +0100</pubDate>
       
       <guid>http://raph.es/blog/2014/10/on-blogging/</guid>
       <description>
 
-&lt;p&gt;I&amp;rsquo;m not known to be an early adopter. I was late to the party for blogs with my &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;first&lt;/a&gt; attempt ocurrring in 2011.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not known to be an early adopter. I was late to the party for blogs with my &lt;a href=&#34;http://raph.es/blog/2011/02/just-do-it/&#34;&gt;first&lt;/a&gt; attempt ocurrring in 2011.&lt;/p&gt;
 
 &lt;p&gt;Of course I had toyed around with websites several times over the years. The first I recall was on GeoCities and had one of those free subdomains ending in &lt;code&gt;rocks.com.xy&lt;/code&gt; or whatever. I had no clue about HTML at the time, so it consisted mainly of copyright-infringing snippets I scavenged from other pages and animated fire GIFs.&lt;/p&gt;
 
@@ -31,7 +31,7 @@
 
 &lt;p&gt;Until that urge to have a personal, public platform came around again. That was when I caved and signed up with Blogger.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Invisible critics&lt;/h1&gt;
+&lt;h1 id=&#34;invisible-critics:2487d4758629d1c78c8e0190b9ff1261&#34;&gt;Invisible critics&lt;/h1&gt;
 
 &lt;p&gt;At first I just welcomed the new public-ish outlet for rants. Ranting is easy.&lt;/p&gt;
 
@@ -49,7 +49,7 @@
 
 &lt;p&gt;This isn&amp;rsquo;t Blogger&amp;rsquo;s fault - it&amp;rsquo;s in my head. Yet for me, blogging morphed from a tool for self-reflection into a stressful chore. Given that I have lots of stuff going on, it was frustrating to spend the little time I had with something I was enjoying less and less.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Blogger is not for me.&lt;/h1&gt;
+&lt;h1 id=&#34;blogger-is-not-for-me:2487d4758629d1c78c8e0190b9ff1261&#34;&gt;Blogger is not for me.&lt;/h1&gt;
 
 &lt;p&gt;Having this virtual spotlight pointed at me - imaginary, maybe, but all the same - fed my natural urge to personalize the look and feel of my blog. Once I stepped outside the boundaries which are &lt;em&gt;themes&lt;/em&gt; I realised that Blogger is not a platform for geeks like I am.&lt;/p&gt;
 
@@ -57,19 +57,19 @@
 
 &lt;p&gt;The HTML and CSS I had to deal with was a mess. Multiple attempts to hand craft my own theme ended in nerd-tears. It was more tedious than I was willing to tolerate in my sparse &lt;em&gt;me time&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Most canned themes looked nothing like what I wanted &lt;em&gt;my&lt;/em&gt; page to look like. Dynamic layouts &lt;a href=&#34;/blog/2012/05/The-blog-gets-some-love/&#34;&gt;seemed&lt;/a&gt; neat for five minutes. Then I noticed that every Blogger blog out there looked just like mine.&lt;/p&gt;
+&lt;p&gt;Most canned themes looked nothing like what I wanted &lt;em&gt;my&lt;/em&gt; page to look like. Dynamic layouts &lt;a href=&#34;http://raph.es/blog/2012/05/The-blog-gets-some-love/&#34;&gt;seemed&lt;/a&gt; neat for five minutes. Then I noticed that every Blogger blog out there looked just like mine.&lt;/p&gt;
 
 &lt;p&gt;So I had a blog that wasn&amp;rsquo;t fun to write for. That didn&amp;rsquo;t look like &lt;em&gt;me&lt;/em&gt;. That didn&amp;rsquo;t do what I wanted it to do.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Then Twitter happened.&lt;/h1&gt;
+&lt;h1 id=&#34;then-twitter-happened:2487d4758629d1c78c8e0190b9ff1261&#34;&gt;Then Twitter happened.&lt;/h1&gt;
 
-&lt;p&gt;I was late to the Twitter party, too. Just like I had once predicted in my first Blogger &lt;a href=&#34;/blog/2011/02/just-do-it/&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I was late to the Twitter party, too. Just like I had once predicted in my first Blogger &lt;a href=&#34;http://raph.es/blog/2011/02/just-do-it/&#34;&gt;post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I reluctantly signed up during the &lt;a href=&#34;http://www.ndcoslo.com/&#34;&gt;&lt;em&gt;Norwegian Developers Conference&lt;/em&gt;&lt;/a&gt; in 2012. There, event updates such as changes in schedule were communicated over Twitter. The way people interacted via large screens displaying live tweets hashtagged to the conference intrigued me.&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;This is &lt;em&gt;social&lt;/em&gt; media&amp;rdquo;, I realised.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;Random five minutes&lt;/h1&gt;
+&lt;h1 id=&#34;random-five-minutes:2487d4758629d1c78c8e0190b9ff1261&#34;&gt;Random five minutes&lt;/h1&gt;
 
 &lt;p&gt;Frequent short tweets gave me an outlet for what would otherwise have built up to once-a-month blog posts.&lt;/p&gt;
 
@@ -81,7 +81,7 @@
 
 &lt;p&gt;Expressing myself via Twitter felt much more natural than what I had found myself doing on Blogger.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_4&#34;&gt;I stopped blogging overnight.&lt;/h1&gt;
+&lt;h1 id=&#34;i-stopped-blogging-overnight:2487d4758629d1c78c8e0190b9ff1261&#34;&gt;I stopped blogging overnight.&lt;/h1&gt;
 
 &lt;p&gt;I have been using Twitter more and more ever since. My twitter profile became my new online persona of choice. What blogger was supposed to be, just smaller. Unintentionally, I followed the trend from blogs to &lt;em&gt;microblogs&lt;/em&gt;.&lt;/p&gt;
 
@@ -89,7 +89,7 @@
 
 &lt;p&gt;Why try to be a full-blown author on your blog when you can just fire out one-liners on Twitter? One was much more compatible with a first-worlders daily routine than the other - I was no exception.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_5&#34;&gt;Full circle&lt;/h1&gt;
+&lt;h1 id=&#34;full-circle:2487d4758629d1c78c8e0190b9ff1261&#34;&gt;Full circle&lt;/h1&gt;
 
 &lt;p&gt;Meanwhile, I was becoming more concerned about who owns my data online and freedom of information in general. Blogger is owned by Google, and Twitter is owned by&amp;hellip; well, Twitter. In exchange for their services, I became the product for the eyeballs they draw.&lt;/p&gt;
 
@@ -97,7 +97,7 @@
 
 &lt;p&gt;Instead, I was coming back full-circle to where I had begun over a decade ago when I created my first site on GeoCities. I just wanted my own little spot on the web where I can be myself. Where I can put up and take down whatever I want. And not give a damn about what anybody thinks about it.&lt;/p&gt;
 
-&lt;p&gt;But this time, I know what I would have to change. I go into more depth on the goals I set for this website on &lt;a href=&#34;/project/website/&#34;&gt;project&lt;/a&gt; page. But to not make an already long post any longer, here&amp;rsquo;s the gist:&lt;/p&gt;
+&lt;p&gt;But this time, I know what I would have to change. I go into more depth on the goals I set for this website on &lt;a href=&#34;http://raph.es/project/website/&#34;&gt;project&lt;/a&gt; page. But to not make an already long post any longer, here&amp;rsquo;s the gist:&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&amp;ldquo;less is more.&amp;rdquo;&lt;/strong&gt;

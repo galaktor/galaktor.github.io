@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Windows on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/windows/index.xml/</link>
-    
-    
+    <title>Windows on raph haXx</title>
+    <link>http://raph.es/tags/windows/</link>
+    <description>Recent content in Windows on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Sun, 26 Feb 2012 21:16:00 &#43;0100</updated>
+    <lastBuildDate>Sun, 26 Feb 2012 21:16:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Yet another attempt to level up my geek-iness</title>
-      <link>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</link>
-      <pubDate>Sun, 26 Feb 2012 21:16:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/02/yet-another-attempt-to-level-up-my-geek-iness/</link>
+      <pubDate>Sun, 26 Feb 2012 21:16:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</guid>
+      <guid>http://raph.es/blog/2012/02/yet-another-attempt-to-level-up-my-geek-iness/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been rather quiet over the past months and I&amp;rsquo;m sure the &lt;em&gt;entire&lt;/em&gt; blogosphere was shocked and wants to know why. Well, in addition to holidays and the likes, for the probably 4th time in the past 15 years I am attempting to move my computing life from Windows into Linux. And since I rarely have much time for my geeky side projects, I have been dedicating it to that rather than the blog.&lt;/p&gt;
 
 &lt;p&gt;As just mentioned I tried this a few times before, but eventually failed. First time around I failed to even get my CD-ROM drive mounted in SuSe. Later on Ubuntu I lacked a few critical tools for my studies, like OneNote (which is brilliant) or VisualStudio for my thesis project. And Call of Duty.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
+&lt;h1 id=&#34;what-s-different-now:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
 
 &lt;p&gt;I learned two things that I hope to get right this time.&lt;/p&gt;
 
@@ -33,13 +33,13 @@
 
 &lt;p&gt;Anyhow, at the end of the day, I can now probably live with booting up Windows for these things as they are rather rare events.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
+&lt;h1 id=&#34;stick-with-windows-idiot:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
 
 &lt;p&gt;Why Linux at all then, you might ask? Well first of all I have been doing professional .NET development for over 7 years now (albeit not exclusively) and feel very comfortable in Windows, VS and the likes. But feeling too comfortable is a bad sign, it means not learning very much. So while .NET will stay a good way to do cool stuff and earn a nice living, I feel the nerdy (read: masochist) urge to leave the comfort zone and learn new things. You know, things that make me feel like a first-grader again. That make me yell curses at the screen. That make me feel like a god after I do get them working.&lt;/p&gt;
 
 &lt;p&gt;Plus, and this is a big one: I think &lt;a href=&#34;http://www.fsf.org/&#34;&gt;Free Software&lt;/a&gt; is important. In a time where most of our daily life depends on computers that sit in virtually everybody&amp;rsquo;s pocket, I believe it&amp;rsquo;s important to have as much control over them as possible. Linux not only gives you very much that control, it&amp;rsquo;s also arguably the best operating system out there. Many distros nowadays work out-of-the-box with WiFi and all the gimmicks. So really I see no reason why I should have to force my life into a proprietary operating system while I can get a better, more flexible and &lt;em&gt;free&lt;/em&gt; one for&amp;hellip;well, free.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;#!&lt;/h1&gt;
+&lt;h1 id=&#34;toc_2:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;#!&lt;/h1&gt;
 
 &lt;p&gt;So what I did was upgrade my good old &lt;a href=&#34;http://reviews.cnet.com/Dell_XPS_M1530/4505-3121_7-32778979.html&#34;&gt;M1530&lt;/a&gt;&amp;rsquo;s RAM, back up my files&amp;hellip;.and do other things so boring that just writing about them makes me narcoleptic. So pardon me if I skip to the good parts. I stuck roughly to &lt;a href=&#34;http://www.iceflatline.com/2011/05/install-and-configure-crunchbang-linux-on-the-lenovo-t410-laptop/&#34;&gt;this&lt;/a&gt; excellent tutorial, which served me as a guideline although I did deviate a bit.&lt;/p&gt;
 
@@ -53,37 +53,38 @@
     
     <item>
       <title>Revisited: Mapping network drives for TeamCity build agents</title>
-      <link>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</link>
-      <pubDate>Mon, 19 Dec 2011 06:58:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/12/revisited-mapping-network-drives-for-teamcity-build-agents/</link>
+      <pubDate>Mon, 19 Dec 2011 06:58:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</guid>
+      <guid>http://raph.es/blog/2011/12/revisited-mapping-network-drives-for-teamcity-build-agents/</guid>
       <description>
 
-&lt;p&gt;In an older &lt;a href=&#34;/2011/06/mapping-network-drives-for-teamcity.html&#34;&gt;post&lt;/a&gt; I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user&amp;rsquo;s login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.&lt;/p&gt;
+&lt;p&gt;In an older &lt;a href=&#34;http://raph.es/2011/06/mapping-network-drives-for-teamcity.html&#34;&gt;post&lt;/a&gt; I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user&amp;rsquo;s login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.&lt;/p&gt;
 
 &lt;p&gt;So what I did before was an ugly hack - I used &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897553&#34;&gt;psexec&lt;/a&gt; to map the drives I want agents to see to the root user (&amp;ldquo;SYSTEM&amp;rdquo;). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.&lt;/p&gt;
 
 &lt;p&gt;I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/troll-mappings.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/troll-mappings.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;   width=&#34;400em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Work with it, not against it&lt;/h1&gt;
+&lt;h1 id=&#34;work-with-it-not-against-it:b124ce097398af70a268d0f3d58e2c8c&#34;&gt;Work with it, not against it&lt;/h1&gt;
 
 &lt;p&gt;The alternative is to not need drive mappings in the first place. It crossed my mind that I might want to force all reference paths in the VS projects to be UNC paths. Problem is when you add a new file or reference, VS defaults to the drive letter and not the UNC path. Builds would regularly break because somebody forgot to manually change it into a UNC path&amp;hellip;not cool.&lt;/p&gt;
 
 &lt;p&gt;The simple way around this is have a build step run before each VS compile that &amp;ldquo;unmaps&amp;rdquo; the project files automagically. Devs can still use drive mappings which work for them and don&amp;rsquo;t have to worry about these build server specifics.&lt;/p&gt;
 
-&lt;p&gt;At the end of this post is a simple Powershell script that does the job. It&amp;rsquo;s quite simple in that it does a find/replace using regular expressions. Turns out this works quite nicely and performs well, too - just a few seconds to process several hundreds of project files. Adding in target file types or drive mappings should be straight-forward. Feel free to use, but &lt;em&gt;please read and respect the &lt;a href=&#34;/license&#34;&gt;license&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;At the end of this post is a simple Powershell script that does the job. It&amp;rsquo;s quite simple in that it does a find/replace using regular expressions. Turns out this works quite nicely and performs well, too - just a few seconds to process several hundreds of project files. Adding in target file types or drive mappings should be straight-forward. Feel free to use, but &lt;em&gt;please read and respect the &lt;a href=&#34;http://raph.es/license&#34;&gt;license&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Running it as a pre-build step&lt;/h1&gt;
+&lt;h1 id=&#34;running-it-as-a-pre-build-step:b124ce097398af70a268d0f3d58e2c8c&#34;&gt;Running it as a pre-build step&lt;/h1&gt;
 
 &lt;p&gt;On TeamCity 6+ you can configure an arbitrary chain of build steps. Just have TeamCity run this script on before your projects are compiled. Simplest is to just pass in the builds working directory as a paramter (&lt;code&gt;%system.teamcity.build.workingDir%&lt;/code&gt;). That way you can replace the drive mappings in all files that were checked out of source control for the running build. You can, of course, use more specific paths instead of this shotgun approach. If that&amp;rsquo;s how you roll.&lt;/p&gt;
 
@@ -92,17 +93,18 @@
 &lt;pre&gt;&lt;code&gt;powershell.exe .\myscript.ps1 &amp;lt;path&amp;gt; -executionPolicy Bypass. 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   width=&#34;350em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Example script (PowerShell)&lt;/h1&gt;
+&lt;h1 id=&#34;example-script-powershell:b124ce097398af70a268d0f3d58e2c8c&#34;&gt;Example script (PowerShell)&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;# licensed under The MIT license: http://www.opensource.org/licenses/mit-license.php
 # Copyright (c) Raphael Estrada
@@ -171,13 +173,13 @@ catch [System.Exception]
     
     <item>
       <title>Mapping network drives for TeamCity build agents</title>
-      <link>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</link>
-      <pubDate>Sun, 12 Jun 2011 20:18:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/06/mapping-network-drives-for-teamcity-build-agents/</link>
+      <pubDate>Sun, 12 Jun 2011 20:18:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</guid>
+      <guid>http://raph.es/blog/2011/06/mapping-network-drives-for-teamcity-build-agents/</guid>
       <description>
 
-&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: I recently changed my solution to the below problem. Go &lt;a href=&#34;/2011/12/revisited-mapping-network-drives-for.html&#34;&gt;check out&lt;/a&gt; my new, revolutionary approach to drive mappings on TeamCity agents!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: I recently changed my solution to the below problem. Go &lt;a href=&#34;http://raph.es/2011/12/revisited-mapping-network-drives-for.html&#34;&gt;check out&lt;/a&gt; my new, revolutionary approach to drive mappings on TeamCity agents!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.jetbrains.com/teamcity/ is a sophisticated and, above all, easy-to-use [CI server](http://en.wikipedia.org/wiki/Continuous_integration&#34;&gt;TeamCity&lt;/a&gt;. It works equally well on different platforms, and despite it being implemented in Java, has surprisingly good support for Windows and .NET development.&lt;/p&gt;
 
@@ -189,7 +191,7 @@ catch [System.Exception]
 
 &lt;p&gt;Anyhoo, feel free to google the hell out of this topic and please leave a comment if you find a way to legally tell a service to map some drives. Until then, I have come up with a similar approach that will give you the benefits of a service without actually using it. It is hacky, I admit that much, and I do not understand every geeky detail of why it works while the service can&amp;rsquo;t see the network drives&amp;hellip;but I feel I should dump my hack here in case anyone finds himself in a similar situation and just wants it to &lt;em&gt;work&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Mapping drives to the root&lt;/h1&gt;
+&lt;h1 id=&#34;mapping-drives-to-the-root:901908cb15db2c947afde94403cf0abc&#34;&gt;Mapping drives to the root&lt;/h1&gt;
 
 &lt;p&gt;I have done the following on Windows Server 2008 R2 machines - it goes without saying (but I&amp;rsquo;ll still say it) that these steps might differ or not work at all on other versions of Windows. Again, if you know a better way, I&amp;rsquo;m all ears.&lt;/p&gt;
 
@@ -222,7 +224,7 @@ REM map network drives to SYSTEM user
 
 &lt;p&gt;Now you might be wondering why I don&amp;rsquo;t just do the same and start the agents as services instead of tasks. That did not work - for &lt;em&gt;me&lt;/em&gt; at least. Although tasks seem to have the same limitations regarding drive mappings as the services do, for some reason, giving the SYSTEM user those drive mappings works for the tasks, but not the services. As I said, I&amp;rsquo;m no Windows guru, and to be honest I was just plain happy this worked eventually.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Verifying the mapped drives&lt;/h1&gt;
+&lt;h1 id=&#34;verifying-the-mapped-drives:901908cb15db2c947afde94403cf0abc&#34;&gt;Verifying the mapped drives&lt;/h1&gt;
 
 &lt;p&gt;When you call PsExec for the first time, you will need an elevated command prompt so it can install the PsExec service. And you&amp;rsquo;ll need to accept the terms and conditions at first run as well. You can verify this by using PsExec to get a console and checking if the drives are mapped, as shown below. Before running the above tasks, the call to &lt;code&gt;net use&lt;/code&gt; will inform you that &lt;code&gt;&amp;quot;There are no entries in the list.&amp;quot;&lt;/code&gt;&lt;/p&gt;
 

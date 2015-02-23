@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Testing on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/testing/index.xml/</link>
-    
-    
+    <title>Testing on raph haXx</title>
+    <link>http://raph.es/tags/testing/</link>
+    <description>Recent content in Testing on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Mon, 21 Feb 2011 21:29:00 &#43;0100</updated>
+    <lastBuildDate>Mon, 21 Feb 2011 21:29:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Testing serializability</title>
-      <link>http://raph.es/blog/2011/02/Testing-serializability/</link>
-      <pubDate>Mon, 21 Feb 2011 21:29:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/02/testing-serializability/</link>
+      <pubDate>Mon, 21 Feb 2011 21:29:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/02/Testing-serializability/</guid>
+      <guid>http://raph.es/blog/2011/02/testing-serializability/</guid>
       <description>&lt;p&gt;Serialization in .NET is pretty straightforward. It is most commonly used to (de)serialize XML or to send byte streams over &lt;a href=&#34;http://www.urbandictionary.com/define.php?term=interwebs&#34;&gt;teh interwebs&lt;/a&gt;. The latter is an important part of how the &lt;a href=&#34;http://msdn.microsoft.com/en-us/netframework/aa663324&#34;&gt;Windows Communication Foundation (WCF)&lt;/a&gt; works - as well as it&amp;rsquo;s predecessor, .NET Remoting.&lt;/p&gt;
 
 &lt;p&gt;In order to (de)serialize a type in .NET you have to decorate it with the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.serializableattribute.aspx&#34;&gt;SerializableAttribute&lt;/a&gt;. This will tell the runtime to take an object of a specific type and all of it&amp;rsquo;s data, flatten it into a series of bytes (hence the term &amp;ldquo;serialized&amp;rdquo;), which then can be written as text into an XML file or chopped into packets and sent over the wire.&lt;/p&gt;

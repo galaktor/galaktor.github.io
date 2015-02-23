@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Science on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/science/index.xml/</link>
-    
-    
+    <title>Science on raph haXx</title>
+    <link>http://raph.es/tags/science/</link>
+    <description>Recent content in Science on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Wed, 29 Oct 2014 12:51:58 &#43;0100</updated>
+    <lastBuildDate>Wed, 29 Oct 2014 12:51:58 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/science/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The bias is strong with MBTI</title>
       <link>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</link>
-      <pubDate>Wed, 29 Oct 2014 12:51:58 &#43;0100</pubDate>
+      <pubDate>Wed, 29 Oct 2014 12:51:58 +0100</pubDate>
       
       <guid>http://raph.es/blog/2014/10/bias-is-strong-with-mbti/</guid>
       <description>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;&amp;ldquo;Enterprise&amp;rdquo; loves MBTI because of how it puts people into neatly labelled boxes. Consultants love MBTI because enterprise loves MBTI. Which is why I was sitting in said course.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;I got &lt;code&gt;INTP&lt;/code&gt;.&lt;/h1&gt;
+&lt;h1 id=&#34;i-got-intp:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;I got &lt;code&gt;INTP&lt;/code&gt;.&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;I&lt;/code&gt;: &lt;strong&gt;i&lt;/strong&gt;ntroverted&lt;/li&gt;
@@ -36,7 +36,7 @@
 
 &lt;p&gt;I&amp;rsquo;ll be honest and admit that when I began writing this, I couldn&amp;rsquo;t even remember what the last three stood for. I had to refresh my memory on Wikipedia.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;25% science.&lt;/h1&gt;
+&lt;h1 id=&#34;25-science:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;25% science.&lt;/h1&gt;
 
 &lt;p&gt;The outcome on the first scale can either be &lt;strong&gt;i&lt;/strong&gt;ntrovert or &lt;strong&gt;e&lt;/strong&gt;xtrovert. In our group, this scale seemed to yield the clearest results. Given that most attendees were software developers, it should come as no surprise that most of us ended up getting &lt;em&gt;I&lt;/em&gt;.&lt;/p&gt;
 
@@ -44,7 +44,7 @@
 
 &lt;p&gt;I won&amp;rsquo;t reiterate what is already well-described in aforementioned books. But just to give one example, it&amp;rsquo;s why many of us prefer the asynchronous nature of electronic means of communication (i.e. email, chat) over synchronous face-to-face &amp;ldquo;talk&amp;rdquo;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;75% percent bullshit.&lt;/h1&gt;
+&lt;h1 id=&#34;75-percent-bullshit:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;75% percent bullshit.&lt;/h1&gt;
 
 &lt;p&gt;My beef with the other three is not that they don&amp;rsquo;t apply to me. Quite the opposite actually. It&amp;rsquo;s because they are defined in such a way that they apply to &lt;em&gt;everybody&lt;/em&gt; and are inherently context dependant. Testing for them only captures one&amp;rsquo;s preference &lt;em&gt;at the time of the test&lt;/em&gt;, under the conditions of the test. But under different circumstances I might as well come out as the polar opposite.&lt;/p&gt;
 
@@ -58,7 +58,7 @@
 
 &lt;p&gt;But alternatives weren&amp;rsquo;t part of the programme. The trainer made the point she had come to make. And I learned that there is no room for alternatives in the littlle boxes which are MBTI (stereo)types.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;Life is not linear.&lt;/h1&gt;
+&lt;h1 id=&#34;life-is-not-linear:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;Life is not linear.&lt;/h1&gt;
 
 &lt;p&gt;A linear scale is simply not sufficient to accomodate this spectrum of decision making. Flattening it all like MBTI does disposes too much information to have relevance in the real world.&lt;/p&gt;
 
@@ -74,7 +74,7 @@
 
 &lt;p&gt;See also: &lt;a href=&#34;http://therearenoothers.wordpress.com/2011/12/28/othering-101-what-is-othering/&#34;&gt;othering&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_4&#34;&gt;Pseudo-science is pseudo.&lt;/h1&gt;
+&lt;h1 id=&#34;pseudo-science-is-pseudo:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;Pseudo-science is pseudo.&lt;/h1&gt;
 
 &lt;p&gt;The sixteen MBTI type profiles are strangely reminiscent of zodiac signs. They are written in such a way that they could apply to anybody. After we got the hard-earned score, we had a chance to read all profiles. At this point we had already been told what we &amp;ldquo;are&amp;rdquo;, and our minds were already set to read other profiles as if they didn&amp;rsquo;t match.&lt;/p&gt;
 
@@ -86,7 +86,7 @@
 
 &lt;p&gt;See also: &lt;a href=&#34;https://en.wikipedia.org/wiki/Pseudoscience&#34;&gt;pseudo-science&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_5&#34;&gt;Why is MBTI so popular then?&lt;/h1&gt;
+&lt;h1 id=&#34;why-is-mbti-so-popular-then:4d381c0f3550be0df929f1ee1b3291eb&#34;&gt;Why is MBTI so popular then?&lt;/h1&gt;
 
 &lt;p&gt;Most people enjoy taking personality tests and sharing the outcome. We are quick to identify with the results, especially when they confirm our expectations. Just look at how successful pseudo-scientific tests are in magazine&amp;rsquo;s or social media (i.e. Facebook). MBTI tests or derivatives thereof are very popular on the web.&lt;/p&gt;
 
@@ -103,7 +103,7 @@
     <item>
       <title>Me</title>
       <link>http://raph.es/about/</link>
-      <pubDate>Mon, 15 Sep 2014 08:09:59 &#43;0100</pubDate>
+      <pubDate>Mon, 15 Sep 2014 08:09:59 +0100</pubDate>
       
       <guid>http://raph.es/about/</guid>
       <description>
@@ -116,7 +116,7 @@
 
 &lt;p&gt;Constructive feedback is always welcome! Sometimes I might even listen. You can find ways to contact me at the bottom of the site.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -125,8 +125,8 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/about_raph.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/about_raph_thumb.jpeg&#34;  alt=&#34;Accomplishments makes me happy.&#34;   /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/about_raph.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/about_raph_thumb.jpeg&#34;  alt=&#34;Accomplishments makes me happy.&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -152,26 +152,27 @@
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Frequently asked questions&lt;/h1&gt;
+&lt;h1 id=&#34;frequently-asked-questions:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Frequently asked questions&lt;/h1&gt;
 
-&lt;h2 id=&#34;toc_1&#34;&gt;How&amp;rsquo;s it going?&lt;/h2&gt;
+&lt;h2 id=&#34;how-s-it-going:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;How&amp;rsquo;s it going?&lt;/h2&gt;
 
 &lt;p&gt;Great.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_2&#34;&gt;Did you see that ludicrous display last night?&lt;/h2&gt;
+&lt;h2 id=&#34;did-you-see-that-ludicrous-display-last-night:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Did you see that ludicrous display last night?&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gWJIQm9qH-w&#34;&gt;Nope&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_3&#34;&gt;Any plans for the weekend?&lt;/h2&gt;
+&lt;h2 id=&#34;any-plans-for-the-weekend:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Any plans for the weekend?&lt;/h2&gt;
 
 &lt;p&gt;Nope.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_4&#34;&gt;&lt;em&gt;Rarely&lt;/em&gt; asked questions&lt;/h1&gt;
+&lt;h1 id=&#34;rarely-asked-questions:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;&lt;em&gt;Rarely&lt;/em&gt; asked questions&lt;/h1&gt;
 
 &lt;p&gt;Because - let&amp;rsquo;s face it - most people are &lt;em&gt;frequently&lt;/em&gt; too polite to ask the interesting questions.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_5&#34;&gt;What&amp;rsquo;s a &amp;ldquo;galaktor&amp;rdquo;?&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-a-galaktor:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;What&amp;rsquo;s a &amp;ldquo;galaktor&amp;rdquo;?&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;galaktor&lt;/em&gt; is a silly screen name I started using years ago, and it stuck. It&amp;rsquo;s in code I wrote, websites I made and accounts I registered.&lt;/p&gt;
 
@@ -179,33 +180,33 @@
 
 &lt;p&gt;Similarities with &lt;a href=&#34;https://en.wikipedia.org/wiki/Galactor&#34;&gt;Galactor&lt;/a&gt; from the anime &lt;a href=&#34;https://en.wikipedia.org/wiki/Science_Ninja_Team_Gatchaman&#34;&gt;Science Ninja Team Gatchaman&lt;/a&gt; are purely coincidental, but couldn&amp;rsquo;t fit better. I mean, I never watched the show, but &lt;em&gt;that name&lt;/em&gt;!&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_6&#34;&gt;What happened to your old Blogger blog?&lt;/h2&gt;
+&lt;h2 id=&#34;what-happened-to-your-old-blogger-blog:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;What happened to your old Blogger blog?&lt;/h2&gt;
 
-&lt;p&gt;I didn&amp;rsquo;t like Blogger for a number or reasons, and snapped into using &lt;a href=&#34;https://twitter.com/estraph&#34;&gt;Twitter&lt;/a&gt; almost overnight. I didn&amp;rsquo;t blog for about two years. Now I am taking back ownership over my content. Read more &lt;a href=&#34;/on/blogging/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t like Blogger for a number or reasons, and snapped into using &lt;a href=&#34;https://twitter.com/estraph&#34;&gt;Twitter&lt;/a&gt; almost overnight. I didn&amp;rsquo;t blog for about two years. Now I am taking back ownership over my content. Read more &lt;a href=&#34;http://raph.es/on/blogging/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_7&#34;&gt;What&amp;rsquo;s your Myers-Briggs score?&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-your-myers-briggs-score:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;What&amp;rsquo;s your Myers-Briggs score?&lt;/h2&gt;
 
-&lt;p&gt;IXXX. I&amp;rsquo;m a model &lt;a href=&#34;/on/introverts/&#34;&gt;introvert&lt;/a&gt;, but don&amp;rsquo;t buy into the rest.&lt;/p&gt;
+&lt;p&gt;IXXX. I&amp;rsquo;m a model &lt;a href=&#34;http://raph.es/on/introverts/&#34;&gt;introvert&lt;/a&gt;, but don&amp;rsquo;t buy into the rest.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_8&#34;&gt;What&amp;rsquo;s the banner at the top of this page supposed to say?&lt;/h2&gt;
+&lt;h2 id=&#34;what-s-the-banner-at-the-top-of-this-page-supposed-to-say:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;What&amp;rsquo;s the banner at the top of this page supposed to say?&lt;/h2&gt;
 
-&lt;p&gt;It says &amp;ldquo;make or die&amp;rdquo;. Don&amp;rsquo;t worry if you can&amp;rsquo;t read it. It&amp;rsquo;s not supposed to convey critical information, just sort of look nice. If you care to know more you can check out my &lt;a href=&#34;/project/website&#34;&gt;website&lt;/a&gt; project.&lt;/p&gt;
+&lt;p&gt;It says &amp;ldquo;make or die&amp;rdquo;. Don&amp;rsquo;t worry if you can&amp;rsquo;t read it. It&amp;rsquo;s not supposed to convey critical information, just sort of look nice. If you care to know more you can check out my &lt;a href=&#34;http://raph.es/project/website&#34;&gt;website&lt;/a&gt; project.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_9&#34;&gt;Why does your website look so weird?&lt;/h2&gt;
+&lt;h2 id=&#34;why-does-your-website-look-so-weird:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Why does your website look so weird?&lt;/h2&gt;
 
-&lt;p&gt;Gee, thanks! Believe it or not, this page looks just how I want it to. You can read about that in the &lt;a href=&#34;/project/website/&#34;&gt;project description&lt;/a&gt;. I&amp;rsquo;ll take an internet full of weird and wonderful websites with personality over today&amp;rsquo;s flood of look-a-like Wordpress themes and bland Facebook profiles any day.&lt;/p&gt;
+&lt;p&gt;Gee, thanks! Believe it or not, this page looks just how I want it to. You can read about that in the &lt;a href=&#34;http://raph.es/project/website/&#34;&gt;project description&lt;/a&gt;. I&amp;rsquo;ll take an internet full of weird and wonderful websites with personality over today&amp;rsquo;s flood of look-a-like Wordpress themes and bland Facebook profiles any day.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_10&#34;&gt;Would you like some cake?&lt;/h2&gt;
+&lt;h2 id=&#34;would-you-like-some-cake:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Would you like some cake?&lt;/h2&gt;
 
-&lt;p&gt;Sorry, but I avoid dietary &lt;a href=&#34;/on/carbs/&#34;&gt;carbohydrate&lt;/a&gt; like the plague &lt;del&gt;that it is&lt;/del&gt;. However, I appreciate the offer!&lt;/p&gt;
+&lt;p&gt;Sorry, but I avoid dietary &lt;a href=&#34;http://raph.es/on/carbs/&#34;&gt;carbohydrate&lt;/a&gt; like the plague &lt;del&gt;that it is&lt;/del&gt;. However, I appreciate the offer!&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_11&#34;&gt;kk. want a beer?&lt;/h2&gt;
+&lt;h2 id=&#34;kk-want-a-beer:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;kk. want a beer?&lt;/h2&gt;
 
-&lt;p&gt;Cheers, but I&amp;rsquo;ll pass. I don&amp;rsquo;t drink &lt;a href=&#34;/on/alcohol/&#34;&gt;alcohol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cheers, but I&amp;rsquo;ll pass. I don&amp;rsquo;t drink &lt;a href=&#34;http://raph.es/on/alcohol/&#34;&gt;alcohol&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_12&#34;&gt;Woah, are you some kind of straight-edge fundamentalist?&lt;/h2&gt;
+&lt;h2 id=&#34;woah-are-you-some-kind-of-straight-edge-fundamentalist:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Woah, are you some kind of straight-edge fundamentalist?&lt;/h2&gt;
 
-&lt;p&gt;No! Maybe! You make that sound like it&amp;rsquo;s a bad thing. Read more &lt;a href=&#34;/on/scepticism/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;No! Maybe! You make that sound like it&amp;rsquo;s a bad thing. Read more &lt;a href=&#34;http://raph.es/on/scepticism/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

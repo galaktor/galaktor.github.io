@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Linux on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/linux/index.xml/</link>
-    
-    
+    <title>Linux on raph haXx</title>
+    <link>http://raph.es/tags/linux/</link>
+    <description>Recent content in Linux on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Sun, 26 Feb 2012 21:16:00 &#43;0100</updated>
+    <lastBuildDate>Sun, 26 Feb 2012 21:16:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Yet another attempt to level up my geek-iness</title>
-      <link>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</link>
-      <pubDate>Sun, 26 Feb 2012 21:16:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/02/yet-another-attempt-to-level-up-my-geek-iness/</link>
+      <pubDate>Sun, 26 Feb 2012 21:16:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</guid>
+      <guid>http://raph.es/blog/2012/02/yet-another-attempt-to-level-up-my-geek-iness/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been rather quiet over the past months and I&amp;rsquo;m sure the &lt;em&gt;entire&lt;/em&gt; blogosphere was shocked and wants to know why. Well, in addition to holidays and the likes, for the probably 4th time in the past 15 years I am attempting to move my computing life from Windows into Linux. And since I rarely have much time for my geeky side projects, I have been dedicating it to that rather than the blog.&lt;/p&gt;
 
 &lt;p&gt;As just mentioned I tried this a few times before, but eventually failed. First time around I failed to even get my CD-ROM drive mounted in SuSe. Later on Ubuntu I lacked a few critical tools for my studies, like OneNote (which is brilliant) or VisualStudio for my thesis project. And Call of Duty.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
+&lt;h1 id=&#34;what-s-different-now:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
 
 &lt;p&gt;I learned two things that I hope to get right this time.&lt;/p&gt;
 
@@ -33,13 +33,13 @@
 
 &lt;p&gt;Anyhow, at the end of the day, I can now probably live with booting up Windows for these things as they are rather rare events.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
+&lt;h1 id=&#34;stick-with-windows-idiot:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
 
 &lt;p&gt;Why Linux at all then, you might ask? Well first of all I have been doing professional .NET development for over 7 years now (albeit not exclusively) and feel very comfortable in Windows, VS and the likes. But feeling too comfortable is a bad sign, it means not learning very much. So while .NET will stay a good way to do cool stuff and earn a nice living, I feel the nerdy (read: masochist) urge to leave the comfort zone and learn new things. You know, things that make me feel like a first-grader again. That make me yell curses at the screen. That make me feel like a god after I do get them working.&lt;/p&gt;
 
 &lt;p&gt;Plus, and this is a big one: I think &lt;a href=&#34;http://www.fsf.org/&#34;&gt;Free Software&lt;/a&gt; is important. In a time where most of our daily life depends on computers that sit in virtually everybody&amp;rsquo;s pocket, I believe it&amp;rsquo;s important to have as much control over them as possible. Linux not only gives you very much that control, it&amp;rsquo;s also arguably the best operating system out there. Many distros nowadays work out-of-the-box with WiFi and all the gimmicks. So really I see no reason why I should have to force my life into a proprietary operating system while I can get a better, more flexible and &lt;em&gt;free&lt;/em&gt; one for&amp;hellip;well, free.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;#!&lt;/h1&gt;
+&lt;h1 id=&#34;toc_2:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;#!&lt;/h1&gt;
 
 &lt;p&gt;So what I did was upgrade my good old &lt;a href=&#34;http://reviews.cnet.com/Dell_XPS_M1530/4505-3121_7-32778979.html&#34;&gt;M1530&lt;/a&gt;&amp;rsquo;s RAM, back up my files&amp;hellip;.and do other things so boring that just writing about them makes me narcoleptic. So pardon me if I skip to the good parts. I stuck roughly to &lt;a href=&#34;http://www.iceflatline.com/2011/05/install-and-configure-crunchbang-linux-on-the-lenovo-t410-laptop/&#34;&gt;this&lt;/a&gt; excellent tutorial, which served me as a guideline although I did deviate a bit.&lt;/p&gt;
 

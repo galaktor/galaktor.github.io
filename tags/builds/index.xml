@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Builds on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/builds/index.xml/</link>
-    
-    
+    <title>Builds on raph haXx</title>
+    <link>http://raph.es/tags/builds/</link>
+    <description>Recent content in Builds on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Thu, 15 Mar 2012 21:37:00 &#43;0100</updated>
+    <lastBuildDate>Thu, 15 Mar 2012 21:37:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/builds/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Teenage Mutant Ninja Unit-Tests</title>
-      <link>http://raph.es/blog/2012/03/Teenage-Mutant-Ninja-Unit-Tests/</link>
-      <pubDate>Thu, 15 Mar 2012 21:37:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/03/teenage-mutant-ninja-unit-tests/</link>
+      <pubDate>Thu, 15 Mar 2012 21:37:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/03/Teenage-Mutant-Ninja-Unit-Tests/</guid>
+      <guid>http://raph.es/blog/2012/03/teenage-mutant-ninja-unit-tests/</guid>
       <description>
 
 &lt;p&gt;When you are testing something - anything - you have some expectations as to what the result should be. The result either matches your expectations, or it does not. For example, you might want to find out what the person next to you will do if you shoot her in the face with a &lt;a href=&#34;http://www.youtube.com/watch?v=IZRQ1WkWFoU&#34;&gt;humble Nerf gun&lt;/a&gt;. Will she laugh? Shoot back? Kick your ass?&lt;/p&gt;
 
 &lt;p&gt;Many factors can affect the outcome of this test. Her current mood. Her &lt;a href=&#34;http://www.youtube.com/watch?v=HUD6sBrPB30#t=0m50s&#34;&gt;attitude toward being shot in the face&lt;/a&gt;. The exact position where you hit her (cheek vs. eye). The frequency at which you repeat the test. What she was busy doing before the fact and how much you surprise her. Who&amp;rsquo;s watching can affect how embarrassed she will be. Bottom line: each time you perform the test, the &lt;em&gt;variables&lt;/em&gt; will &lt;em&gt;vary&lt;/em&gt; (get it? get it?). And the results can be different given the changing conditions.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Isolate your tests&lt;/h1&gt;
+&lt;h1 id=&#34;isolate-your-tests:75330a91c5596ebaa80b81297b5232b5&#34;&gt;Isolate your tests&lt;/h1&gt;
 
 &lt;p&gt;You want a test to provide a reliable result each time. Because the alternative would mean you cannot trust single results, and may have to resort to averaging the results of many individual test runs. That&amp;rsquo;s unnecessary extra work and should be avoided.&lt;/p&gt;
 
@@ -29,7 +29,7 @@
 
 &lt;p&gt;So with that in mind, you&amp;rsquo;ve written some tests. They use a testing framework that has &amp;ldquo;unit&amp;rdquo; in it&amp;rsquo;s name, which means that they are unit tests. Right? Try again. Unit tests are supposed to focus on the behavior of a particular unit, nothing more and nothing less. Definitions of &amp;ldquo;unit&amp;rdquo; may vary, but it&amp;rsquo;s often a class. If unit tests are not properly &lt;em&gt;isolated&lt;/em&gt;, they will have more dependencies than are necessary for what you are trying to test. More moving parts. More things you need to control, but often can&amp;rsquo;t. More things that are going to void your test results.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Teenage Mutant Ninja Unit-Tests&lt;/h1&gt;
+&lt;h1 id=&#34;teenage-mutant-ninja-unit-tests:75330a91c5596ebaa80b81297b5232b5&#34;&gt;Teenage Mutant Ninja Unit-Tests&lt;/h1&gt;
 
 &lt;p&gt;Tests that execute differently each time they run are called &lt;a href=&#34;http://www.typemock.com/rule-avoid-time-mutating-tests&#34;&gt;&lt;em&gt;mutating tests&lt;/em&gt;&lt;/a&gt;. Dependencies that can skew your results are often inputs that they do not entirely &amp;ldquo;own&amp;rdquo;, e.g. values from a database or shared files on a network. If those values change, your test changes.&lt;/p&gt;
 
@@ -44,11 +44,11 @@
 
 &lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Mutation_testing&#34;&gt;Mutation testing&lt;/a&gt; can in fact be a way to test your tests. Modify the logic-under-test and you should see some of your tests fail. This practice appears to be rather academic as I still have to come across somebody who actually &lt;em&gt;uses&lt;/em&gt; mutation testing in the real world.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;A recent example&lt;/h1&gt;
+&lt;h1 id=&#34;a-recent-example:75330a91c5596ebaa80b81297b5232b5&#34;&gt;A recent example&lt;/h1&gt;
 
 &lt;p&gt;The problem with mutating tests is that you only notice them when they fail. This is worrying as it makes you wonder how many tests are mutating in ways that &lt;em&gt;prevent&lt;/em&gt; them from failing when the actually should&amp;hellip; In the following recent real-life case, two tests were failing even though there were no changes to the code.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -57,13 +57,14 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; width=&#34;300em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; width=&#34;300em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;When I ran the same tests from the same version of the code locally on my machine, they passed. My spider-senses tingled: mutating tests! After looking at the build times I noticed that they began failing on March 12, and since then consistently failed. That indicates a temporal dependency.&lt;/p&gt;
 
@@ -80,7 +81,7 @@
 
 &lt;p&gt;Enough of the theories, let&amp;rsquo;s have some proof. TeamCity can show you when an agent has registered with the server - which I know will happen automatically every time the agent host boots up.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -89,17 +90,18 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; width=&#34;400em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; width=&#34;400em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;So it started up on Feb 15. That&amp;rsquo;s just about exactly 25 days before the tests started to fail. The TickCount must have wrapped into the negative. So there&amp;rsquo;s one more thing to do to prove it: using PowerShell you can call that same TickCount property and see what value it has. And sure enough&amp;hellip;&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -108,13 +110,14 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/negative-tickcount-cropped.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/negative-tickcount-cropped.jpeg&#34;  alt=&#34;Invoking Environment.TickCount using PowerShell&#34;   /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-cropped.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-cropped.jpeg&#34;  alt=&#34;Invoking Environment.TickCount using PowerShell&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;All that had to be done now is reboot the build servers, and the tests passed fine again!&lt;/p&gt;
 
@@ -128,37 +131,38 @@
     
     <item>
       <title>Revisited: Mapping network drives for TeamCity build agents</title>
-      <link>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</link>
-      <pubDate>Mon, 19 Dec 2011 06:58:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/12/revisited-mapping-network-drives-for-teamcity-build-agents/</link>
+      <pubDate>Mon, 19 Dec 2011 06:58:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/12/Revisited-Mapping-network-drives-for-TeamCity-build-agents/</guid>
+      <guid>http://raph.es/blog/2011/12/revisited-mapping-network-drives-for-teamcity-build-agents/</guid>
       <description>
 
-&lt;p&gt;In an older &lt;a href=&#34;/2011/06/mapping-network-drives-for-teamcity.html&#34;&gt;post&lt;/a&gt; I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user&amp;rsquo;s login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.&lt;/p&gt;
+&lt;p&gt;In an older &lt;a href=&#34;http://raph.es/2011/06/mapping-network-drives-for-teamcity.html&#34;&gt;post&lt;/a&gt; I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user&amp;rsquo;s login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.&lt;/p&gt;
 
 &lt;p&gt;So what I did before was an ugly hack - I used &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897553&#34;&gt;psexec&lt;/a&gt; to map the drives I want agents to see to the root user (&amp;ldquo;SYSTEM&amp;rdquo;). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.&lt;/p&gt;
 
 &lt;p&gt;I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/troll-mappings.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/troll-mappings.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;   width=&#34;400em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Work with it, not against it&lt;/h1&gt;
+&lt;h1 id=&#34;work-with-it-not-against-it:b124ce097398af70a268d0f3d58e2c8c&#34;&gt;Work with it, not against it&lt;/h1&gt;
 
 &lt;p&gt;The alternative is to not need drive mappings in the first place. It crossed my mind that I might want to force all reference paths in the VS projects to be UNC paths. Problem is when you add a new file or reference, VS defaults to the drive letter and not the UNC path. Builds would regularly break because somebody forgot to manually change it into a UNC path&amp;hellip;not cool.&lt;/p&gt;
 
 &lt;p&gt;The simple way around this is have a build step run before each VS compile that &amp;ldquo;unmaps&amp;rdquo; the project files automagically. Devs can still use drive mappings which work for them and don&amp;rsquo;t have to worry about these build server specifics.&lt;/p&gt;
 
-&lt;p&gt;At the end of this post is a simple Powershell script that does the job. It&amp;rsquo;s quite simple in that it does a find/replace using regular expressions. Turns out this works quite nicely and performs well, too - just a few seconds to process several hundreds of project files. Adding in target file types or drive mappings should be straight-forward. Feel free to use, but &lt;em&gt;please read and respect the &lt;a href=&#34;/license&#34;&gt;license&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;At the end of this post is a simple Powershell script that does the job. It&amp;rsquo;s quite simple in that it does a find/replace using regular expressions. Turns out this works quite nicely and performs well, too - just a few seconds to process several hundreds of project files. Adding in target file types or drive mappings should be straight-forward. Feel free to use, but &lt;em&gt;please read and respect the &lt;a href=&#34;http://raph.es/license&#34;&gt;license&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Running it as a pre-build step&lt;/h1&gt;
+&lt;h1 id=&#34;running-it-as-a-pre-build-step:b124ce097398af70a268d0f3d58e2c8c&#34;&gt;Running it as a pre-build step&lt;/h1&gt;
 
 &lt;p&gt;On TeamCity 6+ you can configure an arbitrary chain of build steps. Just have TeamCity run this script on before your projects are compiled. Simplest is to just pass in the builds working directory as a paramter (&lt;code&gt;%system.teamcity.build.workingDir%&lt;/code&gt;). That way you can replace the drive mappings in all files that were checked out of source control for the running build. You can, of course, use more specific paths instead of this shotgun approach. If that&amp;rsquo;s how you roll.&lt;/p&gt;
 
@@ -167,17 +171,18 @@
 &lt;pre&gt;&lt;code&gt;powershell.exe .\myscript.ps1 &amp;lt;path&amp;gt; -executionPolicy Bypass. 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   width=&#34;350em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Example script (PowerShell)&lt;/h1&gt;
+&lt;h1 id=&#34;example-script-powershell:b124ce097398af70a268d0f3d58e2c8c&#34;&gt;Example script (PowerShell)&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;# licensed under The MIT license: http://www.opensource.org/licenses/mit-license.php
 # Copyright (c) Raphael Estrada
@@ -246,13 +251,13 @@ catch [System.Exception]
     
     <item>
       <title>Mapping network drives for TeamCity build agents</title>
-      <link>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</link>
-      <pubDate>Sun, 12 Jun 2011 20:18:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/06/mapping-network-drives-for-teamcity-build-agents/</link>
+      <pubDate>Sun, 12 Jun 2011 20:18:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/06/Mapping-network-drives-for-TeamCity-build-agents/</guid>
+      <guid>http://raph.es/blog/2011/06/mapping-network-drives-for-teamcity-build-agents/</guid>
       <description>
 
-&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: I recently changed my solution to the below problem. Go &lt;a href=&#34;/2011/12/revisited-mapping-network-drives-for.html&#34;&gt;check out&lt;/a&gt; my new, revolutionary approach to drive mappings on TeamCity agents!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt;: I recently changed my solution to the below problem. Go &lt;a href=&#34;http://raph.es/2011/12/revisited-mapping-network-drives-for.html&#34;&gt;check out&lt;/a&gt; my new, revolutionary approach to drive mappings on TeamCity agents!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.jetbrains.com/teamcity/ is a sophisticated and, above all, easy-to-use [CI server](http://en.wikipedia.org/wiki/Continuous_integration&#34;&gt;TeamCity&lt;/a&gt;. It works equally well on different platforms, and despite it being implemented in Java, has surprisingly good support for Windows and .NET development.&lt;/p&gt;
 
@@ -264,7 +269,7 @@ catch [System.Exception]
 
 &lt;p&gt;Anyhoo, feel free to google the hell out of this topic and please leave a comment if you find a way to legally tell a service to map some drives. Until then, I have come up with a similar approach that will give you the benefits of a service without actually using it. It is hacky, I admit that much, and I do not understand every geeky detail of why it works while the service can&amp;rsquo;t see the network drives&amp;hellip;but I feel I should dump my hack here in case anyone finds himself in a similar situation and just wants it to &lt;em&gt;work&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Mapping drives to the root&lt;/h1&gt;
+&lt;h1 id=&#34;mapping-drives-to-the-root:901908cb15db2c947afde94403cf0abc&#34;&gt;Mapping drives to the root&lt;/h1&gt;
 
 &lt;p&gt;I have done the following on Windows Server 2008 R2 machines - it goes without saying (but I&amp;rsquo;ll still say it) that these steps might differ or not work at all on other versions of Windows. Again, if you know a better way, I&amp;rsquo;m all ears.&lt;/p&gt;
 
@@ -297,7 +302,7 @@ REM map network drives to SYSTEM user
 
 &lt;p&gt;Now you might be wondering why I don&amp;rsquo;t just do the same and start the agents as services instead of tasks. That did not work - for &lt;em&gt;me&lt;/em&gt; at least. Although tasks seem to have the same limitations regarding drive mappings as the services do, for some reason, giving the SYSTEM user those drive mappings works for the tasks, but not the services. As I said, I&amp;rsquo;m no Windows guru, and to be honest I was just plain happy this worked eventually.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Verifying the mapped drives&lt;/h1&gt;
+&lt;h1 id=&#34;verifying-the-mapped-drives:901908cb15db2c947afde94403cf0abc&#34;&gt;Verifying the mapped drives&lt;/h1&gt;
 
 &lt;p&gt;When you call PsExec for the first time, you will need an elevated command prompt so it can install the PsExec service. And you&amp;rsquo;ll need to accept the terms and conditions at first run as well. You can verify this by using PsExec to get a console and checking if the drives are mapped, as shown below. Before running the above tasks, the call to &lt;code&gt;net use&lt;/code&gt; will inform you that &lt;code&gt;&amp;quot;There are no entries in the list.&amp;quot;&lt;/code&gt;&lt;/p&gt;
 
@@ -329,13 +334,13 @@ The command completed successfully.
     
     <item>
       <title>Conditional References in Visual Studio projects</title>
-      <link>http://raph.es/blog/2011/05/Conditional-References-in-Visual-Studio-projects/</link>
-      <pubDate>Thu, 05 May 2011 08:42:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/05/conditional-references-in-visual-studio-projects/</link>
+      <pubDate>Thu, 05 May 2011 08:42:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/05/Conditional-References-in-Visual-Studio-projects/</guid>
+      <guid>http://raph.es/blog/2011/05/conditional-references-in-visual-studio-projects/</guid>
       <description>
 
-&lt;p&gt;Visual Studio does a good job in hiding the MSBuild configurations from it&amp;rsquo;s users. MSBuild is quite flexible and powerful - but the VS user interface only gives you control over a tiny piece of it. One handy feature I believe deserves more attention in the IDE is &lt;em&gt;conditional references&lt;/em&gt;. When you add a reference to one of your projects, by default it will be static. No matter how you &lt;a href=&#34;/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;modify your solution configuration or platform settings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Visual Studio does a good job in hiding the MSBuild configurations from it&amp;rsquo;s users. MSBuild is quite flexible and powerful - but the VS user interface only gives you control over a tiny piece of it. One handy feature I believe deserves more attention in the IDE is &lt;em&gt;conditional references&lt;/em&gt;. When you add a reference to one of your projects, by default it will be static. No matter how you &lt;a href=&#34;http://raph.es/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;modify your solution configuration or platform settings&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;But some libraries are platform dependent. If you build your solution as 64bit, you will not want to use a version of a library that is restricted to 32bit platforms. Visual Studio does not give you a way to put conditions on your references. Fortunately, MSBuild does. When referencing an assembly in VS, a &lt;code&gt;Reference&lt;/code&gt; (or &lt;code&gt;ProjectReference&lt;/code&gt;) element is added to your project file&amp;rsquo;s XML containing details of the assembly and a &lt;code&gt;HintPath&lt;/code&gt; to it&amp;rsquo;s (supposed) location.&lt;/p&gt;
 
@@ -345,7 +350,7 @@ The command completed successfully.
 &amp;lt;/Reference&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Setting the conditions&lt;/h1&gt;
+&lt;h1 id=&#34;setting-the-conditions:6cccf82a50ffb7bb357d73b82e56424b&#34;&gt;Setting the conditions&lt;/h1&gt;
 
 &lt;p&gt;Using your favorite text editor, you can add a &lt;code&gt;Condition&lt;/code&gt; attribute to any reference in your project file, telling MSBuild when to use it (or not). This allows you to reference assemblies of different architecture and make sure they are used according to which platform you are targeting. In this case, a reference could look like the following in your project file:&lt;/p&gt;
 
@@ -363,7 +368,7 @@ The command completed successfully.
 
 &lt;p&gt;This works because in MSBuild the reference elements are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164283%28v=VS.100%29.aspx&#34;&gt;&lt;code&gt;Item&lt;/code&gt; elements&lt;/a&gt;. Many element types can have condition attributes. If you look at other parts of your project file you will probably see that the project configuration and platform sections also use conditions similar to the above example. There are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164307.aspx&#34;&gt;other ways to define conditional logic in MSBuild&lt;/a&gt;, but this is probably the quickest and most understandable. If you plan to do more funky stuff, have a look at &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164282.aspx&#34;&gt;&lt;code&gt;&amp;lt;Choose&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;Otherwise&amp;gt;&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -372,15 +377,16 @@ The command completed successfully.
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/reference-warning.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/reference-warning.jpeg&#34;   width=&#34;200em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   width=&#34;200em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;The &lt;code&gt;Platform&lt;/code&gt; variable&lt;/h1&gt;
+&lt;h1 id=&#34;the-platform-variable:6cccf82a50ffb7bb357d73b82e56424b&#34;&gt;The &lt;code&gt;Platform&lt;/code&gt; variable&lt;/h1&gt;
 
 &lt;p&gt;Note that in my example I am querying the &lt;code&gt;Platform&lt;/code&gt; variable - &lt;em&gt;not&lt;/em&gt; &lt;code&gt;Configuration&lt;/code&gt;. I have noticed a practice &lt;a href=&#34;http://dev.monogram.sk/websvn/filedetails.php?repname=graphstudio&amp;amp;path=%2Ftrunk%2Fgraphstudio.sln&#34;&gt;on teh webz&lt;/a&gt; that suggests you create new configurations named &lt;em&gt;Debug64&lt;/em&gt; and &lt;em&gt;Release64&lt;/em&gt;, then switch references based on the &lt;code&gt;Configuration&lt;/code&gt; variable. While this technically works the same way, it is logically incorrect. &lt;code&gt;Configuration&lt;/code&gt; and &lt;code&gt;Platform&lt;/code&gt; settings are two different concerns in Visual Studio and it is unwise to mix them. It&amp;rsquo;s messy, redundant and generates loads of unnecessary lines in your solution and project files.&lt;/p&gt;
 
@@ -390,17 +396,17 @@ The command completed successfully.
     
     <item>
       <title>Targeting Platforms in Visual Studio</title>
-      <link>http://raph.es/blog/2011/04/Targeting-Platforms-in-Visual-Studio/</link>
-      <pubDate>Tue, 12 Apr 2011 19:16:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2011/04/targeting-platforms-in-visual-studio/</link>
+      <pubDate>Tue, 12 Apr 2011 19:16:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2011/04/Targeting-Platforms-in-Visual-Studio/</guid>
+      <guid>http://raph.es/blog/2011/04/targeting-platforms-in-visual-studio/</guid>
       <description>
 
 &lt;p&gt;None of Visual Studio&amp;rsquo;s features is more essential than compiling text to binary assemblies - in VS terminology: &amp;ldquo;building&amp;rdquo;. Since this is the single most important task you use an IDE for, it is crucial that you understand how it works if you want to have more control over what you build, and especially for what target platform - e.g. when automating your builds for continuous integration.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Configuration != Configuration&lt;/h1&gt;
+&lt;h1 id=&#34;configuration-configuration:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Configuration != Configuration&lt;/h1&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -409,13 +415,14 @@ The command completed successfully.
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;solution configuration&lt;/em&gt; and &lt;em&gt;solution platform&lt;/em&gt; selectors are two of the most used and at the same time most misunderstood UI elements in Visual Studio. You would think that they allowed you to define with which configuration and for which target platform your code will be compiled. What users &lt;em&gt;expect&lt;/em&gt; is this:&lt;/p&gt;
 
@@ -429,26 +436,27 @@ The command completed successfully.
 
 &lt;p&gt;I will attempt to shed some light on the different parts of this chain and present a way - well, &lt;em&gt;my&lt;/em&gt; way - of dealing with it&amp;rsquo;s complexity in order to regain control of this process. I am going to roll up this chain from the end.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Project configurations&lt;/h1&gt;
+&lt;h1 id=&#34;project-configurations:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Project configurations&lt;/h1&gt;
 
 &lt;p&gt;A project in Visual Studio represents a binary that will be generated after compilation. As you would expect, the &lt;em&gt;project settings&lt;/em&gt; window allows you to define &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/0hkyezwy%28v=VS.100%29.aspx&#34;&gt;various options&lt;/a&gt; around that binary - most notably where the file will be copied to, if the compiler will optimize the generated IL (i.e. in Release mode) and what platform architecture you are targeting. Those settings are stored in a &lt;em&gt;project file&lt;/em&gt;.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
-        *Platform* !=*Platform target* o_O
+        *Platform* != *Platform target* o_O
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/project_settings.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/project_settings.jpeg&#34;   width=&#34;500em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   width=&#34;500em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Project files are essentially just &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/5dy88c2e.aspx&#34;&gt;XML(ish) input files&lt;/a&gt; for a tool called &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/wea2sca5%28v=vs.90%29.aspx&#34;&gt;MSBuild&lt;/a&gt;. It is Microsoft&amp;rsquo;s build tool, logically very similar to &lt;a href=&#34;http://nant.sourceforge.net/&#34;&gt;NAnt&lt;/a&gt; and &lt;a href=&#34;http://en.wikipedia.org/wiki/Build_automation&#34;&gt;the likes&lt;/a&gt;. As a matter of fact, &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms171468%28v=VS.100%29.aspx&#34;&gt;Visual Studio uses MSBuild behind the scenes&lt;/a&gt; whenever you hit &amp;ldquo;build&amp;rdquo; in the IDE.&lt;/p&gt;
 
@@ -487,7 +495,7 @@ The command completed successfully.
 &lt;pre&gt;&lt;code&gt;$&amp;gt; MSBuild &amp;quot;MyProject.csproj&amp;quot; /p:Configuration=&amp;quot;Release&amp;quot; /p:Platform=&amp;quot;Any CPU&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Solution configurations&lt;/h1&gt;
+&lt;h1 id=&#34;solution-configurations:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Solution configurations&lt;/h1&gt;
 
 &lt;p&gt;Solution configurations are a different story. While projects are directly related to binaries of your generated application, a solution is not. It is a mere container for projects. And yet, it too has a &amp;ldquo;configuration&amp;rdquo; and a &amp;ldquo;platform&amp;rdquo; setting. You can use MSBuild with the same parameters to build a solution, like you would do with a project. How does this make sense?&lt;/p&gt;
 
@@ -506,7 +514,7 @@ The command completed successfully.
 &lt;pre&gt;&lt;code&gt;SLN config + SLN platform =&amp;gt; PROJ config + PROJ platform =&amp;gt; PROJ platform platform =&amp;gt; Binary
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;The Scary Part&lt;/h1&gt;
+&lt;h1 id=&#34;the-scary-part:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;The Scary Part&lt;/h1&gt;
 
 &lt;p&gt;It is important to understand that the relationship between solution settings and project settings is not as direct as it may seem. Setting the solution to &lt;code&gt;Release|x64&lt;/code&gt; does not necessarily mean you are switching each project to exactly that setting. Visual Studio will constantly keep track of how you configure the project settings and associate them with the currently selected solution settings. VS will update the active configuration accordingly whenever a project&amp;rsquo;s configuration or target platform is modified. Whenever you switch your active configuration, and then make a change to a project&amp;rsquo;s settings, VS stores those as that project&amp;rsquo;s active configuration in the solution file. It is easy to forget that and to unintentionally submit the change into source control.&lt;/p&gt;
 
@@ -519,16 +527,16 @@ The command completed successfully.
 &lt;pre&gt;&lt;code&gt;BadImageFormatException: An attempt was made to load a program with an incorrect format.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_4&#34;&gt;The Principle of Least Surprise&lt;/h1&gt;
+&lt;h1 id=&#34;the-principle-of-least-surprise:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;The Principle of Least Surprise&lt;/h1&gt;
 
 &lt;p&gt;Have a look at your project&amp;rsquo;s solution file. You might discover that some active configurations are not consistent. In some rare special cases you might have good reasons to do things differently, but usually it is best to keep things simple: The solution settings should represent it&amp;rsquo;s projects&amp;rsquo; configurations as directly as possible. Compiling a solution with certain settings should be directly reflected in the generated binaries. I recently heard someone mention &amp;ldquo;the principle of least surprise&amp;rdquo;. That&amp;rsquo;s what this is about. Surprises are for birthday parties and Oprah. What we developers want is control.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_5&#34;&gt;Inconsistency in a solution:&lt;/h2&gt;
+&lt;h2 id=&#34;inconsistency-in-a-solution:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Inconsistency in a solution:&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;{74482536-2654-4B15-B457-9425A05341E6}.Debug|x86.ActiveCfg = Debug|x64 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_6&#34;&gt;Inconsistency in a project:&lt;/h2&gt;
+&lt;h2 id=&#34;inconsistency-in-a-project:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Inconsistency in a project:&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;PropertyGroup Condition=&amp;quot;&#39;$(Configuration)|$(Platform)&#39; == &#39;Debug|x86&#39;&amp;quot;&amp;gt;
   &amp;lt;PlatformTarget&amp;gt;x64&amp;lt;/PlatformTarget&amp;gt;
@@ -539,13 +547,13 @@ The command completed successfully.
 
 &lt;p&gt;The following is my recommended strategy for straightening out your solution and project configurations. I want to emphasize that &lt;strong&gt;this is my personal preference&lt;/strong&gt; and that there may be good reasons to do it differently (e.g. when developing for funky platforms such as Windows Phone or Xbox). I believe this strategy is good for most (if not all) projects, being that it restores predictability and forces you to make decisions on how you want your project to be deployed. Here goes.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_7&#34;&gt;Regaining Control&lt;/h1&gt;
+&lt;h1 id=&#34;regaining-control:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Regaining Control&lt;/h1&gt;
 
 &lt;p&gt;Open the Configuration Manager. By switching &lt;code&gt;Configuration&lt;/code&gt; and &lt;code&gt;Platform&lt;/code&gt; you will be able to view and modify what project configurations/platforms will be targeted when building the solution in that mode. The general rule of thumb I recommend is to always keep solutions and project settings in sync. If the solution is set to &lt;code&gt;Debug|Any CPU&lt;/code&gt;, then all projects should be as well.&lt;/p&gt;
 
 &lt;p&gt;When setting to a more specific platform such as &lt;code&gt;x86&lt;/code&gt;, you should switch as many projects&amp;rsquo; configurations as possible to that, too - otherwise to &lt;code&gt;Any CPU&lt;/code&gt;. In an ideal world you would set all projects to &lt;code&gt;x86&lt;/code&gt;, and if you can, do so. If you need to leave some &lt;code&gt;Any CPU&lt;/code&gt; projects in that mode (because you are probably just too lazy to do otherwise), at least make sure they are not your apps &amp;ldquo;entry points&amp;rdquo;, i.e. executable projects. The reason is if you build as &lt;code&gt;x86&lt;/code&gt; but your executable is &lt;code&gt;Any CPU&lt;/code&gt;, running the app on a 64bit machine will make your whole app domain run as x64, which is not always desirable and - much worse - not expected. So try to use the exact same config as in the solution whenever possible. Even if it means (some seconds of) extra work adding configurations to projects.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -554,17 +562,18 @@ The command completed successfully.
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/configmanager.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/configmanager.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   width=&#34;400em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;This topic is harder to explain than it should be, and much harder to describe than it actually is to do. Even if I am beating a dead horse here, I would like to describe the process using an example walk-through. My example app needs special treatment on 64bit platforms, meaning you have to run it explicitly as 32bit in order to support some third-party libraries that will die horribly if in x64 mode. The goal is to have an &lt;code&gt;Any CPU&lt;/code&gt; mode for any machine and an &lt;code&gt;x86&lt;/code&gt; mode in case you need to build an explicit 32bit app for a 64bit environment. Later on you could ditch the &lt;code&gt;x86&lt;/code&gt; mode if the incompatibility is out of the way. Note that if you don&amp;rsquo;t have issues running on 64bit machines, you can do the following while only keeping &lt;code&gt;Any CPU&lt;/code&gt; and can delete every other platform - making things much easier.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_8&#34;&gt;Solution&lt;/h2&gt;
+&lt;h2 id=&#34;solution:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Solution&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;In the Configuration Manager, remove any solution configuration other than &lt;code&gt;Debug&lt;/code&gt; and &lt;code&gt;Release&lt;/code&gt;. Also remove any solution platform other than &lt;code&gt;Any CPU&lt;/code&gt; and &lt;code&gt;x86&lt;/code&gt; (the latter only if you need a build that is never, ever supposed to run in a 64bit context).&lt;/li&gt;
@@ -598,7 +607,7 @@ The command completed successfully.
 &lt;/ol&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;toc_9&#34;&gt;&lt;em&gt;Every&lt;/em&gt; project&lt;/h2&gt;
+&lt;h2 id=&#34;every-project:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;&lt;em&gt;Every&lt;/em&gt; project&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Open the project designer window (&amp;ldquo;project settings&amp;rdquo;) and go to the &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/kb4wyys2.aspx&#34;&gt;build page&lt;/a&gt;&lt;/li&gt;
@@ -630,7 +639,7 @@ The command completed successfully.
 &lt;pre&gt;&lt;code&gt;SLN config + SLN platform =&amp;gt; PROJ config + PROJ platform =&amp;gt; PROJ platform platform =&amp;gt; Binary
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;toc_10&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;h1 id=&#34;conclusion:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;Before I wrap this up you should know why I wrote this (probably too long) post in the first place. Recently I was running into those &lt;code&gt;BadImageFormatExceptions&lt;/code&gt; on a CI build server. It turned out that some of the projects compiled to x64, despite passing in explicit &lt;code&gt;Release|x86&lt;/code&gt; into the solution build. The CI servers are 32bit machines, and they crashed when a unit test attempted to load a 64bit assembly. Did I mention that I &lt;em&gt;really&lt;/em&gt; like unit tests?&lt;/p&gt;
 
@@ -640,7 +649,7 @@ The command completed successfully.
 
 &lt;p&gt;I apologize if this post seemed repetitive at times. The terminology around these &amp;ldquo;configurations&amp;rdquo; and &amp;ldquo;platforms&amp;rdquo; is redundant and confusing, but once you got a grasp of these settings and the importance for your app (and your sanity!) you should have a much better understanding of how VS produces your application - and have much more control over the process.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_11&#34;&gt;Resources&lt;/h1&gt;
+&lt;h1 id=&#34;resources:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Resources&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/kkz9kefa%28v=VS.100%29.aspx&#34;&gt;MSDN on solution and project configuration&lt;/a&gt;&lt;/li&gt;

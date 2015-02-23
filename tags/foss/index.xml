@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Foss on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/foss/index.xml/</link>
-    
-    
+    <title>Foss on raph haXx</title>
+    <link>http://raph.es/tags/foss/</link>
+    <description>Recent content in Foss on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Fri, 10 Oct 2014 14:35:37 UTC</updated>
+    <lastBuildDate>Fri, 10 Oct 2014 14:35:37 +0000</lastBuildDate>
+    <atom:link href="http://raph.es/tags/foss/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>license</title>
       <link>http://raph.es/license/</link>
-      <pubDate>Fri, 10 Oct 2014 14:35:37 UTC</pubDate>
+      <pubDate>Fri, 10 Oct 2014 14:35:37 +0000</pubDate>
       
       <guid>http://raph.es/license/</guid>
       <description>
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Author &amp;amp; copyright&lt;/h1&gt;
+&lt;h1 id=&#34;author-copyright:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Author &amp;amp; copyright&lt;/h1&gt;
 
 &lt;p&gt;Copyright &amp;copy; Raphael Estrada 2011 - 2014.&lt;/p&gt;
 
@@ -25,7 +25,7 @@
 
 &lt;p&gt;You must get permission from the author should you wish to use source code or content in a way not compatible with the licenses.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Source code&lt;/h1&gt;
+&lt;h1 id=&#34;source-code:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Source code&lt;/h1&gt;
 
 &lt;p&gt;Uness explicitly stated otherwise, all software source code is licensed under the&lt;/p&gt;
 
@@ -44,13 +44,13 @@
 &lt;li&gt;hugo templates&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;toc_2&#34;&gt;Latest version&lt;/h2&gt;
+&lt;h2 id=&#34;latest-version:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Latest version&lt;/h2&gt;
 
 &lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.gnu.org/licenses/licenses.html#GPL&#34;&gt;http://www.gnu.org/licenses/licenses.html#GPL&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;Blog text &amp;amp; images&lt;/h1&gt;
+&lt;h1 id=&#34;blog-text-images:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Blog text &amp;amp; images&lt;/h1&gt;
 
 &lt;p&gt;Unless explicitly stated otherwise, all blog contents is licensed under the&lt;/p&gt;
 
@@ -66,7 +66,7 @@
 &lt;li&gt;blog and project images&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;toc_4&#34;&gt;Latest version&lt;/h2&gt;
+&lt;h2 id=&#34;latest-version-1:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Latest version&lt;/h2&gt;
 
 &lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
 
@@ -76,10 +76,10 @@
     
     <item>
       <title>autofHACK - forcing activation of a service and dynamic resolution of it&#39;s dependencies</title>
-      <link>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</link>
-      <pubDate>Tue, 02 Oct 2012 16:47:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/10/autofhack---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</link>
+      <pubDate>Tue, 02 Oct 2012 16:47:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/10/autofHACK---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</guid>
+      <guid>http://raph.es/blog/2012/10/autofhack---forcing-activation-of-a-service-and-dynamic-resolution-of-its-dependencies/</guid>
       <description>&lt;p&gt;Sorry, I just couldn&amp;rsquo;t resist the &amp;ldquo;autofHack&amp;rdquo; pun.&lt;/p&gt;
 
 &lt;p&gt;In case you don&amp;rsquo;t know &lt;a href=&#34;http://code.google.com/p/autofac/&#34;&gt;Autofac&lt;/a&gt;, this post won&amp;rsquo;t make much sense to you. Go read about it NOW. In the meantime us cool kids will play without you.&lt;/p&gt;
@@ -133,15 +133,15 @@ builder.RegisterInstance(m);
     
     <item>
       <title>Leaving the Comfort Zone</title>
-      <link>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</link>
-      <pubDate>Sun, 16 Sep 2012 19:43:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/09/leaving-the-comfort-zone/</link>
+      <pubDate>Sun, 16 Sep 2012 19:43:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/09/Leaving-the-Comfort-Zone/</guid>
+      <guid>http://raph.es/blog/2012/09/leaving-the-comfort-zone/</guid>
       <description>
 
 &lt;p&gt;Yeah, what a &amp;ldquo;blah&amp;rdquo; title. But I&amp;rsquo;m in a hurry now. As all the internets have undoubtedly noticed, I haven&amp;rsquo;t blogged in a while. I&amp;rsquo;ve been busy with shit, and to break out of it I&amp;rsquo;m dumping out a quick post. In fact, future posts will probably be a bit shorter, just to get anything out.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
+&lt;h1 id=&#34;what-s-been-happening:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;What&amp;rsquo;s been happening&lt;/h1&gt;
 
 &lt;p&gt;One of my more recent &lt;a href=&#34;http://www.galaktor.net/2012/02/yet-another-attempt-at-levelling-up-my.html&#34;&gt;posts&lt;/a&gt; (read: months old) mentioned that I was once again attempting to move my computing life into Linux. Well, the good news is, I succeeded. I&amp;rsquo;ve spent about 98% (pretty random gut-feeling number) of my time on Crunchbang in the past months, and there&amp;rsquo;s no looking back so far.&lt;/p&gt;
 
@@ -149,13 +149,13 @@ builder.RegisterInstance(m);
 
 &lt;p&gt;I had to make pretty serious changes to my usual workflow to get coding on Linux. I wanted to leave the MS world I am used to behind and go as native as possible, Which was pretty much the definition of what all those &amp;ldquo;leave your comfort zone&amp;rdquo; mantras are about.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Going hardcore&lt;/h1&gt;
+&lt;h1 id=&#34;going-hardcore:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;Going hardcore&lt;/h1&gt;
 
 &lt;p&gt;Determined to embrace the command-line world which is Linux, I decided to go the whole length and use Emacs as my (sort of) IDE. And the learning curve was a lot easier than I expected - you hear a lot of bullshit about how hard it is and whatever. It wasn&amp;rsquo;t. Yes, you need to learn some shortcuts, big deal. It&amp;rsquo;s just a powerful text editor with a bunch of plugins. From day one I&amp;rsquo;ve been running it in console mode (-nw), and it not only looks like straight out of a cliche hacker movie, it&amp;rsquo;s also really lightweight and fast. Loving it.&lt;/p&gt;
 
 &lt;p&gt;Language was trickier - I&amp;rsquo;m mainly a .NET guy, and I have played with Mono before, but I again wanted to go as &amp;ldquo;non-Windows&amp;rdquo; as possible. And I wanted to use the opportunity to learn new languages. So I played around with clojure for a while - and I might write a bit on it separately, but long story short: I&amp;rsquo;m not impressed. It&amp;rsquo;s essentially yet another abstraction above of where I&amp;rsquo;ve spent the last years (C#, which is Java-ish). But contrary to common opinion, I don&amp;rsquo;t think imperative programming is necessarily evil, and I&amp;rsquo;ve found myself leaning toward the more low-level side of things again.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Coding in Go&lt;/h1&gt;
+&lt;h1 id=&#34;coding-in-go:1f295b3b9040b591a3e7f2e5bb88e531&#34;&gt;Coding in Go&lt;/h1&gt;
 
 &lt;p&gt;To cut to the chase, I discovered Go, which is like C on steroids, and it immediately felt like what I need. I&amp;rsquo;ve gone from zero to productive in a few days, and I&amp;rsquo;m pretty happy so far. Again, I&amp;rsquo;ll be posting on this later. I have a little side-project going which I will write about on this here blog soon.&lt;/p&gt;
 
@@ -168,17 +168,17 @@ lol&lt;/p&gt;
     
     <item>
       <title>The blog gets some love</title>
-      <link>http://raph.es/blog/2012/05/The-blog-gets-some-love/</link>
-      <pubDate>Wed, 09 May 2012 08:44:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/05/the-blog-gets-some-love/</link>
+      <pubDate>Wed, 09 May 2012 08:44:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/05/The-blog-gets-some-love/</guid>
+      <guid>http://raph.es/blog/2012/05/the-blog-gets-some-love/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Note: this post was hosted on Blogger at the time of writing. Links in this post are old and could be broken.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I took a wee bit of time to upgrade this site a bit. Not exactly a huge project worth bragging about, but I figured I&amp;rsquo;d highlight the changes (if they&amp;rsquo;re not already obvious enough).&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Dynamic Template&lt;/h1&gt;
+&lt;h1 id=&#34;dynamic-template:c7b16b4cef795f39162a54039a0db50f&#34;&gt;Dynamic Template&lt;/h1&gt;
 
 &lt;p&gt;I switched over to use the shiny &amp;ldquo;new&amp;rdquo; blog templates that Blogger provides. I resisted the urge for a while but I do think it gives the site a more modern feel. Surely far from perfect, but given that it came for free I think value for money is good.&lt;/p&gt;
 
@@ -188,7 +188,7 @@ lol&lt;/p&gt;
 
 &lt;p&gt;You can select different &amp;ldquo;dynamic views&amp;rdquo; over on the left of the main menu bar - most of them don&amp;rsquo;t work well with this type of blog, exceptions being maybe &amp;ldquo;classic&amp;rdquo; and &amp;ldquo;sidebar&amp;rdquo;, the latter which I have set to be the default. Google won&amp;rsquo;t allow me to lock it down to just that view, so I guess that means you can switch them as you see fit - but be warned, they mostly suck.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -197,19 +197,20 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; width=&#34;500em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; width=&#34;500em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;From an authors point of view, the most notable new feature is that the &amp;ldquo;preview&amp;rdquo; now presents an interactive version of the site. I like to test the likes of links and images &lt;em&gt;before&lt;/em&gt; going live, something that just was not possible with the old template, which resembled more a photo of your site rather than a real website.&lt;/p&gt;
 
 &lt;p&gt;Another nice gimmick is that Blogger finally got a sane &amp;ldquo;share&amp;rdquo; menu at the bottom of each post - featuring the actual number of tweets (was not there before) and ditching a bunch of who-gives-a-shit social networks (but obviously still hanging on to g+). Notice how there&amp;rsquo;s even a Facebook &amp;ldquo;like&amp;rdquo; button - then again, I really consider that a bug, not a feature.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -218,15 +219,16 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/fake_shares.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; width=&#34;500em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; width=&#34;500em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;New &amp;ldquo;code&amp;rdquo; section&lt;/h1&gt;
+&lt;h1 id=&#34;new-code-section:c7b16b4cef795f39162a54039a0db50f&#34;&gt;New &amp;ldquo;code&amp;rdquo; section&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;ve always been eyeballing &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt; as a place where I can potentially dump some side projects of mine and possibly some of the larger code snippets and scripts from this site. But being the cheapskate that I am, I never liked that fact that github never offered a free plan for hosting code - even if it meant limitations to the number of repositories or something like that.&lt;/p&gt;
 
@@ -236,7 +238,7 @@ lol&lt;/p&gt;
 
 &lt;p&gt;Bitbucket makes it &lt;a href=&#34;http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+bitbucket+Domain+Name&#34;&gt;very easy&lt;/a&gt; to point a CNAME to your profile, so now &lt;a href=&#34;http://code.galaktor.net/&#34;&gt;code.galaktor.net&lt;/a&gt; goes straight to the repository list. That&amp;rsquo;s exactly where you end up if you hit the new &amp;ldquo;code&amp;rdquo; button in the main menu. Keep in mind that all I did so far was import a few old-ish projects. I intend to give them some TLC and add more in the near future.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -245,15 +247,16 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/new_menu_bar.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/new_menu_bar.jpeg&#34;   width=&#34;450em&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   width=&#34;450em&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Free beer&lt;/h1&gt;
+&lt;h1 id=&#34;free-beer:c7b16b4cef795f39162a54039a0db50f&#34;&gt;Free beer&lt;/h1&gt;
 
 &lt;p&gt;So Google is under pressure to make blogs look nicer next to Tumblr, Wordpress and the likes, and as the &lt;del&gt;product&lt;/del&gt; user I get a new (mostly) nice template for free. As the &lt;a href=&#34;http://en.wikipedia.org/wiki/Gratis_versus_libre&#34;&gt;classic open source analogy&lt;/a&gt; goes, we&amp;rsquo;re talking &amp;ldquo;free as in beer&amp;rdquo;, not &amp;ldquo;free as in speech&amp;rdquo; - with the obvious downside that I cannot really change some of the things even if I don&amp;rsquo;t want or like them. The &amp;ldquo;dynamic view&amp;rdquo; selector in the main menu being one example. There may be some trickery that can be done by fiddling with the HTML, but as it is it seems that they&amp;rsquo;re at least trying to force it upon me (and you).&lt;/p&gt;
 
@@ -265,17 +268,17 @@ lol&lt;/p&gt;
     
     <item>
       <title>Yet another attempt to level up my geek-iness</title>
-      <link>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</link>
-      <pubDate>Sun, 26 Feb 2012 21:16:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/02/yet-another-attempt-to-level-up-my-geek-iness/</link>
+      <pubDate>Sun, 26 Feb 2012 21:16:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/02/Yet-another-attempt-to-level-up-my-geek-iness/</guid>
+      <guid>http://raph.es/blog/2012/02/yet-another-attempt-to-level-up-my-geek-iness/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been rather quiet over the past months and I&amp;rsquo;m sure the &lt;em&gt;entire&lt;/em&gt; blogosphere was shocked and wants to know why. Well, in addition to holidays and the likes, for the probably 4th time in the past 15 years I am attempting to move my computing life from Windows into Linux. And since I rarely have much time for my geeky side projects, I have been dedicating it to that rather than the blog.&lt;/p&gt;
 
 &lt;p&gt;As just mentioned I tried this a few times before, but eventually failed. First time around I failed to even get my CD-ROM drive mounted in SuSe. Later on Ubuntu I lacked a few critical tools for my studies, like OneNote (which is brilliant) or VisualStudio for my thesis project. And Call of Duty.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
+&lt;h1 id=&#34;what-s-different-now:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;What&amp;rsquo;s different now?&lt;/h1&gt;
 
 &lt;p&gt;I learned two things that I hope to get right this time.&lt;/p&gt;
 
@@ -287,13 +290,13 @@ lol&lt;/p&gt;
 
 &lt;p&gt;Anyhow, at the end of the day, I can now probably live with booting up Windows for these things as they are rather rare events.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
+&lt;h1 id=&#34;stick-with-windows-idiot:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;Stick with Windows, idiot!&lt;/h1&gt;
 
 &lt;p&gt;Why Linux at all then, you might ask? Well first of all I have been doing professional .NET development for over 7 years now (albeit not exclusively) and feel very comfortable in Windows, VS and the likes. But feeling too comfortable is a bad sign, it means not learning very much. So while .NET will stay a good way to do cool stuff and earn a nice living, I feel the nerdy (read: masochist) urge to leave the comfort zone and learn new things. You know, things that make me feel like a first-grader again. That make me yell curses at the screen. That make me feel like a god after I do get them working.&lt;/p&gt;
 
 &lt;p&gt;Plus, and this is a big one: I think &lt;a href=&#34;http://www.fsf.org/&#34;&gt;Free Software&lt;/a&gt; is important. In a time where most of our daily life depends on computers that sit in virtually everybody&amp;rsquo;s pocket, I believe it&amp;rsquo;s important to have as much control over them as possible. Linux not only gives you very much that control, it&amp;rsquo;s also arguably the best operating system out there. Many distros nowadays work out-of-the-box with WiFi and all the gimmicks. So really I see no reason why I should have to force my life into a proprietary operating system while I can get a better, more flexible and &lt;em&gt;free&lt;/em&gt; one for&amp;hellip;well, free.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;#!&lt;/h1&gt;
+&lt;h1 id=&#34;toc_2:ebd1d5739651bfac3f7f88a99bf990f1&#34;&gt;#!&lt;/h1&gt;
 
 &lt;p&gt;So what I did was upgrade my good old &lt;a href=&#34;http://reviews.cnet.com/Dell_XPS_M1530/4505-3121_7-32778979.html&#34;&gt;M1530&lt;/a&gt;&amp;rsquo;s RAM, back up my files&amp;hellip;.and do other things so boring that just writing about them makes me narcoleptic. So pardon me if I skip to the good parts. I stuck roughly to &lt;a href=&#34;http://www.iceflatline.com/2011/05/install-and-configure-crunchbang-linux-on-the-lenovo-t410-laptop/&#34;&gt;this&lt;/a&gt; excellent tutorial, which served me as a guideline although I did deviate a bit.&lt;/p&gt;
 

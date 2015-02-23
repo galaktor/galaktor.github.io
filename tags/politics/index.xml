@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Politics on raph haXx </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://raph.es/tags/politics/index.xml/</link>
-    
-    
+    <title>Politics on raph haXx</title>
+    <link>http://raph.es/tags/politics/</link>
+    <description>Recent content in Politics on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2014</copyright>
-    <updated>Tue, 24 Apr 2012 08:30:00 &#43;0100</updated>
+    <lastBuildDate>Tue, 24 Apr 2012 08:30:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/politics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On being &#34;Senior&#34;</title>
-      <link>http://raph.es/blog/2012/04/On-being-Senior/</link>
-      <pubDate>Tue, 24 Apr 2012 08:30:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/04/on-being-senior/</link>
+      <pubDate>Tue, 24 Apr 2012 08:30:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/04/On-being-Senior/</guid>
+      <guid>http://raph.es/blog/2012/04/on-being-senior/</guid>
       <description>
 
 &lt;p&gt;When you get into the software industry, you notice how most companies make a big deal of whether you are &amp;ldquo;senior&amp;rdquo; or not. &amp;ldquo;Seniors&amp;rdquo; get to make more decisions, are more respected and get paid more. So everybody wants to be &amp;ldquo;senior&amp;rdquo;. But what does that mean?&lt;/p&gt;
@@ -23,7 +23,7 @@
 
 &lt;p&gt;I respectfully call bullshit. At least with regards to the usage of those terms in The Software Industry. The mere duration of having been in the industry is absolutely not a reliable indicator of &amp;ldquo;seniority&amp;rdquo; as most people mean it. Let&amp;rsquo;s move away from that ambiguous term, and say: &lt;em&gt;experience&lt;/em&gt;.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -32,15 +32,16 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/senior_graph_bad.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; width=&#34;500px&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; width=&#34;500px&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;What makes a so-called &amp;ldquo;senior&amp;rdquo;?&lt;/h1&gt;
+&lt;h1 id=&#34;what-makes-a-so-called-senior:5fa20d268da31a096dc392c942c19adf&#34;&gt;What makes a so-called &amp;ldquo;senior&amp;rdquo;?&lt;/h1&gt;
 
 &lt;p&gt;There has &lt;a href=&#34;http://www.diaryofaninja.com/blog/2012/03/27/irsquom-a-junior-developer-ndash-you-probably-are-too&#34;&gt;been&lt;/a&gt; &lt;a href=&#34;http://justinkan.com/what-good-is-experience&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;http://ninjasandrobots.com/you-need-some-experience&#34;&gt;discussion&lt;/a&gt; about the value of experience in the blogosphere lately. They, too, seem to be thinking of experience as the time spent on something.&lt;/p&gt;
 
@@ -62,7 +63,7 @@
 
 &lt;p&gt;There you go. You gain experience by making mistakes, and making as many of them as possible. That makes you an expert. Expert is what most people should be saying when they talk about &amp;ldquo;seniors&amp;rdquo;. Because &amp;ldquo;senior&amp;rdquo; implies some form of age, whereas expert is what actually refers to somebody&amp;rsquo;s &lt;em&gt;&lt;code&gt;expert&lt;/code&gt;ise&lt;/em&gt; (there&amp;rsquo;s that word again!).&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;No pain, no gain&lt;/h1&gt;
+&lt;h1 id=&#34;no-pain-no-gain:5fa20d268da31a096dc392c942c19adf&#34;&gt;No pain, no gain&lt;/h1&gt;
 
 &lt;p&gt;Yes, it usually takes time to make all those mistakes you need to become an expert. But more than time, it takes &lt;em&gt;pain&lt;/em&gt;. An expert will have spent a significant amount of time cursing and being frustrated about problems and tools, trying to make stuff work (and, hopefully, successfully doing so in the end). So while you &lt;em&gt;can&lt;/em&gt; safely assume that an expert will have spent time in the field, you unfortunately can&lt;em&gt;not&lt;/em&gt; do the reverse. Just spending time doing something will not necessarily make you an expert.&lt;/p&gt;
 
@@ -72,7 +73,7 @@
 
 &lt;p&gt;Joe Programmer&amp;rsquo;s CV saying &amp;ldquo;10 years writing performance-critical software in C++&amp;rdquo; looks more interesting to many readers than Jane Hacker&amp;rsquo;s CV which states &amp;ldquo;4 years developing websites with Python&amp;rdquo;. I&amp;rsquo;ve come to learn that both of these statements say equally &lt;em&gt;little&lt;/em&gt; about the applicant&amp;rsquo;s expertise. In fact, Jane could easily be more experienced (at whatever) because she might have been obsessively hacking away on twelve open-source projects in all her spare-time during those four years.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -81,15 +82,16 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; width=&#34;500px&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; width=&#34;500px&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;Scalable experience&lt;/h1&gt;
+&lt;h1 id=&#34;scalable-experience:5fa20d268da31a096dc392c942c19adf&#34;&gt;Scalable experience&lt;/h1&gt;
 
 &lt;p&gt;I was once hired as a &amp;ldquo;Senior Software Developer&amp;rdquo; at a company, and the Head of IT let me know what he expected from a &amp;ldquo;senior&amp;rdquo;. It was not just technical expertise, but just as much the ability to scale. To spread that expertise throughout the team. In fact, the word &amp;ldquo;senior&amp;rdquo; was yet again misleading here, &lt;em&gt;mentor&lt;/em&gt; would have been more appropriate.&lt;/p&gt;
 
@@ -103,7 +105,7 @@
 
 &lt;p&gt;In a team, problems and solutions need to be explained and discussed. I&amp;rsquo;ve met people at that company who were great coders, but had big problems communicating. They&amp;rsquo;ve been on the project longer than me. They knew the codebase and tools better, too. Yet their official title did not say &amp;ldquo;senior&amp;rdquo;, and that was unlikely to change anytime soon. And rightfully so - their expertise was locked up inside their heads and did not scale.&lt;/p&gt;
 
-&lt;figure &gt;
+&lt;p&gt;&lt;figure &gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
@@ -112,13 +114,14 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;/img/blogger/senior_graph_2.jpeg&#34;&gt;
-  &lt;img src=&#34;/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; width=&#34;500px&#34;  /&gt;
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; width=&#34;500px&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Aside from recruitment, many companies make this mistake in management, too. It seems that people who have joined the company earlier than others somehow get &lt;a href=&#34;http://www.urbandictionary.com/define.php?term=dibbs&#34;&gt;dibbs&lt;/a&gt; on the next leadership position that becomes available. Again, just because somebody is older or has been with the company longer, that by itself does not make them any more of an expert in&amp;hellip;&lt;em&gt;anything&lt;/em&gt; than somebody else who is younger and just joined six months ago.&lt;/p&gt;
 
@@ -126,7 +129,7 @@
 
 &lt;p&gt;&lt;em&gt;Programming and leadership abilities are two entirely orthogonal concerns.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;tl;dr&lt;/h1&gt;
+&lt;h1 id=&#34;tl-dr:5fa20d268da31a096dc392c942c19adf&#34;&gt;tl;dr&lt;/h1&gt;
 
 &lt;p&gt;Think about what it is you mean when you say &amp;ldquo;senior&amp;rdquo;.&lt;/p&gt;
 
@@ -157,11 +160,11 @@ Experience != Time on the project&lt;/p&gt;
     
     <item>
       <title>Power to the nerds</title>
-      <link>http://raph.es/blog/2012/01/Power-to-the-nerds/</link>
-      <pubDate>Wed, 18 Jan 2012 11:31:00 &#43;0100</pubDate>
+      <link>http://raph.es/blog/2012/01/power-to-the-nerds/</link>
+      <pubDate>Wed, 18 Jan 2012 11:31:00 +0100</pubDate>
       
-      <guid>http://raph.es/blog/2012/01/Power-to-the-nerds/</guid>
-      <description>&lt;figure &gt;
+      <guid>http://raph.es/blog/2012/01/power-to-the-nerds/</guid>
+      <description>&lt;p&gt;&lt;figure &gt;
     
     &lt;div class=&#34;video&#34;&gt;
  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/1p-TV4jaCMk&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
@@ -171,6 +174,7 @@ Experience != Time on the project&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Tools given to governments which might seem (somewhat) justified or harmless now
