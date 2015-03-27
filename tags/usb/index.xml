@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usb on raph haXx</title>
+    <link>http://raph.es/tags/usb/</link>
+    <description>Recent content in Usb on raph haXx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Raphael Estrada 2011-2014</copyright>
+    <lastBuildDate>Tue, 14 Oct 2014 19:35:00 +0100</lastBuildDate>
+    <atom:link href="http://raph.es/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Custom lipo-to-usb connector</title>
+      <link>http://raph.es/blog/2014/10/lipo-battery-to-micro-usb-power-adapter/</link>
+      <pubDate>Tue, 14 Oct 2014 19:35:00 +0100</pubDate>
+      
+      <guid>http://raph.es/blog/2014/10/lipo-battery-to-micro-usb-power-adapter/</guid>
+      <description>
+
+&lt;p&gt;I want to power a Raspberry Pi off a LiPo battery. In an attempt to be as littleinvasive as possible I figured I might just route the power through the micro USB port.&lt;/p&gt;
+
+&lt;p&gt;There is a pin on the GPIO that is connected to the +5V rail, but it bypasses the fuse and I&amp;rsquo;d like to stick to recommended usage scnearios unless I have good reason not to. The Pi is meant to get power through USB, so let&amp;rsquo;s do that.&lt;/p&gt;
+
+&lt;p&gt;This is first and foremost an experiment to get a feel for the voltage drop on the way into the &lt;code&gt;RG2&lt;/code&gt; regulator.&lt;/p&gt;
+
+&lt;h1 id=&#34;power-pins:767654f9a8787cd7b0fcb21a693597e9&#34;&gt;Power pins&lt;/h1&gt;
+
+&lt;p&gt;The Pi doesn&amp;rsquo;t use all of the USB pins. It only takes the +5V on pin 1 and connects to ground on pin 5.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Pins 1 and 5 are for power
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.petervis.com/Raspberry_PI/Raspberry_PI_Power_Supply/Raspberry_PI_Micro_USB_B_Specification.html&#34;&gt;Peter Vis&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-power-pins_peter-vis.gif&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-power-pins_peter-vis.gif&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;So I bought some male USB connectors.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-male.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-male_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The pins are quite close together and since I only need the two on the outside, I took off the other three. I found the easiest way to do this was by bending the pins left and right with tweezers until it broke off. That way there&amp;rsquo;s enough room to solder - it&amp;rsquo;s still a bit tricky.&lt;/p&gt;
+
+&lt;p&gt;To not have to remember which wire is which it makes sense to stick with convention and put the red wire onto pin 1, and the black wire to pin 5. This is a power connector after all. Stick heat shrinks over the solder joints after soldering.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-solder.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-solder_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-shrinks.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-shrinks_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Finally, I stuck on a glob of hot glue as a crude strain relief.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-pins-close.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-pins-close_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-glue.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-glue_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s it! Now I can run the Pi off any power source I like.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
