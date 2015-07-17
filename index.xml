@@ -197,25 +197,25 @@
 &lt;li&gt;show revision of source repo as version in subtree html&lt;/li&gt;
 &lt;li&gt;embed history/versions of a given content?&lt;/li&gt;
 &lt;li&gt;highlight currently selected menu section&lt;/li&gt;
-&lt;li&gt;auto-deploy from tavis to github pages&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;auto-deploy from tavis to github pages&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;stale projects where date &amp;gt; x&lt;/li&gt;
 &lt;li&gt;highlight latest blog posts, projects&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;shrinkify pngs for project, way to large&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;watermark images&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;add other projects, i.e. software ones
+&lt;li&gt;add project pages, i.e. software ones
 
 &lt;ul&gt;
 &lt;li&gt;dansguardian&lt;/li&gt;
-&lt;li&gt;nodewire&lt;/li&gt;
-&lt;li&gt;gogre3d, llcoi&lt;/li&gt;
-&lt;li&gt;gorf24&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;nodewire&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;gogre3d, llcoi&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;gorf24&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;more&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;next/prev content by date&lt;/li&gt;
 &lt;li&gt;style code snippets better&lt;/li&gt;
-&lt;li&gt;license page  &amp;ldquo;/license&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;license page  &amp;ldquo;/license&amp;rdquo;&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;new domain with DNS config&lt;/li&gt;
-&lt;li&gt;cv&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;cv&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
