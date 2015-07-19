@@ -6,36 +6,8 @@
     <description>Recent content in Blogs on raph haXx</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2015</copyright>
-    <lastBuildDate>Sat, 17 Oct 2015 18:55:48 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2015 10:48:00 +0100</lastBuildDate>
     <atom:link href="http://raph.es/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>xkcd comments on alcohol</title>
-      <link>http://raph.es/blog/2015/10/xkcd-comic-makes-my-point-on-alcohol/</link>
-      <pubDate>Sat, 17 Oct 2015 18:55:48 +0100</pubDate>
-      
-      <guid>http://raph.es/blog/2015/10/xkcd-comic-makes-my-point-on-alcohol/</guid>
-      <description>&lt;p&gt;I just found a recent &lt;a href=&#34;http://www.xkcd.com&#34;&gt;xkcd&lt;/a&gt; comic which happens to express my stance &lt;a href=&#34;http://raph.es/on/alcohol&#34;&gt;on alcohol&lt;/a&gt; remarkably well.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure &gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        I feel no social pressure to enjoy it at all!
-        &lt;br/&gt;src: &lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;Randall Munroe&lt;/a&gt; 
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
-  &lt;img src=&#34;http://imgs.xkcd.com/comics/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34;   /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
-&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Why I made a retro game console for the kids</title>
@@ -135,6 +107,34 @@
 &lt;/p&gt;
 
 &lt;p&gt;Anyhow, we have a retro console using a Pi, and I will tell you how we did it. In a later post. See you there!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>xkcd comments on alcohol</title>
+      <link>http://raph.es/blog/2015/07/xkcd-comic-makes-my-point-on-alcohol/</link>
+      <pubDate>Fri, 17 Jul 2015 18:55:48 +0100</pubDate>
+      
+      <guid>http://raph.es/blog/2015/07/xkcd-comic-makes-my-point-on-alcohol/</guid>
+      <description>&lt;p&gt;I just found a recent &lt;a href=&#34;http://www.xkcd.com&#34;&gt;xkcd&lt;/a&gt; comic which happens to express my stance &lt;a href=&#34;http://raph.es/on/alcohol&#34;&gt;on alcohol&lt;/a&gt; remarkably well.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        I feel no social pressure to enjoy it at all!
+        &lt;br/&gt;src: &lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;Randall Munroe&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
+  &lt;img src=&#34;http://imgs.xkcd.com/comics/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     
