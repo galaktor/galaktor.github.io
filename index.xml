@@ -38,6 +38,107 @@
     </item>
     
     <item>
+      <title>Why I made a retro game console for the kids</title>
+      <link>http://raph.es/blog/2015/07/retropie-game-emulator-kids-raspberry-pi/</link>
+      <pubDate>Sat, 18 Jul 2015 10:48:00 +0100</pubDate>
+      
+      <guid>http://raph.es/blog/2015/07/retropie-game-emulator-kids-raspberry-pi/</guid>
+      <description>&lt;p&gt;I often behave like a I am still just a kid, only with more than five bucks allowance. As such, I somtimes spend unreasonable money on gimmicks and gadgets based solely on the awesome things I &lt;em&gt;imagine&lt;/em&gt; I can use them for.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Steam sales are the worst.
+        &lt;br/&gt;src: &lt;a href=&#34;http://hyperboleandahalf.blogspot.ie/2010/06/this-is-why-ill-never-be-adult.html&#34;&gt;Allie Brosh&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/buy-things.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/buy-things_thumb.jpeg&#34;  alt=&#34;When I go into a buying rage for no mature reason whatsoever.&#34; width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Reality catches up eventually, and in one such case I found myself with several spare Raspberry Pi computers in my Command Centre (aka &amp;ldquo;where we hang the clothes to dry&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;I figured I could spare one for the kids. To justify my spending but also because the Pi was designed to educate children. And if first-world kids lack education in any subject, then that&amp;rsquo;s &lt;em&gt;Old Video Games Nobody Plays Anymore&lt;/em&gt;. Obviously.&lt;/p&gt;
+
+&lt;p&gt;Born in the early eighties, I am among the first generation of kids to grow up with video games being just a normal thing. Anyone before us met electronic games as a newfangled imitation of other forms of entertainment.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Modern game engines produce ridiculously realistic visuals.
+        &lt;br/&gt;src: &lt;a href=&#34;http://assets.crytek.com/asset-bank/action/viewAsset?id=2120&#34;&gt;Crytek Press Release&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/cryengine.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/cryengine_thumb.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Kids today grow up with flashy graphics and epic soindtracks. Technically, they are amazing. But gameplay is not always on par. Older games had to work with many more constraints. And constraints fosters creativity in important ways.&lt;/p&gt;
+
+&lt;p&gt;Thus, finding good modern games for kids is not as easy as you might expect. Most of the plethora of mobile games are full of ads, in-app purchases or are designed around a single mind-numbing yet addictive mechanic for more generic appeal. Or all of the above.&lt;/p&gt;
+
+&lt;p&gt;Some notable exceptions exist, of course. Like &lt;em&gt;Minecraft&lt;/em&gt;, which ironically was never designed with kids in mind but turns out to be mind-boggingly successful with young players. Parents all over the world try to understand their childrens&amp;rsquo; fascination with Minecraft.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Gazillions of kids watch *stampy* play Minecraft on YouTube.
+        &lt;br/&gt;src: &lt;a href=&#34;https://www.youtube.com/user/stampylonghead&#34;&gt;stampylonghead&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/stampy.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/stampy_thumb.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Console games for kids are not much better. Most are either badly executed, too difficult or simply not appropriate for smaller kids. Many of the best console games seem innocent enough but have simple violent mechanics at their core. They are made by and made for cash-strapped former children like myself, not actual children.&lt;/p&gt;
+
+&lt;p&gt;One of my offspring is still traumatized from that time we tried out the demo of &lt;em&gt;Castle Crashers&lt;/em&gt;. Granted, I could have noticed the PEGI 18, but for fuck&amp;rsquo;s sake.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        It&amp;#39;s cute. It&amp;#39;s fun. It&amp;#39;s all about murdering things.
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;div class=&#34;video&#34;&gt;
+ &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/BsLHvg93bX4&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Anyhow, we have a retro console using a Pi, and I will tell you how we did it. In a later post. See you there!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>LCHF bread/cake base</title>
       <link>http://raph.es/blog/2015/03/low-carb-high-fat-lchf-cake-bread/</link>
       <pubDate>Fri, 27 Mar 2015 13:55:29 +0100</pubDate>
@@ -1148,71 +1249,6 @@
 &lt;li&gt;&lt;a href=&#34;https://learn.sparkfun.com/tutorials/battery-technologies/lithium-polymer&#34;&gt;LiPo guide (Sparkfun)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.rogershobbycenter.com/lipoguide/&#34;&gt;LiPo guide (RC cars)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>license</title>
-      <link>http://raph.es/license/</link>
-      <pubDate>Fri, 10 Oct 2014 14:35:37 +0000</pubDate>
-      
-      <guid>http://raph.es/license/</guid>
-      <description>
-
-&lt;h1 id=&#34;author-copyright:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Author &amp;amp; copyright&lt;/h1&gt;
-
-&lt;p&gt;Copyright &amp;copy; Raphael Estrada 2011 - 2015.&lt;/p&gt;
-
-&lt;p&gt;Some rights reserved. You may use the source code and contents of this website under the conditions layed out in the licenses below.&lt;/p&gt;
-
-&lt;p&gt;You must get permission from the author should you wish to use source code or content in a way not compatible with the licenses.&lt;/p&gt;
-
-&lt;h1 id=&#34;source-code:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Source code&lt;/h1&gt;
-
-&lt;p&gt;Uness explicitly stated otherwise, all software source code is licensed under the&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;GNU General Public License
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;version 3 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;This includes (but is not exclusively limited to)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;shell scripts&lt;/li&gt;
-&lt;li&gt;CSS&lt;/li&gt;
-&lt;li&gt;HTML&lt;/li&gt;
-&lt;li&gt;JavaScript&lt;/li&gt;
-&lt;li&gt;hugo templates&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;latest-version:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Latest version&lt;/h2&gt;
-
-&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.gnu.org/licenses/licenses.html#GPL&#34;&gt;http://www.gnu.org/licenses/licenses.html#GPL&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;blog-text-images:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Blog text &amp;amp; images&lt;/h1&gt;
-
-&lt;p&gt;Unless explicitly stated otherwise, all blog contents is licensed under the&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) license
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;version 4.0 &lt;em&gt;or higher&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;This includes (but is not exclusively limited to):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;blog and project text&lt;/li&gt;
-&lt;li&gt;blog and project images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;latest-version-1:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Latest version&lt;/h2&gt;
-
-&lt;p&gt;At any given time the most current release of the license applies. For the newest and currently valid license text visit:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-nd/4.0/&#34;&gt;http://creativecommons.org/licenses/by-nd/4.0/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
