@@ -76,7 +76,7 @@
 &lt;h1 id=&#34;todo:6483546648f978b66ffde57bc20bcb3b&#34;&gt;TODO&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;continuous delivery downside: parallel travis workers -&amp;gt; race condition, not atomic pushes&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;continuous delivery downside: parallel travis workers -&amp;gt; race condition, not atomic pushes&lt;/del&gt; &amp;ldquo;fixed&amp;rdquo; by limiting travis to one single concurrent build at a time.&lt;/li&gt;
 &lt;li&gt;TOC shortcode?&lt;/li&gt;
 &lt;li&gt;GitHub issues for content improvements/changes&lt;/li&gt;
 &lt;li&gt;show revision of source repo as version in subtree html&lt;/li&gt;
