@@ -22,7 +22,7 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         The world needs more heroes like Zita.
-        &lt;br/&gt;src: &lt;a href=&#34;http://www.benhatke.com&#34;&gt;Ben Hatke&lt;/a&gt; 
+        &lt;br/&gt;src: &lt;a href=&#34;http://us.macmillan.com/books/9781596434462&#34;&gt;First Second Books&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -35,9 +35,26 @@
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;It took only a few hours from finding the right clothes to stitching them together. I encouraged her to document the process and write up a little recap.&lt;/p&gt;
+&lt;p&gt;It took only a few hours from finding the right materials to stitching everything together. I encouraged her to document the process and write up a little recap.&lt;/p&gt;
 
-&lt;p&gt;TODO: result pic&lt;/p&gt;
+&lt;p&gt;&lt;figure &gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Kids cosplay is the best type of cosplay
+        &lt;br/&gt;src: &lt;a href=&#34;http://www.bleedingcool.com/2014/11/06/when-kids-cosplay-at-new-york-comic-con-video/&#34;&gt;BleedingCool.com&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+    &lt;div class=&#34;video&#34;&gt;
+  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/lmlrr47NGmI&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     
