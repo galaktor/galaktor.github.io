@@ -168,7 +168,7 @@
     <p class="disclaimer">This post was migrated from my old blog which used to be hosted on Blogger. As a result, some links might be broken.</p>
 
   
-  <p><p>Serialization in .NET is pretty straightforward. It is most commonly used to (de)serialize XML or to send byte streams over <a href="http://www.urbandictionary.com/define.php?term=interwebs">teh interwebs</a>. The latter is an important part of how the <a href="http://msdn.microsoft.com/en-us/netframework/aa663324">Windows Communication Foundation (WCF)</a> works - as well as it&rsquo;s predecessor, .NET Remoting.</p>
+  <p>Serialization in .NET is pretty straightforward. It is most commonly used to (de)serialize XML or to send byte streams over <a href="http://www.urbandictionary.com/define.php?term=interwebs">teh interwebs</a>. The latter is an important part of how the <a href="http://msdn.microsoft.com/en-us/netframework/aa663324">Windows Communication Foundation (WCF)</a> works - as well as it&rsquo;s predecessor, .NET Remoting.</p>
 
 <p>In order to (de)serialize a type in .NET you have to decorate it with the <a href="http://msdn.microsoft.com/en-us/library/system.serializableattribute.aspx">SerializableAttribute</a>. This will tell the runtime to take an object of a specific type and all of it&rsquo;s data, flatten it into a series of bytes (hence the term &ldquo;serialized&rdquo;), which then can be written as text into an XML file or chopped into packets and sent over the wire.</p>
 
@@ -264,7 +264,7 @@ public class MySerializableClassTest
 <p>For details on how serialization works in .NET, check out the <a href="http://msdn.microsoft.com/en-us/library/system.runtime.serialization.aspx">ubiquitious MSDN documentation</a>.</p>
 
 <p>(Update: It&rsquo;s worth mentioning that this approach will only tell you if the class and it&rsquo;s explicit member types are serializable. It will not, however, cover the fact that the references in the serialized class could hold derived types at run-time. Since the <code>SerializableAttribute</code> is not inheritable, you could still end up with run-time exceptions when the actual types are not serializable.)</p>
-</p>
+
   <div class="clearboth"></div>
 <div>
   <ul class="tags">
@@ -290,7 +290,7 @@ public class MySerializableClassTest
 
   <div id="copyright">&copy; Raphael Estrada 2011-2015</div>
   <div id="poweredby">powered by <a href="http://hugo.spf13.com/">hugo</a></div>
-  <div>v1.0.128
+  <div>v1.0.129
 </div>
   <div class="cursor"></div> 
 </footer>

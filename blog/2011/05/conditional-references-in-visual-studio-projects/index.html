@@ -168,7 +168,7 @@
     <p class="disclaimer">This post was migrated from my old blog which used to be hosted on Blogger. As a result, some links might be broken.</p>
 
   
-  <p>
+  
 
 <p>Visual Studio does a good job in hiding the MSBuild configurations from it&rsquo;s users. MSBuild is quite flexible and powerful - but the VS user interface only gives you control over a tiny piece of it. One handy feature I believe deserves more attention in the IDE is <em>conditional references</em>. When you add a reference to one of your projects, by default it will be static. No matter how you <a href="/2011/04/targeting-platforms-in-visual-studio.html">modify your solution configuration or platform settings</a>.</p>
 
@@ -221,7 +221,7 @@
 <p>Note that in my example I am querying the <code>Platform</code> variable - <em>not</em> <code>Configuration</code>. I have noticed a practice <a href="http://dev.monogram.sk/websvn/filedetails.php?repname=graphstudio&amp;path=%2Ftrunk%2Fgraphstudio.sln">on teh webz</a> that suggests you create new configurations named <em>Debug64</em> and <em>Release64</em>, then switch references based on the <code>Configuration</code> variable. While this technically works the same way, it is logically incorrect. <code>Configuration</code> and <code>Platform</code> settings are two different concerns in Visual Studio and it is unwise to mix them. It&rsquo;s messy, redundant and generates loads of unnecessary lines in your solution and project files.</p>
 
 <p>Assuming that your project has nicely <a href="http://en.wikipedia.org/wiki/Separation_of_concerns">separated concerns</a> you should not have to make this change in more than one or <a href="http://en.wikipedia.org/wiki/Rule_of_three_%28programming%29">three</a> places. If you <em>are</em> facing a large number of projects that need this additional logic, this XML operation can easily be automated via a script or macro.</p>
-</p>
+
   <div class="clearboth"></div>
 <div>
   <ul class="tags">
@@ -247,7 +247,7 @@
 
   <div id="copyright">&copy; Raphael Estrada 2011-2015</div>
   <div id="poweredby">powered by <a href="http://hugo.spf13.com/">hugo</a></div>
-  <div>v1.0.128
+  <div>v1.0.129
 </div>
   <div class="cursor"></div> 
 </footer>

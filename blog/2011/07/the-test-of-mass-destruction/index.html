@@ -168,7 +168,7 @@
     <p class="disclaimer">This post was migrated from my old blog which used to be hosted on Blogger. As a result, some links might be broken.</p>
 
   
-  <p>
+  
 
 <p>The below is the log of a chat I had a while back with a colleague (you know who you are). I had just set up a fresh TeamCity build for his new project. This was a bit exciting for me since I am constantly encouraging developers to write tests for their code, <em>new code</em> in particular. After I had kicked off a first build, a very&hellip;&ldquo;special&rdquo; test appeared to be &ldquo;hanging&rdquo;&hellip;</p>
 
@@ -261,7 +261,7 @@ you started it, how do i stop it?
 <h1 id="do-it-as-simple-as-possible:ee8a0832ea58f251f45b6d4268de3d2f">Do it as simple as possible</h1>
 
 <p>Finally, this test was designed to be dangerous. Why did it have to do something 10 <em>million</em> times? Why not 100,000? Or 100? This was supposed to measure performance, so quite a large batch of iterations is a valid thing to do. But more often than not I find developers doing this when it is not necessary. &ldquo;Just to be safe&rdquo; or &ldquo;thorough&rdquo; or &ldquo;because we can&rdquo; (it&rsquo;s automated, isn&rsquo;t it?). Most of the time tests are fine with just one (=1) single test case. That&rsquo;s why in <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a> a test needs to break first, otherwise it&rsquo;s not worth executing it, yet alone implementing the new feature. If you are just tacking on several variants of the same test, testing the same logic/feature over and over, you are wasting screen space, your time and everyone else&rsquo;s time when they have to run and, most of all, <em>maintain</em> your tests.</p>
-</p>
+
   <div class="clearboth"></div>
 <div>
   <ul class="tags">
@@ -287,7 +287,7 @@ you started it, how do i stop it?
 
   <div id="copyright">&copy; Raphael Estrada 2011-2015</div>
   <div id="poweredby">powered by <a href="http://hugo.spf13.com/">hugo</a></div>
-  <div>v1.0.128
+  <div>v1.0.129
 </div>
   <div class="cursor"></div> 
 </footer>
