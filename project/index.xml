@@ -27,7 +27,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/zita/spacegirl1.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/zita/spacegirl1.jpeg&#34;  alt=&#34;Cover of the graphic novel Zita The Spacegirl&#34; width=&#34;250em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/project/zita/spacegirl1.jpeg&#34;  alt=&#34;Cover of the graphic novel Zita The Spacegirl&#34; style=&#34;width: 250em;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

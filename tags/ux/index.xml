@@ -41,7 +41,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -63,7 +63,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -85,13 +85,13 @@
     
     &lt;figcaption&gt;
         &lt;p&gt;
-        Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu item
+        Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu itpx
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -139,7 +139,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -177,7 +177,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -215,7 +215,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

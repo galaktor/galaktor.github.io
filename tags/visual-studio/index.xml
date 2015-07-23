@@ -55,7 +55,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   width=&#34;200em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   style=&#34;width: 200px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -127,7 +127,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -240,7 +240,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

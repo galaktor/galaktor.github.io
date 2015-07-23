@@ -33,7 +33,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -83,7 +83,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -115,7 +115,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

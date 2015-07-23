@@ -61,14 +61,14 @@
 
 &lt;p&gt;In an older &lt;a href=&#34;http://raph.es/2011/06/mapping-network-drives-for-teamcity.html&#34;&gt;post&lt;/a&gt; I mentioned how hard it is to have TeamCity agents have access to mapped drives. Unfortunately, Windows only maps network drives during a user&amp;rsquo;s login process. But you do not want to log in for every build agent - ideally they will run as daemons and, for instance, start automatically when the system boots without a user having to get involved.&lt;/p&gt;
 
-&lt;p&gt;So what I did before was an ugly hack - I used &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897553&#34;&gt;psexec&lt;/a&gt; to map the drives I want agents to see to the root user (&amp;ldquo;SYSTEM&amp;rdquo;). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.&lt;/p&gt;
+&lt;p&gt;So what I did before was an ugly hack - I used &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897553&#34;&gt;psexec&lt;/a&gt; to map the drives I want agents to see to the root user (&amp;ldquo;SYSTpx&amp;rdquo;). I never really understood why it worked, but I never liked the solution. Plus, it still did not give you a real Windows service, only a scheduled task that sort of behaved the same way.&lt;/p&gt;
 
 &lt;p&gt;I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -96,7 +96,7 @@
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -250,7 +250,7 @@ OK           X:        \\someserver\some\directory  Microsoft Windows Network
 The command completed successfully.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;It&amp;rsquo;s worth mentioning that this approach might cause problems when the mapped network location requires specific permissions - adding the &amp;ldquo;SYSTEM&amp;rdquo; for every build machine to permission lists is not very scalable, especially when you have lots of build boxes in a farm.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s worth mentioning that this approach might cause problems when the mapped network location requires specific permissions - adding the &amp;ldquo;SYSTpx&amp;rdquo; for every build machine to permission lists is not very scalable, especially when you have lots of build boxes in a farm.&lt;/p&gt;
 </description>
     </item>
     

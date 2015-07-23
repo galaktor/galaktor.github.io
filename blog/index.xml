@@ -27,7 +27,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/buy-things.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/buy-things_thumb.jpeg&#34;  alt=&#34;When I go into a buying rage for no mature reason whatsoever.&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/buy-things_thumb.jpeg&#34;  alt=&#34;When I go into a buying rage for no mature reason whatsoever.&#34; style=&#34;width: 400em;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -51,7 +51,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/cryengine.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/cryengine_thumb.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/cryengine_thumb.jpeg&#34;   style=&#34;width: 400em;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -75,7 +75,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/stampy.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/stampy_thumb.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/stampy_thumb.jpeg&#34;   style=&#34;width: 400em;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -134,7 +134,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; width=&#34;600em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; style=&#34;width: 600em;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -889,7 +889,7 @@
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/done.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/headlamp/done_thumb.jpeg&#34;  alt=&#34;Goggles with mounted batteries and lamp&#34; width=&#34;400px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/project/headlamp/done_thumb.jpeg&#34;  alt=&#34;Goggles with mounted batteries and lamp&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1215,7 +1215,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1237,7 +1237,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1259,13 +1259,13 @@ lol&lt;/p&gt;
     
     &lt;figcaption&gt;
         &lt;p&gt;
-        Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu item
+        Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu itpx
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1307,7 +1307,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1357,7 +1357,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1389,7 +1389,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1481,7 +1481,7 @@ Experience != Time on the project&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -1514,7 +1514,7 @@ Experience != Time on the project&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

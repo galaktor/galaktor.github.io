@@ -131,7 +131,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -169,7 +169,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -207,7 +207,7 @@ lol&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -586,7 +586,7 @@ public class CachedConfigurationSectionLoader
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   width=&#34;200em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   style=&#34;width: 200px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -658,7 +658,7 @@ public class CachedConfigurationSectionLoader
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -771,7 +771,7 @@ public class CachedConfigurationSectionLoader
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

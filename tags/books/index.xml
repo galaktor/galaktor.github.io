@@ -18,7 +18,7 @@
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/founders_cover.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/founders_cover.jpeg&#34;  alt=&#34;Founders At Work by Jessica Livingston&#34; width=&#34;150em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/founders_cover.jpeg&#34;  alt=&#34;Founders At Work by Jessica Livingston&#34; style=&#34;width: 150em;&#34;  /&gt;
   &lt;/a&gt;
 &lt;/p&gt;
 
@@ -42,7 +42,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -80,7 +80,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;   width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -114,7 +114,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -142,7 +142,7 @@ All the early people that had been there 3 to 4 years were starting to leave. Mo
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;   width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;   style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -203,7 +203,7 @@ All the early people that had been there 3 to 4 years were starting to leave. Mo
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;  alt=&#34;User ratings, like on Amazon, say a lot&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;  alt=&#34;User ratings, like on Amazon, say a lot&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -218,7 +218,7 @@ All the early people that had been there 3 to 4 years were starting to leave. Mo
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;  alt=&#34;StackOverflow book discussion&#34; width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;  alt=&#34;StackOverflow book discussion&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -237,7 +237,7 @@ All the early people that had been there 3 to 4 years were starting to leave. Mo
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

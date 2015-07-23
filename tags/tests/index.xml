@@ -58,7 +58,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -91,7 +91,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -371,7 +371,7 @@ you started it, how do i stop it?
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/womm-label.png&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; width=&#34;250em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; style=&#34;width: 250px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

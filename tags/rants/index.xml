@@ -27,7 +27,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; width=&#34;600em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; style=&#34;width: 600em;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -250,7 +250,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -288,7 +288,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -326,7 +326,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -380,7 +380,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -441,7 +441,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/founders_cover.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/founders_cover.jpeg&#34;  alt=&#34;Founders At Work by Jessica Livingston&#34; width=&#34;150em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/founders_cover.jpeg&#34;  alt=&#34;Founders At Work by Jessica Livingston&#34; style=&#34;width: 150em;&#34;  /&gt;
   &lt;/a&gt;
 &lt;/p&gt;
 
@@ -465,7 +465,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -503,7 +503,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;   width=&#34;500em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -537,7 +537,7 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -565,7 +565,7 @@ All the early people that had been there 3 to 4 years were starting to leave. Mo
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;   width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;   style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -681,7 +681,7 @@ you started it, how do i stop it?
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/womm-label.png&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; width=&#34;250em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; style=&#34;width: 250px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -728,7 +728,7 @@ you started it, how do i stop it?
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;  alt=&#34;User ratings, like on Amazon, say a lot&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;  alt=&#34;User ratings, like on Amazon, say a lot&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -743,7 +743,7 @@ you started it, how do i stop it?
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;  alt=&#34;StackOverflow book discussion&#34; width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;  alt=&#34;StackOverflow book discussion&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -762,7 +762,7 @@ you started it, how do i stop it?
 &lt;p&gt;&lt;figure &gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;   width=&#34;350em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

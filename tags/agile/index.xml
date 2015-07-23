@@ -33,7 +33,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -83,7 +83,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -115,7 +115,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; width=&#34;500px&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -188,7 +188,7 @@ Experience != Time on the project&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; width=&#34;300em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -226,7 +226,7 @@ Experience != Time on the project&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -264,7 +264,7 @@ Experience != Time on the project&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; width=&#34;450em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -318,7 +318,7 @@ Experience != Time on the project&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
@@ -390,7 +390,7 @@ Experience != Time on the project&lt;/p&gt;
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/procrast.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/procrast.jpeg&#34;   width=&#34;400em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/procrast.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;

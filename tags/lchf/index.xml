@@ -27,7 +27,7 @@
     &lt;/figcaption&gt;
     
     &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; width=&#34;600em&#34;  /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; style=&#34;width: 600em;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;/figure&gt;
