@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kids on raph haXx</title>
-    <link>http://raph.es/tags/kids/</link>
-    <description>Recent content in Kids on raph haXx</description>
+    <title>Zita on raph haXx</title>
+    <link>http://raph.es/projects/zita/</link>
+    <description>Recent content in Zita on raph haXx</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2015</copyright>
     <lastBuildDate>Fri, 24 Jul 2015 22:41:47 +0100</lastBuildDate>
-    <atom:link href="http://raph.es/tags/kids/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://raph.es/projects/zita/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>the world needs zita the spacegirl</title>
@@ -243,113 +243,6 @@
 
 &lt;p&gt;&lt;cite&gt;&amp;ndash;Ben Hatke; @&lt;a href=&#34;http://www.flickeringmyth.com/2014/11/girl-power-ben-hatke-talks-return-zita-spacegirl.html&#34;&gt;flickeringmyth.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why I made a retro game console for the kids</title>
-      <link>http://raph.es/blog/2015/07/retropie-game-emulator-kids-raspberry-pi/</link>
-      <pubDate>Sat, 18 Jul 2015 10:48:00 +0100</pubDate>
-      
-      <guid>http://raph.es/blog/2015/07/retropie-game-emulator-kids-raspberry-pi/</guid>
-      <description>&lt;p&gt;I often behave like a I am still just a kid, only with more than five bucks allowance. As such, I somtimes spend unreasonable money on gimmicks and gadgets based solely on the awesome things I &lt;em&gt;imagine&lt;/em&gt; I can use them for.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure &gt;
-  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/buy-things.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/buy-things_thumb.jpeg&#34;  alt=&#34;When I go into a buying rage for no mature reason whatsoever.&#34; style=&#34;width: 20em;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
-  
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Steam sales are the worst.
-        &lt;br/&gt;src: &lt;a href=&#34;http://hyperboleandahalf.blogspot.ie/2010/06/this-is-why-ill-never-be-adult.html&#34;&gt;Allie Brosh&lt;/a&gt; 
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Reality catches up eventually, and in one such case I found myself with several spare Raspberry Pi computers in my Command Centre (aka &amp;ldquo;where we hang the clothes to dry&amp;rdquo;).&lt;/p&gt;
-
-&lt;p&gt;I figured I could spare one for the kids. To justify my spending but also because the Pi was designed to educate children. And if first-world kids lack education in any subject, then that&amp;rsquo;s &lt;em&gt;Old Video Games Nobody Plays Anymore&lt;/em&gt;. Obviously.&lt;/p&gt;
-
-&lt;p&gt;Born in the early eighties, I am among the first generation of kids to grow up with video games being just a normal thing. Anyone before us met electronic games as a newfangled imitation of other forms of entertainment.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure &gt;
-  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/cryengine.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/cryengine_thumb.jpeg&#34;   style=&#34;width: 25em;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
-  
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Modern game engines produce ridiculously realistic visuals.
-        &lt;br/&gt;src: &lt;a href=&#34;http://assets.crytek.com/asset-bank/action/viewAsset?id=2120&#34;&gt;Crytek Press Release&lt;/a&gt; 
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Kids today grow up with flashy graphics and epic soundtracks. Technically, they are amazing. But gameplay is not always on par. Older games had to work with many more constraints. And constraints foster creativity in important ways.&lt;/p&gt;
-
-&lt;p&gt;Thus, finding good modern games for kids is not as easy as you might expect. Most of the plethora of mobile games are full of ads, in-app purchases or are designed around a single mind-numbing, yet addictive mechanic for more generic appeal. Or all of the above.&lt;/p&gt;
-
-&lt;p&gt;Some notable exceptions exist, of course. Like &lt;em&gt;Minecraft&lt;/em&gt;, which ironically was never designed with kids in mind but turns out to be mind-boggingly successful with young players. Parents all over the world try to understand their childrens&amp;rsquo; fascination with Minecraft.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure &gt;
-  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/stampy.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/stampy_thumb.jpeg&#34;   style=&#34;width: 25em;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
-  
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Gazillions of kids watch *stampy* play Minecraft on YouTube.
-        &lt;br/&gt;src: &lt;a href=&#34;https://www.youtube.com/user/stampylonghead&#34;&gt;stampylonghead&lt;/a&gt; 
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Console games for kids are not much better. Most are either badly executed, too difficult or simply not appropriate for smaller kids. Many of the best console games seem innocent enough but have violent mechanics at their core. They are made &lt;em&gt;by&lt;/em&gt; and made &lt;em&gt;for&lt;/em&gt; cash-strapped ex-children like myself, not &lt;em&gt;actual&lt;/em&gt; children.&lt;/p&gt;
-
-&lt;p&gt;One of my offspring is still traumatized from that time we tried out the demo of &lt;em&gt;Castle Crashers&lt;/em&gt;. Granted, I could have noticed the PEGI 18, but for fuck&amp;rsquo;s sake.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure &gt;
-  &lt;div class=&#34;video&#34;&gt;
-  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/BsLHvg93bX4&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
- &lt;/iframe&gt;
-&lt;/div&gt;
-
-  
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        It&amp;#39;s cute. It&amp;#39;s fun. It&amp;#39;s all about murdering things.
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;p&gt;I won&amp;rsquo;t pretend to believe that the majority of games - new or old - don&amp;rsquo;t have destructive mechanics at their centre. Shoot, beat and kill-em-ups have been around since day one. But with their blocky graphics and chirpy sounds, &lt;del&gt;old&lt;/del&gt; retro games couldn&amp;rsquo;t even be scary if they tried.&lt;/p&gt;
-
-&lt;p&gt;And how they tried. Doom, for instance, scared the shit out of me at the time. But even that is comically dated by today&amp;rsquo;s standards. The more immersive modern games become, the more I feel they can have unintended negative effects, particulaly on young brains. The next wave of Virtual Reality gizmos is on the horizon, and you might want to hold off from plugging your kids into them for just a little while, just sayin&amp;rsquo;.&lt;/p&gt;
-
-&lt;p&gt;With literally thousands of games to choose from, very low system requirements, and technical limitations so severe that catchy gameplay is almost guaranteed, retro games make the perfect choice for kids.&lt;/p&gt;
-
-&lt;p&gt;So, we have a retro console using a Pi, and I will tell you how we did it. In a later post. See you there!&lt;/p&gt;
 </description>
     </item>
     
