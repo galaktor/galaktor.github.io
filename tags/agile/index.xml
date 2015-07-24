@@ -24,7 +24,11 @@
 &lt;p&gt;I respectfully call bullshit. At least with regards to the usage of those terms in The Software Industry. The mere duration of having been in the industry is absolutely not a reliable indicator of &amp;ldquo;seniority&amp;rdquo; as most people mean it. Let&amp;rsquo;s move away from that ambiguous term, and say: &lt;em&gt;experience&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         How many people perceive &amp;#39;seniority&amp;#39; in The Software Industry
@@ -32,10 +36,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -74,7 +74,11 @@
 &lt;p&gt;Joe Programmer&amp;rsquo;s CV saying &amp;ldquo;10 years writing performance-critical software in C++&amp;rdquo; looks more interesting to many readers than Jane Hacker&amp;rsquo;s CV which states &amp;ldquo;4 years developing websites with Python&amp;rdquo;. I&amp;rsquo;ve come to learn that both of these statements say equally &lt;em&gt;little&lt;/em&gt; about the applicant&amp;rsquo;s expertise. In fact, Jane could easily be more experienced (at whatever) because she might have been obsessively hacking away on twelve open-source projects in all her spare-time during those four years.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         There&amp;#39;s more to &amp;#39;senior&amp;#39; than technical skills
@@ -82,10 +86,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -106,7 +106,11 @@
 &lt;p&gt;In a team, problems and solutions need to be explained and discussed. I&amp;rsquo;ve met people at that company who were great coders, but had big problems communicating. They&amp;rsquo;ve been on the project longer than me. They knew the codebase and tools better, too. Yet their official title did not say &amp;ldquo;senior&amp;rdquo;, and that was unlikely to change anytime soon. And rightfully so - their expertise was locked up inside their heads and did not scale.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Better definition of &amp;#39;senior&amp;#39;. Note that there is lots of middle ground
@@ -114,10 +118,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -179,7 +179,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;The touchscreens in modern devices might be closer to what we expect from futuristic high-tech devices. But just because they let us use a mobile web browser more efficiently, does that mean the future will be all chrome and touchscreens?&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Everything is chrome in the future!
@@ -187,10 +191,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -217,7 +217,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;There are &lt;a href=&#34;http://xmpp.org/extensions/xep-0045.html&#34;&gt;much&lt;/a&gt; &lt;a href=&#34;http://trac-hacks.org/wiki/DiscussionPlugin&#34;&gt;better&lt;/a&gt; &lt;a href=&#34;http://www.coordino.com/&#34;&gt;tools&lt;/a&gt; available for online discussions. They were designed to allow for sane reading, backtracking, quoting and searching. And above all, they&amp;rsquo;re much less redundant than when using email.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
@@ -225,10 +229,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -255,7 +255,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Perforce&amp;rdquo; and &amp;ldquo;control&amp;rdquo; is an contradiction. There you go. I just had to put this one in.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Me when I see your vlog
@@ -263,10 +267,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -309,7 +309,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;We grew up with this idea, that if you really want your boss to get into that alien chick&amp;rsquo;s pants, you need to be a wizard. You get the point. That&amp;rsquo;s why I believe it&amp;rsquo;s Scotty&amp;rsquo;s fault. Don&amp;rsquo;t get me wrong, Scotty rocks (rest in peace, Mr. Doohan). But that inner geek inside us, it&amp;rsquo;s probably a little Scotty.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         I couldn&amp;#39;t find DuctTape or WD40 on GitHub
@@ -317,10 +321,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -381,7 +381,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;Starting a new project is not so different from me creating this new blog. You are full of ideas, have a pretty good picture of what you want the result to be like, but wonder where to set that very first step to get there. It can be very tempting and alot of  fun to research, plan an design for a young and innocent project. It is like a greenfield wonderland where we can dream up anything we would like to do. Go for it. Go nuts. But only a little.  Otherwise you will find yourself trapped inside the infamous &lt;a href=&#34;http://www.joeydevilla.com/2007/11/20/the-procrastination-flowchart/&#34;&gt;procrastination loop&lt;/a&gt; instead of getting any real work done. Timeboxing your preparations can help.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/procrast.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/procrast.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         procrastination loop
@@ -389,10 +393,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/procrast.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/procrast.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

@@ -46,7 +46,11 @@
 &lt;p&gt;This works because in MSBuild the reference elements are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164283%28v=VS.100%29.aspx&#34;&gt;&lt;code&gt;Item&lt;/code&gt; elements&lt;/a&gt;. Many element types can have condition attributes. If you look at other parts of your project file you will probably see that the project configuration and platform sections also use conditions similar to the above example. There are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164307.aspx&#34;&gt;other ways to define conditional logic in MSBuild&lt;/a&gt;, but this is probably the quickest and most understandable. If you plan to do more funky stuff, have a look at &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164282.aspx&#34;&gt;&lt;code&gt;&amp;lt;Choose&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;Otherwise&amp;gt;&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   style=&#34;width: 200px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Condition evaluates to *False*
@@ -54,10 +58,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   style=&#34;width: 200px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -84,7 +84,11 @@
 &lt;h1 id=&#34;configuration-configuration:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Configuration != Configuration&lt;/h1&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         L: Solution configuration; R: Solution platform
@@ -92,10 +96,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -118,7 +118,11 @@
 &lt;p&gt;A project in Visual Studio represents a binary that will be generated after compilation. As you would expect, the &lt;em&gt;project settings&lt;/em&gt; window allows you to define &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/0hkyezwy%28v=VS.100%29.aspx&#34;&gt;various options&lt;/a&gt; around that binary - most notably where the file will be copied to, if the compiler will optimize the generated IL (i.e. in Release mode) and what platform architecture you are targeting. Those settings are stored in a &lt;em&gt;project file&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         *Platform* != *Platform target* o_O
@@ -126,10 +130,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -231,7 +231,11 @@
 &lt;p&gt;When setting to a more specific platform such as &lt;code&gt;x86&lt;/code&gt;, you should switch as many projects&amp;rsquo; configurations as possible to that, too - otherwise to &lt;code&gt;Any CPU&lt;/code&gt;. In an ideal world you would set all projects to &lt;code&gt;x86&lt;/code&gt;, and if you can, do so. If you need to leave some &lt;code&gt;Any CPU&lt;/code&gt; projects in that mode (because you are probably just too lazy to do otherwise), at least make sure they are not your apps &amp;ldquo;entry points&amp;rdquo;, i.e. executable projects. The reason is if you build as &lt;code&gt;x86&lt;/code&gt; but your executable is &lt;code&gt;Any CPU&lt;/code&gt;, running the app on a 64bit machine will make your whole app domain run as x64, which is not always desirable and - much worse - not expected. So try to use the exact same config as in the solution whenever possible. Even if it means (some seconds of) extra work adding configurations to projects.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         The *Configuration Manager* window
@@ -239,10 +243,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

@@ -179,7 +179,11 @@
 <h1 id="configuration-configuration:3c65a9599e8a0e17d81dafe3d51f6982">Configuration != Configuration</h1>
 
 <p><figure >
-    
+  <p><a href="/img/blogger/configuration_platform_selector.jpeg">
+  <img src="/img/blogger/configuration_platform_selector.jpeg"     />
+  </a></p>
+
+  
     <figcaption>
         <p>
         L: Solution configuration; R: Solution platform
@@ -187,10 +191,6 @@
         </p> 
     </figcaption>
     
-    <p><a href="/img/blogger/configuration_platform_selector.jpeg">
-  <img src="/img/blogger/configuration_platform_selector.jpeg"     />
-  </a></p>
-
 </figure>
 
 <div class="clearboth"></div>
@@ -213,7 +213,11 @@
 <p>A project in Visual Studio represents a binary that will be generated after compilation. As you would expect, the <em>project settings</em> window allows you to define <a href="http://msdn.microsoft.com/en-us/library/0hkyezwy%28v=VS.100%29.aspx">various options</a> around that binary - most notably where the file will be copied to, if the compiler will optimize the generated IL (i.e. in Release mode) and what platform architecture you are targeting. Those settings are stored in a <em>project file</em>.</p>
 
 <p><figure >
-    
+  <p><a href="/img/blogger/project_settings.jpeg">
+  <img src="/img/blogger/project_settings.jpeg"   style="width: 500px;"  />
+  </a></p>
+
+  
     <figcaption>
         <p>
         *Platform* != *Platform target* o_O
@@ -221,10 +225,6 @@
         </p> 
     </figcaption>
     
-    <p><a href="/img/blogger/project_settings.jpeg">
-  <img src="/img/blogger/project_settings.jpeg"   style="width: 500px;"  />
-  </a></p>
-
 </figure>
 
 <div class="clearboth"></div>
@@ -326,7 +326,11 @@
 <p>When setting to a more specific platform such as <code>x86</code>, you should switch as many projects&rsquo; configurations as possible to that, too - otherwise to <code>Any CPU</code>. In an ideal world you would set all projects to <code>x86</code>, and if you can, do so. If you need to leave some <code>Any CPU</code> projects in that mode (because you are probably just too lazy to do otherwise), at least make sure they are not your apps &ldquo;entry points&rdquo;, i.e. executable projects. The reason is if you build as <code>x86</code> but your executable is <code>Any CPU</code>, running the app on a 64bit machine will make your whole app domain run as x64, which is not always desirable and - much worse - not expected. So try to use the exact same config as in the solution whenever possible. Even if it means (some seconds of) extra work adding configurations to projects.</p>
 
 <p><figure >
-    
+  <p><a href="/img/blogger/configmanager.jpeg">
+  <img src="/img/blogger/configmanager.jpeg"   style="width: 400px;"  />
+  </a></p>
+
+  
     <figcaption>
         <p>
         The *Configuration Manager* window
@@ -334,10 +338,6 @@
         </p> 
     </figcaption>
     
-    <p><a href="/img/blogger/configmanager.jpeg">
-  <img src="/img/blogger/configmanager.jpeg"   style="width: 400px;"  />
-  </a></p>
-
 </figure>
 
 <div class="clearboth"></div>
@@ -456,7 +456,7 @@
 
   <div id="copyright">&copy; Raphael Estrada 2011-2015</div>
   <div id="poweredby">powered by <a href="http://hugo.spf13.com/">hugo</a></div>
-  <div>v1.0.136
+  <div>v1.0.137
 </div>
   <div class="cursor"></div> 
 </footer>

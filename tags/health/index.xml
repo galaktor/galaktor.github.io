@@ -18,7 +18,11 @@
       <description>&lt;p&gt;I just found a recent &lt;a href=&#34;http://www.xkcd.com&#34;&gt;xkcd&lt;/a&gt; comic which happens to express my stance &lt;a href=&#34;http://raph.es/on/alcohol&#34;&gt;on alcohol&lt;/a&gt; remarkably well.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/beer.jpeg&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; style=&#34;width: 600px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         I feel no social pressure to enjoy it at all!
@@ -26,10 +30,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; style=&#34;width: 600px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

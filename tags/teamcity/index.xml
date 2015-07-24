@@ -24,11 +24,11 @@
 &lt;p&gt;I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -52,11 +52,11 @@
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -211,11 +211,11 @@ you started it, how do i stop it?
 &lt;p&gt;First of all, always know what you are submitting to source control. Always, as in 100%. Diff all files if necessary and understand what&amp;rsquo;s in them - I know from personal experience that many developers do not understand most of what is inside &lt;a href=&#34;http://www.galaktor.net/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;Visual Studio project and solution files&lt;/a&gt;, for example. Understand it - you are changing it, and you are an engineer, so learn it if you don&amp;rsquo;t know what it is. Many developers think having a build server means not having to run stuff on your local machine anymore. That is wrong. The build server is a last line of defense in that matter, but if you break shared code you are hurting the productivity of other developers. If you make sure it &lt;a href=&#34;http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html&#34;&gt;works on your machine&lt;/a&gt; first, then nobody will notice that you screwed up and you are able to fix the problem before you switched to something else. If a build engineer has to call you up an hour later, you will probably need some time to retrace your steps to understand what&amp;rsquo;s wrong. Do it early, save yourself and others the pain.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/womm-label.png&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/womm-label.png&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; style=&#34;width: 250px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

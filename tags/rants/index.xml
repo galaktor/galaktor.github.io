@@ -18,7 +18,11 @@
       <description>&lt;p&gt;I just found a recent &lt;a href=&#34;http://www.xkcd.com&#34;&gt;xkcd&lt;/a&gt; comic which happens to express my stance &lt;a href=&#34;http://raph.es/on/alcohol&#34;&gt;on alcohol&lt;/a&gt; remarkably well.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/beer.jpeg&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; style=&#34;width: 600px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         I feel no social pressure to enjoy it at all!
@@ -26,10 +30,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://xkcd.com/1534/&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/beer.png&#34;  alt=&#34;Comic figure gets peer-pressured into enjoying beer.&#34; style=&#34;width: 600px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -200,12 +200,12 @@
       
       <guid>http://raph.es/blog/2012/01/power-to-the-nerds/</guid>
       <description>&lt;p&gt;&lt;figure &gt;
-    
-    &lt;div class=&#34;video&#34;&gt;
+  &lt;div class=&#34;video&#34;&gt;
   &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/1p-TV4jaCMk&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
  &lt;/iframe&gt;
 &lt;/div&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -241,7 +241,11 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;The touchscreens in modern devices might be closer to what we expect from futuristic high-tech devices. But just because they let us use a mobile web browser more efficiently, does that mean the future will be all chrome and touchscreens?&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Everything is chrome in the future!
@@ -249,10 +253,6 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -279,7 +279,11 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;There are &lt;a href=&#34;http://xmpp.org/extensions/xep-0045.html&#34;&gt;much&lt;/a&gt; &lt;a href=&#34;http://trac-hacks.org/wiki/DiscussionPlugin&#34;&gt;better&lt;/a&gt; &lt;a href=&#34;http://www.coordino.com/&#34;&gt;tools&lt;/a&gt; available for online discussions. They were designed to allow for sane reading, backtracking, quoting and searching. And above all, they&amp;rsquo;re much less redundant than when using email.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
@@ -287,10 +291,6 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -317,7 +317,11 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Perforce&amp;rdquo; and &amp;ldquo;control&amp;rdquo; is an contradiction. There you go. I just had to put this one in.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Me when I see your vlog
@@ -325,10 +329,6 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -371,7 +371,11 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;We grew up with this idea, that if you really want your boss to get into that alien chick&amp;rsquo;s pants, you need to be a wizard. You get the point. That&amp;rsquo;s why I believe it&amp;rsquo;s Scotty&amp;rsquo;s fault. Don&amp;rsquo;t get me wrong, Scotty rocks (rest in peace, Mr. Doohan). But that inner geek inside us, it&amp;rsquo;s probably a little Scotty.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         I couldn&amp;#39;t find DuctTape or WD40 on GitHub
@@ -379,10 +383,6 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -456,7 +456,11 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Interestingly, Gmail is the closest the book gets to Google. Somehow I instinctively associate the &lt;del&gt;ad&lt;/del&gt; &lt;del&gt;search&lt;/del&gt; &lt;del&gt;meh&lt;/del&gt; giant with the term &amp;ldquo;startup&amp;rdquo; (kudos to their &lt;a href=&#34;http://en.wikipedia.org/wiki/Corporate_Identity&#34;&gt;CI&lt;/a&gt; team, I guess) so I expected them to be featured. Maybe their story is just too popular? But on the other hand, Apple is in it, and their history must be one of the best-known out there considering the legions of fan-boys that are in love with Steve Jobs. That and it&amp;rsquo;s coverage in other &lt;a href=&#34;http://books.google.com/books?id=mShXzzKtpmEC&#34;&gt;books&lt;/a&gt;. Nevertheless, Steve Wozniak (the &lt;em&gt;other&lt;/em&gt; Steve) gives what I felt was the longest and most self-praising interview in the entire book.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Excited about the newest iThing?
@@ -464,10 +468,6 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/fanboi.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -494,7 +494,11 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;This is probably my favorite part of the book. It points out something that I believe is a serious problem in most software development teams. Many engineers massively overestimate their own capabilities, especially so-called &amp;ldquo;senior&amp;rdquo; people. They are convinced that what they do is perfect and won&amp;rsquo;t consider that they might be able to improve their skills. &amp;ldquo;I don&amp;rsquo;t need unit tests because I write working code&amp;rdquo;. Sure&amp;hellip; That makes evolving a team unnecessarily difficult (albeit, thank goodness, not impossible!).&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         In aviation, Darwin takes care of Mavericks.
@@ -502,10 +506,6 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/maverick.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -528,7 +528,11 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;I believe Ms. Trott makes a good point here. So the number of women in IT is not as high as some arbitrary percentage people decided would be &amp;ldquo;fair&amp;rdquo; - who cares? Maybe it&amp;rsquo;s just something most women don&amp;rsquo;t like to do, and that&amp;rsquo;s that? Back when I was at the University my programme was a mix of computer science and design. The male/female ratio was fairly balanced. Until we had to decide what to specialize on: CS or the design thing. Nearly all the women went for design, leaving mostly guys in the CS classes. It was a natural decision, those ladies simply wanted to do design. While preconceptions based on stereotypes can be harmful and encouraging them is not good, we should not try to force them out of existence, either. For example, most boys like trucks while girls usually prefer dolls. Not wanting girls to play with trucks would be just as harmful as not wanting them to play with dolls, just for the sake of eradicating a stereotype. To get back to the point: maybe most women simply prefer design over software development. Don&amp;rsquo;t try to draw more women into the field just in order to make a point. Having said that, I do think that more female software developers could really benefit the industry.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Flags mark the many quotes I enjoyed.
@@ -536,10 +540,6 @@ will inevitably be used for worse later.&amp;rdquo;&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/founders_bookmarks.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -563,11 +563,11 @@ All the early people that had been there 3 to 4 years were starting to leave. Mo
 &lt;p&gt;He continues to explain that you should be willing to invest into creating a working environment that people enjoy working in. Losing them to competition is much more expensive in the long run. And it&amp;rsquo;s the long-term things that some people tend to lose out of sight.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/all-like-ms.jpeg&#34;   style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -679,11 +679,11 @@ you started it, how do i stop it?
 &lt;p&gt;First of all, always know what you are submitting to source control. Always, as in 100%. Diff all files if necessary and understand what&amp;rsquo;s in them - I know from personal experience that many developers do not understand most of what is inside &lt;a href=&#34;http://www.galaktor.net/2011/04/targeting-platforms-in-visual-studio.html&#34;&gt;Visual Studio project and solution files&lt;/a&gt;, for example. Understand it - you are changing it, and you are an engineer, so learn it if you don&amp;rsquo;t know what it is. Many developers think having a build server means not having to run stuff on your local machine anymore. That is wrong. The build server is a last line of defense in that matter, but if you break shared code you are hurting the productivity of other developers. If you make sure it &lt;a href=&#34;http://www.codinghorror.com/blog/2007/03/the-works-on-my-machine-certification-program.html&#34;&gt;works on your machine&lt;/a&gt; first, then nobody will notice that you screwed up and you are able to fix the problem before you switched to something else. If a build engineer has to call you up an hour later, you will probably need some time to retrace your steps to understand what&amp;rsquo;s wrong. Do it early, save yourself and others the pain.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/womm-label.png&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/womm-label.png&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/womm-label.png&#34;  alt=&#34;that&amp;#39;s why we also run them on *other* machines -me&#34; style=&#34;width: 250px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -726,11 +726,11 @@ you started it, how do i stop it?
 &lt;p&gt;I am aware that there are also tons of crappy books out there. Ones that are hard to understand, boring to read or simply just sloppy attempts to make money off fancy buzzwords. Some publishers keep bringing out new &amp;ldquo;editions&amp;rdquo; of popular books with minor changes only to get people to buy them a second time. But even bad books have gone through some process or another, and people generally do not invest money into a project such as a book without having some confidence that people will buy them so they can (at least) get their money back. That said, how many blogs are there on the internet that are hardly read by anybody? (Tip: you are looking at one right now) It is easy to write crappy blogs, but it costs money to publish crappy books.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/good-book-vs-bad-book.jpeg&#34;  alt=&#34;User ratings, like on Amazon, say a lot&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -741,11 +741,11 @@ you started it, how do i stop it?
 &lt;p&gt;Aside from those ratings, it is usually even easier and faster to just do the same thing you always do when you need a quick answer: enter &amp;ldquo;best book &lt;em&gt;[MyTopic]&lt;/em&gt;&amp;rdquo; on &lt;a href=&#34;http://lmgtfy.com/?q=best+book+scala&#34;&gt;Google&lt;/a&gt; or &lt;a href=&#34;http://stackoverflow.com/search?q=best+book+scala&#34;&gt;StackOverflow&lt;/a&gt; and you can be farely sure to find various recommendations. Check the ratings and reviews for those on your favorite book sale site. I do this all the time and have not been dissapointed yet.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/book-so.jpeg&#34;  alt=&#34;StackOverflow book discussion&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -760,11 +760,11 @@ you started it, how do i stop it?
 &lt;p&gt;Some of mankind&amp;rsquo;s most important knowledge is in books. They have helped us learn for thousands of years. Blogs and whatnot are good for some things, but there is still no better way to really learn about a topic than reading a good &amp;ldquo;old&amp;rdquo; book.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/lzy-engynrr.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

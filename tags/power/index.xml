@@ -28,7 +28,11 @@
 &lt;p&gt;The Pi doesn&amp;rsquo;t use all of the USB pins. It only takes the +5V on pin 1 and connects to ground on pin 5.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-power-pins_peter-vis.gif&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-power-pins_peter-vis.gif&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Pins 1 and 5 are for power
@@ -36,10 +40,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-power-pins_peter-vis.gif&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-power-pins_peter-vis.gif&#34;     /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -48,11 +48,11 @@
 &lt;p&gt;So I bought some male USB connectors.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-male.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-male.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-male_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -63,8 +63,7 @@
 &lt;p&gt;To not have to remember which wire is which it makes sense to stick with convention and put the red wire onto pin 1, and the black wire to pin 5. This is a power connector after all. Stick heat shrinks over the solder joints after soldering.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-solder.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-solder.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-solder_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -72,6 +71,7 @@
   &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-shrinks_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -80,8 +80,7 @@
 &lt;p&gt;Finally, I stuck on a glob of hot glue as a crude strain relief.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-pins-close.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/mudcam/micro-usb-pins-close.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-pins-close_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -89,6 +88,7 @@
   &lt;img src=&#34;http://raph.es/img/project/mudcam/micro-usb-glue_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

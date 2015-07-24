@@ -189,7 +189,11 @@ lol&lt;/p&gt;
 &lt;p&gt;You can select different &amp;ldquo;dynamic views&amp;rdquo; over on the left of the main menu bar - most of them don&amp;rsquo;t work well with this type of blog, exceptions being maybe &amp;ldquo;classic&amp;rdquo; and &amp;ldquo;sidebar&amp;rdquo;, the latter which I have set to be the default. Google won&amp;rsquo;t allow me to lock it down to just that view, so I guess that means you can switch them as you see fit - but be warned, they mostly suck.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Blogger&amp;#39;s dynamic views crop images with awkward results
@@ -197,10 +201,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -211,7 +211,11 @@ lol&lt;/p&gt;
 &lt;p&gt;Another nice gimmick is that Blogger finally got a sane &amp;ldquo;share&amp;rdquo; menu at the bottom of each post - featuring the actual number of tweets (was not there before) and ditching a bunch of who-gives-a-shit social networks (but obviously still hanging on to g+). Notice how there&amp;rsquo;s even a Facebook &amp;ldquo;like&amp;rdquo; button - then again, I really consider that a bug, not a feature.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Social networks in order of importance - according to Google
@@ -219,10 +223,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -239,7 +239,11 @@ lol&lt;/p&gt;
 &lt;p&gt;Bitbucket makes it &lt;a href=&#34;http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+bitbucket+Domain+Name&#34;&gt;very easy&lt;/a&gt; to point a CNAME to your profile, so now &lt;a href=&#34;http://code.galaktor.net/&#34;&gt;code.galaktor.net&lt;/a&gt; goes straight to the repository list. That&amp;rsquo;s exactly where you end up if you hit the new &amp;ldquo;code&amp;rdquo; button in the main menu. Keep in mind that all I did so far was import a few old-ish projects. I intend to give them some TLC and add more in the near future.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   style=&#34;width: 450px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu itpx
@@ -247,10 +251,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   style=&#34;width: 450px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -281,7 +281,11 @@ lol&lt;/p&gt;
 &lt;p&gt;I respectfully call bullshit. At least with regards to the usage of those terms in The Software Industry. The mere duration of having been in the industry is absolutely not a reliable indicator of &amp;ldquo;seniority&amp;rdquo; as most people mean it. Let&amp;rsquo;s move away from that ambiguous term, and say: &lt;em&gt;experience&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         How many people perceive &amp;#39;seniority&amp;#39; in The Software Industry
@@ -289,10 +293,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and time&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -331,7 +331,11 @@ lol&lt;/p&gt;
 &lt;p&gt;Joe Programmer&amp;rsquo;s CV saying &amp;ldquo;10 years writing performance-critical software in C++&amp;rdquo; looks more interesting to many readers than Jane Hacker&amp;rsquo;s CV which states &amp;ldquo;4 years developing websites with Python&amp;rdquo;. I&amp;rsquo;ve come to learn that both of these statements say equally &lt;em&gt;little&lt;/em&gt; about the applicant&amp;rsquo;s expertise. In fact, Jane could easily be more experienced (at whatever) because she might have been obsessively hacking away on twelve open-source projects in all her spare-time during those four years.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         There&amp;#39;s more to &amp;#39;senior&amp;#39; than technical skills
@@ -339,10 +343,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_bad2.jpeg&#34;  alt=&#34;People often assume linear relation between seniority and technical skill&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -363,7 +363,11 @@ lol&lt;/p&gt;
 &lt;p&gt;In a team, problems and solutions need to be explained and discussed. I&amp;rsquo;ve met people at that company who were great coders, but had big problems communicating. They&amp;rsquo;ve been on the project longer than me. They knew the codebase and tools better, too. Yet their official title did not say &amp;ldquo;senior&amp;rdquo;, and that was unlikely to change anytime soon. And rightfully so - their expertise was locked up inside their heads and did not scale.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Better definition of &amp;#39;senior&amp;#39;. Note that there is lots of middle ground
@@ -371,10 +375,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/senior_graph_2.jpeg&#34;  alt=&#34;Seniority is where tech and communicational skills meet&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -455,7 +455,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;The problem with mutating tests is that you only notice them when they fail. This is worrying as it makes you wonder how many tests are mutating in ways that &lt;em&gt;prevent&lt;/em&gt; them from failing when the actually should&amp;hellip; In the following recent real-life case, two tests were failing even though there were no changes to the code.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; style=&#34;width: 300px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         WTF?
@@ -463,10 +467,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcitytests.jpeg&#34;  alt=&#34;tests fail even though code did not change&#34; style=&#34;width: 300px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -488,7 +488,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;Enough of the theories, let&amp;rsquo;s have some proof. TeamCity can show you when an agent has registered with the server - which I know will happen automatically every time the agent host boots up.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         When did my build agent last reboot?
@@ -496,10 +500,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-teamcityagentinfo.jpeg&#34;  alt=&#34;checking the agent restart time on TeamCity&#34; style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -508,7 +508,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;So it started up on Feb 15. That&amp;rsquo;s just about exactly 25 days before the tests started to fail. The TickCount must have wrapped into the negative. So there&amp;rsquo;s one more thing to do to prove it: using PowerShell you can call that same TickCount property and see what value it has. And sure enough&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-cropped.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-cropped.jpeg&#34;  alt=&#34;Invoking Environment.TickCount using PowerShell&#34;   /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         PowerShell gives you direct access to .NET methods
@@ -516,10 +520,6 @@ Experience != Time on the project&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/negative-tickcount-cropped.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/negative-tickcount-cropped.jpeg&#34;  alt=&#34;Invoking Environment.TickCount using PowerShell&#34;   /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -592,11 +592,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;p&gt;I recently did some reworking of my agents and decided to get rid of the psexec hack. What I did this time is much simpler: I gave up. Yep, I gave up trying to map the drives for the agents. If I want agents to be services, and services cannot map drives, so be it.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/troll-mappings.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -620,11 +620,11 @@ Experience != Time on the project&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/blogger/tc-unmap-drives-step-highlight.jpeg&#34;   style=&#34;width: 350px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -718,7 +718,11 @@ catch [System.Exception]
 &lt;p&gt;The touchscreens in modern devices might be closer to what we expect from futuristic high-tech devices. But just because they let us use a mobile web browser more efficiently, does that mean the future will be all chrome and touchscreens?&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Everything is chrome in the future!
@@ -726,10 +730,6 @@ catch [System.Exception]
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/chrome.jpeg&#34;  alt=&#34;Squidward dreams of a future where everything is literally chrome&#34; style=&#34;width: 300px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -756,7 +756,11 @@ catch [System.Exception]
 &lt;p&gt;There are &lt;a href=&#34;http://xmpp.org/extensions/xep-0045.html&#34;&gt;much&lt;/a&gt; &lt;a href=&#34;http://trac-hacks.org/wiki/DiscussionPlugin&#34;&gt;better&lt;/a&gt; &lt;a href=&#34;http://www.coordino.com/&#34;&gt;tools&lt;/a&gt; available for online discussions. They were designed to allow for sane reading, backtracking, quoting and searching. And above all, they&amp;rsquo;re much less redundant than when using email.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Mailing lists are sooo 80&amp;#39;s. And, unlike this here boombox, they *suck*.
@@ -764,10 +768,6 @@ catch [System.Exception]
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/boombox.jpeg&#34;  alt=&#34;A classic, cool cassette player from the eighties&#34; style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -794,7 +794,11 @@ catch [System.Exception]
 &lt;p&gt;&amp;ldquo;Perforce&amp;rdquo; and &amp;ldquo;control&amp;rdquo; is an contradiction. There you go. I just had to put this one in.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Me when I see your vlog
@@ -802,10 +806,6 @@ catch [System.Exception]
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/thestupiditburns.jpeg&#34;  alt=&#34;when something is so stupid that makes your head hurt&#34; style=&#34;width: 450px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -848,7 +848,11 @@ catch [System.Exception]
 &lt;p&gt;We grew up with this idea, that if you really want your boss to get into that alien chick&amp;rsquo;s pants, you need to be a wizard. You get the point. That&amp;rsquo;s why I believe it&amp;rsquo;s Scotty&amp;rsquo;s fault. Don&amp;rsquo;t get me wrong, Scotty rocks (rest in peace, Mr. Doohan). But that inner geek inside us, it&amp;rsquo;s probably a little Scotty.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         I couldn&amp;#39;t find DuctTape or WD40 on GitHub
@@ -856,10 +860,6 @@ catch [System.Exception]
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/repairs.jpeg&#34;  alt=&#34;duct tape and wd40 can fix anything&#34; style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -1346,7 +1346,11 @@ public class CachedConfigurationSectionLoader
 &lt;p&gt;This works because in MSBuild the reference elements are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164283%28v=VS.100%29.aspx&#34;&gt;&lt;code&gt;Item&lt;/code&gt; elements&lt;/a&gt;. Many element types can have condition attributes. If you look at other parts of your project file you will probably see that the project configuration and platform sections also use conditions similar to the above example. There are &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164307.aspx&#34;&gt;other ways to define conditional logic in MSBuild&lt;/a&gt;, but this is probably the quickest and most understandable. If you plan to do more funky stuff, have a look at &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164282.aspx&#34;&gt;&lt;code&gt;&amp;lt;Choose&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;Otherwise&amp;gt;&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   style=&#34;width: 200px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Condition evaluates to *False*
@@ -1354,10 +1358,6 @@ public class CachedConfigurationSectionLoader
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/reference-warning.jpeg&#34;   style=&#34;width: 200px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -1384,7 +1384,11 @@ public class CachedConfigurationSectionLoader
 &lt;h1 id=&#34;configuration-configuration:3c65a9599e8a0e17d81dafe3d51f6982&#34;&gt;Configuration != Configuration&lt;/h1&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         L: Solution configuration; R: Solution platform
@@ -1392,10 +1396,6 @@ public class CachedConfigurationSectionLoader
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/configuration_platform_selector.jpeg&#34;     /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -1418,7 +1418,11 @@ public class CachedConfigurationSectionLoader
 &lt;p&gt;A project in Visual Studio represents a binary that will be generated after compilation. As you would expect, the &lt;em&gt;project settings&lt;/em&gt; window allows you to define &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/0hkyezwy%28v=VS.100%29.aspx&#34;&gt;various options&lt;/a&gt; around that binary - most notably where the file will be copied to, if the compiler will optimize the generated IL (i.e. in Release mode) and what platform architecture you are targeting. Those settings are stored in a &lt;em&gt;project file&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         *Platform* != *Platform target* o_O
@@ -1426,10 +1430,6 @@ public class CachedConfigurationSectionLoader
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/project_settings.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -1531,7 +1531,11 @@ public class CachedConfigurationSectionLoader
 &lt;p&gt;When setting to a more specific platform such as &lt;code&gt;x86&lt;/code&gt;, you should switch as many projects&amp;rsquo; configurations as possible to that, too - otherwise to &lt;code&gt;Any CPU&lt;/code&gt;. In an ideal world you would set all projects to &lt;code&gt;x86&lt;/code&gt;, and if you can, do so. If you need to leave some &lt;code&gt;Any CPU&lt;/code&gt; projects in that mode (because you are probably just too lazy to do otherwise), at least make sure they are not your apps &amp;ldquo;entry points&amp;rdquo;, i.e. executable projects. The reason is if you build as &lt;code&gt;x86&lt;/code&gt; but your executable is &lt;code&gt;Any CPU&lt;/code&gt;, running the app on a 64bit machine will make your whole app domain run as x64, which is not always desirable and - much worse - not expected. So try to use the exact same config as in the solution whenever possible. Even if it means (some seconds of) extra work adding configurations to projects.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         The *Configuration Manager* window
@@ -1539,10 +1543,6 @@ public class CachedConfigurationSectionLoader
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/configmanager.jpeg&#34;   style=&#34;width: 400px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

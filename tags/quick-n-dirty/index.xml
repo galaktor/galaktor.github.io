@@ -40,7 +40,11 @@
 &lt;p&gt;So I stumbled over this little USB lamp, &lt;a href=&#34;http://www.ikea.com/ie/en/catalog/products/70289804/&#34;&gt;&lt;code&gt;Jansö&lt;/code&gt;&lt;/a&gt;. It&amp;rsquo;s basically an LED behind a lens, hooked up to a male USB A connector for power. It cost merely three Euros, so I figured I&amp;rsquo;ll take it apart and see if I can mount this thing to my goggles.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/janso.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/headlamp/janso_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Jansö USB lamp from IKEA
@@ -48,10 +52,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/janso.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/headlamp/janso_thumb.jpeg&#34;     /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -68,7 +68,11 @@
 &lt;p&gt;I didn&amp;rsquo;t know for sure what would be inside the thing or how to open it up. So I just started by cutting through it in the middle. My cutter wasn&amp;rsquo;t the best choice here, but it did the job. The metal can be a bit tough, so I recommend you use strong ones to not damage the edges.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/cut-usb.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/headlamp/cut-usb_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Cut right above the USB connector
@@ -76,10 +80,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/cut-usb.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/headlamp/cut-usb_thumb.jpeg&#34;     /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -90,15 +90,7 @@
 &lt;p&gt;My first idea was to unwind the metal wrapped around the wires in order to expose them. There&amp;rsquo;s actually two metal layers around the wires. The outer layer is colored and can be unwound easily. The inner layer is more of a spring coil and is very tough to bend. With a bit of force you can pull the inner coil out of the outer metal.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Exposing the wires by unwinding was tricky
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/coil.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/coil.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/coil_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -106,6 +98,14 @@
   &lt;img src=&#34;http://raph.es/img/project/headlamp/pull-spring_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Exposing the wires by unwinding was tricky
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -120,7 +120,11 @@
 &lt;p&gt;&lt;strong&gt;Be a safe hacker and wear gloves when handling sharp metal. And wear goggles when flinging around bits of metal.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/wound.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/headlamp/wound_thumb.jpeg&#34;     /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Call 9-1-1
@@ -128,10 +132,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/wound.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/headlamp/wound_thumb.jpeg&#34;     /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -146,15 +146,7 @@
 &lt;p&gt;In my case however, I had to make due with the short little wires I had left. But that was fine.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        With a little force you can unscrew the head.
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/clamped.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/clamped.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/clamped_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -162,6 +154,14 @@
   &lt;img src=&#34;http://raph.es/img/project/headlamp/unscrewed_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        With a little force you can unscrew the head.
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -182,15 +182,7 @@
 &lt;p&gt;I have a handful of LiPos which I have earmarked for other projects. They are small and light, so fit the bill in that regard. I tried one and sure enough, the light was brighter. Still, LiPos are rare in my house and using one seemed a bit excessive for this project. Plus, the off-chance of a LiPo blowing up near my eyes put me off that idea, too.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Testing 3V coin cell (left) and 3.7V LiPo (right)
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/cell-test-single.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/cell-test-single.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/cell-test-single_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -198,6 +190,14 @@
   &lt;img src=&#34;http://raph.es/img/project/headlamp/lipo-test_thumb.jpeg&#34;     /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Testing 3V coin cell (left) and 3.7V LiPo (right)
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -239,8 +239,7 @@
 &lt;p&gt;Slide the heat shrink over the soldered wire. I used a lighter to shrink them since I don&amp;rsquo;t have a fancy heat gun.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/solder.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/solder.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/solder_thumb.jpeg&#34;  alt=&#34;solder up battery and led wires&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -248,6 +247,7 @@
   &lt;img src=&#34;http://raph.es/img/project/headlamp/shrinks_thumb.jpeg&#34;  alt=&#34;use heat shrink to protect the joints&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -256,11 +256,11 @@
 &lt;p&gt;I experimented with wrapping isolating tape around the whole length. But that limited the wire&amp;rsquo;s flexibility too much to be useful. I ditched the tape - raw wires look cooler anyway.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/taped.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/taped.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/taped_thumb.jpeg&#34;  alt=&#34;isolation tape made it too rigid&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -273,8 +273,7 @@
 &lt;p&gt;My first attempt to use the screws that hold the lid onto the battery pack failed because they were too short. I used some small screws I had lying around instead. Just screw them through the holes - the material is forgiving.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/holes.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/holes.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/holes_thumb.jpeg&#34;  alt=&#34;my goggles already had holes I could use&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -286,6 +285,7 @@
   &lt;img src=&#34;http://raph.es/img/project/headlamp/mounted_thumb.jpeg&#34;  alt=&#34;At first I tried to mount on top&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -300,8 +300,7 @@
 &lt;p&gt;Also, with the tension caused by the cable tie, the top of the soft goggles now bends inward a little bit. But when put on, my forehead pushes against it so that the light points right where it should and not at the ceiling.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/tied.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/tied.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/tied_thumb.jpeg&#34;  alt=&#34;Light mounted by cable tie&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
@@ -309,6 +308,7 @@
   &lt;img src=&#34;http://raph.es/img/project/headlamp/lightcone_thumb.jpeg&#34;  alt=&#34;Light cone spreads pretty wide&#34;   /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -317,11 +317,11 @@
 &lt;h1 id=&#34;done:4c54a33fda36cc699daa909ae0fc95f6&#34;&gt;Done!&lt;/h1&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/done.jpeg&#34;&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/headlamp/done.jpeg&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/headlamp/done_thumb.jpeg&#34;  alt=&#34;Goggles with mounted batteries and lamp&#34; style=&#34;width: 400px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+  
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

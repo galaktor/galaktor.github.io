@@ -189,7 +189,11 @@ lol&lt;/p&gt;
 &lt;p&gt;You can select different &amp;ldquo;dynamic views&amp;rdquo; over on the left of the main menu bar - most of them don&amp;rsquo;t work well with this type of blog, exceptions being maybe &amp;ldquo;classic&amp;rdquo; and &amp;ldquo;sidebar&amp;rdquo;, the latter which I have set to be the default. Google won&amp;rsquo;t allow me to lock it down to just that view, so I guess that means you can switch them as you see fit - but be warned, they mostly suck.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Blogger&amp;#39;s dynamic views crop images with awkward results
@@ -197,10 +201,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/dynamic_my_ass.jpeg&#34;  alt=&#34;Assembly gets cropped to *Ass*&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -211,7 +211,11 @@ lol&lt;/p&gt;
 &lt;p&gt;Another nice gimmick is that Blogger finally got a sane &amp;ldquo;share&amp;rdquo; menu at the bottom of each post - featuring the actual number of tweets (was not there before) and ditching a bunch of who-gives-a-shit social networks (but obviously still hanging on to g+). Notice how there&amp;rsquo;s even a Facebook &amp;ldquo;like&amp;rdquo; button - then again, I really consider that a bug, not a feature.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Social networks in order of importance - according to Google
@@ -219,10 +223,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/fake_shares.jpeg&#34;  alt=&#34;Google plus gets listed before Twitter and Facebook&#34; style=&#34;width: 500px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -239,7 +239,11 @@ lol&lt;/p&gt;
 &lt;p&gt;Bitbucket makes it &lt;a href=&#34;http://confluence.atlassian.com/display/BITBUCKET/Using+your+Own+bitbucket+Domain+Name&#34;&gt;very easy&lt;/a&gt; to point a CNAME to your profile, so now &lt;a href=&#34;http://code.galaktor.net/&#34;&gt;code.galaktor.net&lt;/a&gt; goes straight to the repository list. That&amp;rsquo;s exactly where you end up if you hit the new &amp;ldquo;code&amp;rdquo; button in the main menu. Keep in mind that all I did so far was import a few old-ish projects. I intend to give them some TLC and add more in the near future.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   style=&#34;width: 450px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Blogger&amp;#39;s stupid drop-down and the new &amp;#39;code&amp;#39; menu itpx
@@ -247,10 +251,6 @@ lol&lt;/p&gt;
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blogger/new_menu_bar.jpeg&#34;   style=&#34;width: 450px;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;

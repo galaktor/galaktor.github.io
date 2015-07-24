@@ -18,7 +18,11 @@
       <description>&lt;p&gt;I often behave like a I am still just a kid, only with more than five bucks allowance. As such, I somtimes spend unreasonable money on gimmicks and gadgets based solely on the awesome things I &lt;em&gt;imagine&lt;/em&gt; I can use them for.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/buy-things.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/buy-things_thumb.jpeg&#34;  alt=&#34;When I go into a buying rage for no mature reason whatsoever.&#34; style=&#34;width: 20em;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Steam sales are the worst.
@@ -26,10 +30,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/buy-things.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/buy-things_thumb.jpeg&#34;  alt=&#34;When I go into a buying rage for no mature reason whatsoever.&#34; style=&#34;width: 20em;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -42,7 +42,11 @@
 &lt;p&gt;Born in the early eighties, I am among the first generation of kids to grow up with video games being just a normal thing. Anyone before us met electronic games as a newfangled imitation of other forms of entertainment.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/cryengine.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/cryengine_thumb.jpeg&#34;   style=&#34;width: 25em;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Modern game engines produce ridiculously realistic visuals.
@@ -50,10 +54,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/cryengine.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/cryengine_thumb.jpeg&#34;   style=&#34;width: 25em;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -66,7 +66,11 @@
 &lt;p&gt;Some notable exceptions exist, of course. Like &lt;em&gt;Minecraft&lt;/em&gt;, which ironically was never designed with kids in mind but turns out to be mind-boggingly successful with young players. Parents all over the world try to understand their childrens&amp;rsquo; fascination with Minecraft.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/stampy.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/retropi/stampy_thumb.jpeg&#34;   style=&#34;width: 25em;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         Gazillions of kids watch *stampy* play Minecraft on YouTube.
@@ -74,10 +78,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/retropi/stampy.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/retropi/stampy_thumb.jpeg&#34;   style=&#34;width: 25em;&#34;  /&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -88,7 +88,12 @@
 &lt;p&gt;One of my offspring is still traumatized from that time we tried out the demo of &lt;em&gt;Castle Crashers&lt;/em&gt;. Granted, I could have noticed the PEGI 18, but for fuck&amp;rsquo;s sake.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
-    
+  &lt;div class=&#34;video&#34;&gt;
+  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/BsLHvg93bX4&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;
+
+  
     &lt;figcaption&gt;
         &lt;p&gt;
         It&amp;#39;s cute. It&amp;#39;s fun. It&amp;#39;s all about murdering things.
@@ -96,11 +101,6 @@
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
-    &lt;div class=&#34;video&#34;&gt;
-  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/BsLHvg93bX4&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
- &lt;/iframe&gt;
-&lt;/div&gt;
-
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
