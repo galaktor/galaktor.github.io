@@ -53,6 +53,13 @@
   &lt;/a&gt;&lt;/p&gt;
 
   
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        
+        &lt;br/&gt;src: &lt;a href=&#34;http://us.macmillan.com/books/9781596434462&#34;&gt;First Second Books&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -93,6 +100,13 @@
   &lt;/a&gt;&lt;/p&gt;
 
   
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        
+        &lt;br/&gt;src: &lt;a href=&#34;http://us.macmillan.com/books/9781596434462&#34;&gt;First Second Books&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
@@ -113,7 +127,7 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         Zita faces the consequences of her actions
-        
+        &lt;br/&gt;src: &lt;a href=&#34;http://us.macmillan.com/books/9781596434462&#34;&gt;First Second Books&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
@@ -135,7 +149,7 @@
     &lt;figcaption&gt;
         &lt;p&gt;
         Dop is one of our favorite characters.
-        
+        &lt;br/&gt;src: &lt;a href=&#34;http://us.macmillan.com/books/9781596434462&#34;&gt;First Second Books&lt;/a&gt; 
         &lt;/p&gt; 
     &lt;/figcaption&gt;
     
