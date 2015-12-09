@@ -19,7 +19,7 @@
 
 &lt;p&gt;&lt;figure &gt;
   &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blog/recipes/lebkuchen/oldschool.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/oldschool_thumb.jpeg&#34;  alt=&#34;*Lebküchner* from an illustrated manuscript in the Stadtbibliothek Nürnberg, ca. 1520&#34;   /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/oldschool_thumb.jpeg&#34;  alt=&#34;*Lebküchner* from an illustrated manuscript in the Stadtbibliothek Nürnberg, ca. 1520&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
   
@@ -55,7 +55,7 @@
 
 &lt;p&gt;&lt;figure &gt;
   &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blog/recipes/lebkuchen/oblaten.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/oblaten_thumb.jpeg&#34;  alt=&#34;Picture of *oblaten* wafers.&#34;   /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/oblaten_thumb.jpeg&#34;  alt=&#34;Picture of *oblaten* wafers.&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
   
@@ -127,7 +127,7 @@
 
 &lt;p&gt;&lt;figure &gt;
   &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blog/recipes/lebkuchen/marmalade.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/marmalade_thumb.jpeg&#34;  alt=&#34;Picture of *oblaten* wafers.&#34;   /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/marmalade_thumb.jpeg&#34;  alt=&#34;Picture of *oblaten* wafers.&#34; style=&#34;width: 300px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
   
@@ -157,11 +157,11 @@
 
 &lt;p&gt;&lt;figure &gt;
   &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blog/recipes/lebkuchen/one.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/one_thumb.jpeg&#34;  alt=&#34;Close up of one Lebkuchen I made this way.&#34;   /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/one_thumb.jpeg&#34;  alt=&#34;Close up of one Lebkuchen I made this way.&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://raph.es/img/blog/recipes/lebkuchen/many.jpeg&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/many_thumb.jpeg&#34;  alt=&#34;Picture of several Lebkuchen I recently made.&#34;   /&gt;
+  &lt;img src=&#34;http://raph.es/img/blog/recipes/lebkuchen/many_thumb.jpeg&#34;  alt=&#34;Picture of several Lebkuchen I recently made.&#34; style=&#34;width: 450px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
   
