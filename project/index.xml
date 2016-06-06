@@ -255,7 +255,29 @@
       <pubDate>Wed, 20 Aug 2014 10:46:12 +0100</pubDate>
       
       <guid>http://raph.es/project/uview-pins/</guid>
-      <description></description>
+      <description>&lt;p&gt;I own not just one, but &lt;em&gt;two&lt;/em&gt; &lt;a href=&#34;http://learn.microview.io/Intro/general-overview-of-microview.html&#34;&gt;MicroViews&lt;/a&gt;. In order to test them out I wrote a program that displays if there&amp;rsquo;s current on one of it&amp;rsquo;s pins, or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+  &lt;p&gt;&lt;div class=&#34;video&#34;&gt;
+  &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.youtube.com/embed/UAMAON1wVGs&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
+ &lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Probably the most useless multimeter in the world.
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/galaktor/microview_pins&#34;&gt;Code on GitHub&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
