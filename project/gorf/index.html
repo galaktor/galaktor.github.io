@@ -164,6 +164,27 @@
 
   <h1>gorf <span class="metadata">&lt;frontend&gt;</span></h1>
   
+
+<p>As part of the <a href="/project/gamepad">wireless gamepad</a> project, I wrote middleware to allow control the Nordic NRF24L01+ transceivers in Linux. This is the side that will be receiving key presses from the gamepad, which has an Arduino inside - there already exists useful <a href="https://github.com/maniacbug/RF24">Arduino libraries for this radio</a>.</p>
+
+<ul>
+<li><a href="https://github.com/galaktor/gorf24">gorf24</a></li>
+</ul>
+
+<h1 id="v1-simple-port-for-poc:faf22c049236c0b2b1b632fd06eb1e3c">v1: Simple port for POC</h1>
+
+<p>What&rsquo;s on the <a href="https://github.com/galaktor/gorf24/tree/master">master</a> branch is a fairly straightforward port of the Arduino library. I used this for my proof-of-concept.</p>
+
+<h1 id="v2-custom-driver-from-scratch:faf22c049236c0b2b1b632fd06eb1e3c">v2: Custom driver from scratch</h1>
+
+<p>Later, on the [port]<a href="https://github.com/galaktor/gorf24/tree/port)">https://github.com/galaktor/gorf24/tree/port)</a> branch, I began writing my own user-space driver from scratch, bit-banging the Linux SPI drivers on the <a href="project/retro-pi/">Retro-Pie</a>.</p>
+
+<p>I tried to use idiomatic Golang and find a nice abstraction of the radio&rsquo;s functions. The final (last) combining facade (<a href="https://github.com/galaktor/gorf24/blob/port/rf24.go">rf24.go</a>)is lacking some design decisions for the whole thing to come together. However, all the underlying logic is well-covered by in-memory unit tests, so I&rsquo;m confident that it implements the Nordic specifications.</p>
+
+<p>Too bad the final thing doesn&rsquo;t work yet! _(ツ)_/¯</p>
+
+<p>That said, this was a clear case where using TDD for low-level logic was a blessing - the bulk of the code is tested even though the usability questions aren&rsquo;t decided yet. Very little risk in the final steps. Not that anybody cares.</p>
+
   
 
 
@@ -182,7 +203,7 @@
 
   <div id="copyright">&copy; Raphael Estrada 2011-2016</div>
   <div id="poweredby">powered by <a href="http://hugo.spf13.com/">hugo</a></div>
-  <div>v1.0.195
+  <div>v1.0.196
 </div>
   <div class="cursor"></div> 
 </footer>

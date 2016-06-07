@@ -367,7 +367,28 @@
       <pubDate>Sun, 05 Jan 2014 19:30:28 +0100</pubDate>
       
       <guid>http://raph.es/project/gorf/</guid>
-      <description></description>
+      <description>
+
+&lt;p&gt;As part of the &lt;a href=&#34;http://raph.es/project/gamepad&#34;&gt;wireless gamepad&lt;/a&gt; project, I wrote middleware to allow control the Nordic NRF24L01+ transceivers in Linux. This is the side that will be receiving key presses from the gamepad, which has an Arduino inside - there already exists useful &lt;a href=&#34;https://github.com/maniacbug/RF24&#34;&gt;Arduino libraries for this radio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/galaktor/gorf24&#34;&gt;gorf24&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;v1-simple-port-for-poc:faf22c049236c0b2b1b632fd06eb1e3c&#34;&gt;v1: Simple port for POC&lt;/h1&gt;
+
+&lt;p&gt;What&amp;rsquo;s on the &lt;a href=&#34;https://github.com/galaktor/gorf24/tree/master&#34;&gt;master&lt;/a&gt; branch is a fairly straightforward port of the Arduino library. I used this for my proof-of-concept.&lt;/p&gt;
+
+&lt;h1 id=&#34;v2-custom-driver-from-scratch:faf22c049236c0b2b1b632fd06eb1e3c&#34;&gt;v2: Custom driver from scratch&lt;/h1&gt;
+
+&lt;p&gt;Later, on the [port]&lt;a href=&#34;https://github.com/galaktor/gorf24/tree/port)&#34;&gt;https://github.com/galaktor/gorf24/tree/port)&lt;/a&gt; branch, I began writing my own user-space driver from scratch, bit-banging the Linux SPI drivers on the &lt;a href=&#34;project/retro-pi/&#34;&gt;Retro-Pie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I tried to use idiomatic Golang and find a nice abstraction of the radio&amp;rsquo;s functions. The final (last) combining facade (&lt;a href=&#34;https://github.com/galaktor/gorf24/blob/port/rf24.go&#34;&gt;rf24.go&lt;/a&gt;)is lacking some design decisions for the whole thing to come together. However, all the underlying logic is well-covered by in-memory unit tests, so I&amp;rsquo;m confident that it implements the Nordic specifications.&lt;/p&gt;
+
+&lt;p&gt;Too bad the final thing doesn&amp;rsquo;t work yet! _(ツ)_/¯&lt;/p&gt;
+
+&lt;p&gt;That said, this was a clear case where using TDD for low-level logic was a blessing - the bulk of the code is tested even though the usability questions aren&amp;rsquo;t decided yet. Very little risk in the final steps. Not that anybody cares.&lt;/p&gt;
+</description>
     </item>
     
     <item>
