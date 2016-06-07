@@ -294,7 +294,7 @@
       <pubDate>Thu, 02 Oct 2014 20:46:17 +0100</pubDate>
       
       <guid>http://raph.es/project/gamepad/</guid>
-      <description>&lt;p&gt;I bought a crappy SNES gamepad rip-off from Ebay for like two dollars. I gutted the thing and am replacing the insides with an Arduino, some retro switches and lights. A USB-chargable LiPo will provide power and I&amp;rsquo;ll write a custom protocoll to send/receive button presses to our Retro-Pie game console.&lt;/p&gt;
+      <description>&lt;p&gt;I bought a crappy SNES gamepad rip-off from Ebay for like two dollars. I gutted the thing and am replacing the insides with an Arduino, some retro switches and lights. A USB-chargable LiPo will provide power and I&amp;rsquo;ll write a custom protocol to send/receive button presses to our Retro-Pie game console.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure &gt;
   &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/gamepad/layout.jpeg&#34;&gt;
