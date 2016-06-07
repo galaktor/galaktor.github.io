@@ -386,11 +386,16 @@
       <pubDate>Thu, 04 Oct 2012 20:38:52 +0100</pubDate>
       
       <guid>http://raph.es/project/gogre/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;llcoi&lt;/li&gt;
-&lt;li&gt;gogre3d&lt;/li&gt;
-&lt;li&gt;gogame?&lt;/li&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ogre3d.org/&#34;&gt;Ogre 3D&lt;/a&gt; is mature, open-source graphics engine for interactive applications and games. I ilke to play with it occasionally - and at one point wanted to try Golang for making a game. Not many libraries were around for this at the time, so I attempted to make an Ogre wrapper in Go.&lt;/p&gt;
+
+&lt;p&gt;Since Go has rather neat C-bindings, it made sense to first abstract the C++ Ogre code via a C layer, then bind that into a Go library via cgo.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/galaktor/llcoi&#34;&gt;llcoi&lt;/a&gt;: Low-Level C Ogre Interface&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/galaktor/gogre3d&#34;&gt;gogre3d&lt;/a&gt;: Golang bindings to llcoi&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;The Ogre community never sleeps, but I&amp;rsquo;ve discontinued my efforts on this front. So chances are, someone forked and continued without me; I haven&amp;rsquo;t checked yet.&lt;/p&gt;
 </description>
     </item>
     

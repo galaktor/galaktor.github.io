@@ -163,11 +163,16 @@
 </div>
 
   <h1>gogre3d <span class="metadata">&lt;prototype&gt;</span></h1>
-  <ul>
-<li>llcoi</li>
-<li>gogre3d</li>
-<li>gogame?</li>
+  <p><a href="http://www.ogre3d.org/">Ogre 3D</a> is mature, open-source graphics engine for interactive applications and games. I ilke to play with it occasionally - and at one point wanted to try Golang for making a game. Not many libraries were around for this at the time, so I attempted to make an Ogre wrapper in Go.</p>
+
+<p>Since Go has rather neat C-bindings, it made sense to first abstract the C++ Ogre code via a C layer, then bind that into a Go library via cgo.</p>
+
+<ul>
+<li><a href="https://bitbucket.org/galaktor/llcoi">llcoi</a>: Low-Level C Ogre Interface</li>
+<li><a href="https://github.com/galaktor/gogre3d">gogre3d</a>: Golang bindings to llcoi</li>
 </ul>
+
+<p>The Ogre community never sleeps, but I&rsquo;ve discontinued my efforts on this front. So chances are, someone forked and continued without me; I haven&rsquo;t checked yet.</p>
 
   
 
@@ -187,7 +192,7 @@
 
   <div id="copyright">&copy; Raphael Estrada 2011-2016</div>
   <div id="poweredby">powered by <a href="http://hugo.spf13.com/">hugo</a></div>
-  <div>v1.0.187
+  <div>v1.0.188
 </div>
   <div class="cursor"></div> 
 </footer>
