@@ -385,7 +385,7 @@
 
 &lt;h1 id=&#34;v2-custom-driver-from-scratch:faf22c049236c0b2b1b632fd06eb1e3c&#34;&gt;v2: Custom driver from scratch&lt;/h1&gt;
 
-&lt;p&gt;Later, on the [port]&lt;a href=&#34;https://github.com/galaktor/gorf24/tree/port)&#34;&gt;https://github.com/galaktor/gorf24/tree/port)&lt;/a&gt; branch, I began writing my own user-space driver from scratch, bit-banging the Linux SPI drivers on the &lt;a href=&#34;project/retro-pi/&#34;&gt;Retro-Pie&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Later, on the &lt;a href=&#34;https://github.com/galaktor/gorf24/tree/port&#34;&gt;port&lt;/a&gt; branch, I began writing my own user-space driver from scratch, bit-banging the Linux SPI drivers on the &lt;a href=&#34;project/retro-pi/&#34;&gt;Retro-Pie&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I tried to use idiomatic Golang and find a nice abstraction of the radio&amp;rsquo;s functions. The final (last) combining facade (&lt;a href=&#34;https://github.com/galaktor/gorf24/blob/port/rf24.go&#34;&gt;rf24.go&lt;/a&gt;)is lacking some design decisions for the whole thing to come together. However, all the underlying logic is well-covered by in-memory unit tests, so I&amp;rsquo;m confident that it implements the Nordic specifications.&lt;/p&gt;
 
