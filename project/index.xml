@@ -6,8 +6,122 @@
     <description>Recent content in Projects on raph haXx</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Raphael Estrada 2011-2016</copyright>
-    <lastBuildDate>Wed, 28 Oct 2015 19:10:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Sep 2016 19:24:01 +0100</lastBuildDate>
     <atom:link href="http://raph.es/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>cmdr-pixel</title>
+      <link>http://raph.es/project/cmdr-pixel/</link>
+      <pubDate>Sat, 03 Sep 2016 19:24:01 +0100</pubDate>
+      
+      <guid>http://raph.es/project/cmdr-pixel/</guid>
+      <description>
+
+&lt;p&gt;My first stab at a custom-designed keyboard. It&amp;rsquo;s for a &lt;a href=&#34;http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html&#34;&gt;61-key VP3 from WASD&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-design:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;The design&lt;/h1&gt;
+
+&lt;p&gt;It&amp;rsquo;s a retro-kitsch take on the HUD of a sci-fi simulator game with a dash of 8-bit nostalgia. Terminology loosely based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Elite:_Dangerous&#34;&gt;Elite Dangerous&lt;/a&gt;. Elite uses more orange in the HUDs, but I think the classic black-green sci-fi palette worked better.&lt;/p&gt;
+
+&lt;p&gt;The font I used for the legends is &lt;a href=&#34;http://www.yoworks.com/telegrama/index.html&#34;&gt;Telegrama raw&lt;/a&gt; by &lt;a href=&#34;http://www.yoworks.com&#34;&gt;YOWorks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;layout-features:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Layout features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;swapped the &lt;code&gt;@&lt;/code&gt; and &lt;code&gt;&amp;quot;&lt;/code&gt; (more UK-ish)&lt;/li&gt;
+&lt;li&gt;dedicated legends for some of the VP3&amp;rsquo;s default layer functions:&lt;/li&gt;
+&lt;li&gt;arrow keys on &lt;code&gt;JIKL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;volume control on &lt;code&gt;SDF&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;default layer selector on &lt;code&gt;M&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Emacs &lt;code&gt;Command&lt;/code&gt; and &lt;code&gt;Meta&lt;/code&gt; keys where I like them (&lt;code&gt;CAPS&lt;/code&gt; and &lt;code&gt;Left-Alt&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;0&lt;/code&gt; through &lt;code&gt;9&lt;/code&gt; in binary&lt;/li&gt;
+&lt;li&gt;A red self-destruct button for &lt;code&gt;ESC&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Plenty of techno-babble from &lt;code&gt;Elite: Dangerous&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Notalgia-licious pixel legends&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;figure &gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/legends.png&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/legends.png&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Legends only
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Digital preview of the layout
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;source-code:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Source code&lt;/h1&gt;
+
+&lt;p&gt;The keyboard is in production with WASD - I won&amp;rsquo;t know if this design is any good until the result comes back. You were warned.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/galaktor/mechanical-keyboard&#34;&gt;&lt;code&gt;mechanical-keyboard&lt;/code&gt; GitHub repo&lt;/a&gt;&lt;img src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; alt=&#34;CC-BY-NC-SA&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;inspiration:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Inspiration&lt;/h1&gt;
+
+&lt;p&gt;&lt;figure &gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/danger-zone.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/danger-zone.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Inspiration for the general idea
+        &lt;br/&gt;src: &lt;a href=&#34;https://www.massdrop.com/buy/danger-zone-sa-keycap-set&#34;&gt;Data from Geekhack&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/elite-hud.jpeg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/elite-hud.jpeg&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Inspiration for the sci-fi theme
+        &lt;br/&gt;src: &lt;a href=&#34;http://elite-dangerous.wikia.com/wiki/HUD&#34;&gt;Elite Dangerous Wiki&lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>hack-o-lantern</title>
@@ -402,34 +516,6 @@
       
       <guid>http://raph.es/project/nodewire/</guid>
       <description>&lt;p&gt;proof of concept; f# and c# impl&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>gogre3d</title>
-      <link>http://raph.es/project/gogre/</link>
-      <pubDate>Thu, 04 Oct 2012 20:38:52 +0100</pubDate>
-      
-      <guid>http://raph.es/project/gogre/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.ogre3d.org/&#34;&gt;Ogre 3D&lt;/a&gt; is mature, open-source graphics engine for interactive applications and games. I ilke to play with it occasionally - and at one point wanted to try Golang for making a game. Not many libraries were around for this at the time, so I attempted to make an Ogre wrapper in Go.&lt;/p&gt;
-
-&lt;p&gt;Since Go has rather neat C-bindings, it made sense to first abstract the C++ Ogre code via a C layer, then bind that into a Go library via cgo.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/galaktor/llcoi&#34;&gt;llcoi&lt;/a&gt;: Low-Level C Ogre Interface&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/galaktor/gogre3d&#34;&gt;gogre3d&lt;/a&gt;: Golang bindings to llcoi&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Ogre community never sleeps, but I&amp;rsquo;ve discontinued my efforts on this front. So chances are, someone forked and continued without me; I haven&amp;rsquo;t checked yet.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure &gt;
-  &lt;p&gt;&lt;img src=&#34;http://raph.es/img/project/gogre/gogre-head.gif&#34;     /&gt;&lt;/p&gt;
-
-  
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
-&lt;/p&gt;
 </description>
     </item>
     
