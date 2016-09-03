@@ -29,10 +29,13 @@
 
 &lt;ul&gt;
 &lt;li&gt;swapped the &lt;code&gt;@&lt;/code&gt; and &lt;code&gt;&amp;quot;&lt;/code&gt; (more UK-ish)&lt;/li&gt;
-&lt;li&gt;dedicated legends for some of the VP3&amp;rsquo;s default layer functions:&lt;/li&gt;
+&lt;li&gt;dedicated legends for some of the VP3&amp;rsquo;s default layer functions:
+
+&lt;ul&gt;
 &lt;li&gt;arrow keys on &lt;code&gt;JIKL&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;volume control on &lt;code&gt;SDF&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;default layer selector on &lt;code&gt;M&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Emacs &lt;code&gt;Command&lt;/code&gt; and &lt;code&gt;Meta&lt;/code&gt; keys where I like them (&lt;code&gt;CAPS&lt;/code&gt; and &lt;code&gt;Left-Alt&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;0&lt;/code&gt; through &lt;code&gt;9&lt;/code&gt; in binary&lt;/li&gt;
 &lt;li&gt;A red self-destruct button for &lt;code&gt;ESC&lt;/code&gt;&lt;/li&gt;
