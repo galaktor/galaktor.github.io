@@ -10,22 +10,26 @@
     <atom:link href="http://raph.es/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>cmdr-pixel</title>
-      <link>http://raph.es/project/cmdr-pixel/</link>
+      <title>Today I designed a mechanical keyboard</title>
+      <link>http://raph.es/blog/2016/09/i-designed-a-wasd-mechanical-keyboard-pok3r/</link>
       <pubDate>Sat, 03 Sep 2016 19:24:01 +0100</pubDate>
       
-      <guid>http://raph.es/project/cmdr-pixel/</guid>
+      <guid>http://raph.es/blog/2016/09/i-designed-a-wasd-mechanical-keyboard-pok3r/</guid>
       <description>
 
-&lt;p&gt;My first stab at a custom-designed keyboard. It&amp;rsquo;s for a &lt;a href=&#34;http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html&#34;&gt;61-key VP3 from WASD&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;the-dream:87be99eea8e2188e8accb33bc2cb190b&#34;&gt;The dream&lt;/h1&gt;
 
-&lt;h1 id=&#34;the-design:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;The design&lt;/h1&gt;
+&lt;p&gt;I always wanted a mechanical keyboard. And while I&amp;rsquo;m at it, I wanted it to be something special - something only I could love.&lt;/p&gt;
 
-&lt;p&gt;It&amp;rsquo;s a retro-kitsch take on the HUD of a sci-fi simulator game with a dash of 8-bit nostalgia. Terminology loosely based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Elite:_Dangerous&#34;&gt;Elite Dangerous&lt;/a&gt;. Elite uses more orange in the HUDs, but I think the classic black-green sci-fi palette worked better.&lt;/p&gt;
+&lt;p&gt;When I had some bucks left to spend from a cash reward, the time had come. I pulled the trigger and got me a &lt;a href=&#34;http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html&#34;&gt;60% VP3 from WASD&lt;/a&gt; - essentially a non-backlit &lt;a href=&#34;https://corus-kb.com/en/27-pok3r&#34;&gt;Vortext Pok3r&lt;/a&gt; with custom-designed legends and keycap colours. The ABS keycaps from WASD aren&amp;rsquo;t suppoosed to be legendary, but I can upgrade later. The backlighting isn&amp;rsquo;t an issue, because it can be added on later, too. Other than that, the pok3r is supposed to be a pretty solid MK.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-design:87be99eea8e2188e8accb33bc2cb190b&#34;&gt;The design&lt;/h1&gt;
+
+&lt;p&gt;It&amp;rsquo;s a retro-kitsch take on the HUD of a sci-fi simulator game with a dash of 8-bit nostalgia. Terminology loosely based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Elite:_Dangerous&#34;&gt;Elite: Dangerous&lt;/a&gt;. Elite uses more orange in the HUDs, but I think the classic black-green sci-fi palette worked better.&lt;/p&gt;
 
 &lt;p&gt;The font I used for the legends is &lt;a href=&#34;http://www.yoworks.com/telegrama/index.html&#34;&gt;Telegrama raw&lt;/a&gt; by &lt;a href=&#34;http://www.yoworks.com&#34;&gt;YOWorks&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;layout-features:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Layout features&lt;/h2&gt;
+&lt;h2 id=&#34;layout-features:87be99eea8e2188e8accb33bc2cb190b&#34;&gt;Layout features&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;swapped the &lt;code&gt;@&lt;/code&gt; and &lt;code&gt;&amp;quot;&lt;/code&gt; (more UK-ish)&lt;/li&gt;
@@ -79,14 +83,14 @@
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
 &lt;/p&gt;
 
-&lt;h1 id=&#34;source-code:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Source code&lt;/h1&gt;
+&lt;h1 id=&#34;source-code:87be99eea8e2188e8accb33bc2cb190b&#34;&gt;Source code&lt;/h1&gt;
 
 &lt;p&gt;The keyboard is in production with WASD - I won&amp;rsquo;t know if this design is any good until the result comes back. You were warned.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/galaktor/mechanical-keyboard&#34;&gt;&lt;code&gt;mechanical-keyboard&lt;/code&gt; GitHub repo&lt;/a&gt;&lt;img src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; alt=&#34;CC-BY-NC-SA&#34; /&gt;
 &lt;/p&gt;
 
-&lt;h1 id=&#34;inspiration:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Inspiration&lt;/h1&gt;
+&lt;h1 id=&#34;inspiration:87be99eea8e2188e8accb33bc2cb190b&#34;&gt;Inspiration&lt;/h1&gt;
 
 &lt;p&gt;&lt;figure &gt;
   &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/danger-zone.jpeg&#34;&gt;
@@ -123,8 +127,63 @@
 
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cmdr-pixel</title>
+      <link>http://raph.es/project/cmdr-pixel/</link>
+      <pubDate>Sat, 03 Sep 2016 19:24:01 +0100</pubDate>
+      
+      <guid>http://raph.es/project/cmdr-pixel/</guid>
+      <description>
 
-&lt;h1 id=&#34;todo:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;TODO&lt;/h1&gt;
+&lt;p&gt;My first stab at a custom-designed keyboard. It&amp;rsquo;s for a &lt;a href=&#34;http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html&#34;&gt;61-key VP3 from WASD&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/legends.png&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/legends.png&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Legends only
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;figure &gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+  
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Digital preview of the layout
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;source-code:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Source code&lt;/h1&gt;
+
+&lt;p&gt;The keyboard is in production with WASD - I won&amp;rsquo;t know if this design is any good until the result comes back. You were warned.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/galaktor/mechanical-keyboard&#34;&gt;&lt;code&gt;mechanical-keyboard&lt;/code&gt; GitHub repo&lt;/a&gt;&lt;img src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; alt=&#34;CC-BY-NC-SA&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;next-steps:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Next steps&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Pics of actual keyboard when it arrives&lt;/li&gt;
@@ -1192,16 +1251,6 @@
 &lt;p&gt;I&amp;rsquo;m &lt;em&gt;that guy&lt;/em&gt; who orders a pot of tea at the bar. I&amp;rsquo;m don&amp;rsquo;t do so because I &lt;em&gt;have&lt;/em&gt; to drive. I&amp;rsquo;m the dedicated driver because I don&amp;rsquo;t drink.&lt;/p&gt;
 
 &lt;p&gt;Get over it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>3d business card</title>
-      <link>http://raph.es/project/3d-card/</link>
-      <pubDate>Fri, 24 Oct 2014 08:26:47 +0100</pubDate>
-      
-      <guid>http://raph.es/project/3d-card/</guid>
-      <description>&lt;p&gt;It would be cool to design a business card and print it with a 3D printer. Experimenting with the haptics of the card and the related typography could be interesting.&lt;/p&gt;
 </description>
     </item>
     
