@@ -153,7 +153,7 @@
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Unfortunately for my wallet, I&amp;rsquo;ve tasted blood and am already thinking about what to build and/or buy next. There&amp;rsquo;s so many configurations, keycap designes and switches to try, I don&amp;rsquo;t even know where to start! My roadmap at the moment is:&lt;/p&gt;
+&lt;p&gt;Unfortunately for my wallet, I&amp;rsquo;ve tasted blood and am already thinking about what to build and/or buy next. There&amp;rsquo;s so many configurations, keycap designs and switches to try, I don&amp;rsquo;t even know where to start! My roadmap at the moment is:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;program the pok3r better for more fluent working (Emacs on a Mac - quite the challenge)&lt;/li&gt;
@@ -367,7 +367,7 @@
 
 &lt;h1 id=&#34;source-code:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Source code&lt;/h1&gt;
 
-&lt;p&gt;The keyboard is in production with WASD - I won&amp;rsquo;t know if this design is any good until the result comes back. You were warned.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the SVG file I used to provide the design to WASD. You should be able to re-use or mdoify it as you see fit, just respect the license. You&amp;rsquo;ll have to pick the keycap colours in their online designer tool.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/galaktor/mechanical-keyboard&#34;&gt;&lt;code&gt;mechanical-keyboard&lt;/code&gt; GitHub repo&lt;/a&gt;&lt;img src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; alt=&#34;CC-BY-NC-SA&#34; /&gt;
 &lt;/p&gt;
@@ -378,6 +378,7 @@
 &lt;li&gt;&lt;strike&gt;Pics of actual keyboard when it arrives&lt;/strike&gt;&lt;/li&gt;
 &lt;li&gt;Add backlighting by soldering on LEDS, as shown &lt;a href=&#34;https://medium.com/@DavidNZ/adding-led-lights-to-a-pok3r-keyboard-e772fdea86f0#.71gyefutn&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://imgur.com/a/Y2Yyn&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Make a better USB cable; possibly replace/stabilize the USB connector on the PCB&lt;/li&gt;
+&lt;li&gt;Find a case or sleeve to store the thing when not in use&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
