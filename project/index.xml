@@ -19,15 +19,21 @@
 
 &lt;p&gt;My first stab at a custom-designed keyboard. It&amp;rsquo;s for a &lt;a href=&#34;http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-vp3-61-key-custom-mechanical-keyboard.html&#34;&gt;61-key VP3 from WASD&lt;/a&gt;.&lt;/p&gt;
 
+&lt;h2 id=&#34;design:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Design&lt;/h2&gt;
+
 &lt;p&gt;&lt;figure &gt;
   &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/legends.png&#34;&gt;
   &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/legends.png&#34;   style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
   
     &lt;figcaption&gt;
         &lt;p&gt;
-        Legends only
+        The design I sent to *WASD Keyboards*
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -37,15 +43,25 @@
 &lt;div class=&#34;clearboth&#34;&gt;&lt;/div&gt;
 &lt;/p&gt;
 
+&lt;h2 id=&#34;actual-keyboard:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Actual keyboard&lt;/h2&gt;
+
 &lt;p&gt;&lt;figure &gt;
-  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;&gt;
-  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/digital-preview.png&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/top_phone.jpg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/top_phone_thumb.jpg&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/left-angle_dslr.jpg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/left-angle_dslr_thumb.jpg&#34;   style=&#34;width: 500px;&#34;  /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://raph.es/img/project/cmdr-pixel/right-angle_dslr.jpg&#34;&gt;
+  &lt;img src=&#34;http://raph.es/img/project/cmdr-pixel/right-angle_dslr_thumb.jpg&#34;   style=&#34;width: 500px;&#34;  /&gt;
   &lt;/a&gt;&lt;/p&gt;
 
   
     &lt;figcaption&gt;
         &lt;p&gt;
-        Digital preview of the layout
+        The keyboard as I received it
         
         &lt;/p&gt; 
     &lt;/figcaption&gt;
@@ -65,8 +81,9 @@
 &lt;h1 id=&#34;next-steps:8a347a354ad062adfddef2d42ee0d93e&#34;&gt;Next steps&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Pics of actual keyboard when it arrives&lt;/li&gt;
+&lt;li&gt;&lt;strike&gt;Pics of actual keyboard when it arrives&lt;/strike&gt;&lt;/li&gt;
 &lt;li&gt;Add backlighting by soldering on LEDS, as shown &lt;a href=&#34;https://medium.com/@DavidNZ/adding-led-lights-to-a-pok3r-keyboard-e772fdea86f0#.71gyefutn&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://imgur.com/a/Y2Yyn&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Make a better USB cable; possibly replace/stabilize the USB connector on the PCB&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
